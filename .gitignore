@@ -33,8 +33,9 @@ config/**
 #!config/fancymenu/ui_themes/**
 !config/defaultoptions/
 !config/defaultoptions/keybindings.txt
-!quests_structures/
-!quests_structures/**
+!config/gtceu.yaml
+!config/projectedstructure/
+!config/projectedstructure/**
 .mixin.out/*
 fancymenu_data/*
 backups/*
