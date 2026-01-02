@@ -33,6 +33,8 @@ config/**
 #!config/fancymenu/ui_themes/**
 !config/defaultoptions/
 !config/defaultoptions/keybindings.txt
+!quests_structures/
+!quests_structures/**
 .mixin.out/*
 fancymenu_data/*
 backups/*
