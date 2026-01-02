@@ -1,0 +1,23 @@
+{
+"name": "무선 그리드",
+"category": "refstoragemanual:tools_and_utilities",
+"icon": "refinedstorage:wireless_grid",
+"pages": [
+{
+"type": "text",
+"text": "무선 그리드는 무선 송신기 범위 내 어디에서나 스토리지 네트워크에 접속할 수 있도록 해주는 일반 그리드의 휴대용 버전입니다."
+},
+{
+"type": "text",
+"text": "무선 그리드를 사용하려면: $(li)마우스 오른쪽 버튼을 클릭하여 인터페이스를 엽니다. $(li)네트워크 카드를 삽입하여 무선 네트워크에 연결합니다. $(li)구성된 무선 송신기 범위 내에서 사용합니다. $(li)일반 그리드처럼 아이템에 접근하고 관리합니다."
+},
+{
+"type": "text",
+"text": "무선 그리드는 일반 그리드와 동일한 모든 기능을 지원합니다. $(li)아이템 보기 및 관리 $(li)검색 및 필터링 $(li)정렬 및 그룹화 $(li)그리드 필터 사용"
+},
+{
+"type": "crafting",
+"recipe": "refinedstorage:wireless_grid"
+}
+]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "전방향 호퍼",
+  "icon": "pneumaticcraft:omnidirectional_hopper",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)전방향 호퍼/$는 바닐라 $(item)호퍼/$와 비슷하게 작동합니다. 하지만 이 호퍼는 위쪽뿐만 아니라 $(italic)어느/$ 방향으로든 향할 수 있습니다. 게다가 $(l:base_concepts/upgrades)업그레이드/$를 허용하여 호퍼 속도를 상당히 높일 수 있습니다. $(l:base_concepts/pressure)공기/$를 사용하지 않으므로 매우 유용한 초반 장치입니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:omnidirectional_hopper",
+      "text": "호퍼를 배치할 때 $(9)입력/$은 당신을 향하고 $(6)출력/$은 배치된 블록을 향합니다.$(p)$(l:tools/pneumatic_wrench)공압 렌치/$(다른 렌치도 작동할 수 있음)로 호퍼를 $(thing)우클릭/$하여 입력 방향을 변경하세요. 호퍼를 $(thing)웅크리고+우클릭/$하여 출력 방향을 변경하세요."
+    },
+    {
+      "type": "text",
+      "title": "발사기 업그레이드",
+      "flag": "pneumaticcraft:omniHopperDispenser",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$가 설치되면 호퍼는 $(6)출력/$ 측면에(거기에 인벤토리가 없다면) 자동으로 아이템을 월드로 배출합니다.$(p)이것은 크게 개선된 $(item)공급기/$로 사용할 수 있습니다: 더 빠르고, 더 정확하며, 더 나은 $(#f00)레드스톤 제어/$가 가능합니다."
+    },
+    {
+      "type": "text",
+      "title": "엔티티 추적기 업그레이드",
+      "text": "$(l:base_concepts/upgrades#entity_tracker)엔티티 추적기 업그레이드/$가 설치되면 호퍼는 $(9)입력/$ 측면 앞의 엔티티로부터 아이템을 추출할 수 있습니다. 엔티티는 $(thing)pneumaticcraft:omnihopper_blacklisted/$ 엔티티 유형 태그에 추가하여 이러한 추출에서 블랙리스트에 올릴 수 있습니다. 주민은 무한한 아이템 공급원이 될 수 있으므로 기본적으로 블랙리스트에 포함됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "전방향 호퍼 제작",
+      "recipe": "pneumaticcraft:omnidirectional_hopper"
+    }
+  ]
+}

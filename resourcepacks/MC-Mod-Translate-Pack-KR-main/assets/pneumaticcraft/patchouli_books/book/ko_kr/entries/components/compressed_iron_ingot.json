@@ -1,0 +1,11 @@
+{
+  "name": "압축된 철 주괴",
+  "icon": "pneumaticcraft:ingot_iron_compressed",
+  "category": "pneumaticcraft:components",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:base_concepts/basic_materials#compressed_iron_ingot)기초 재료/$를 참조하십시오."
+    }
+  ]
+}

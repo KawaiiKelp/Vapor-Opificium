@@ -1,0 +1,16 @@
+{
+"name" : "네트워크 송신기",
+"icon" : "refinedstorage:network_transmitter",
+"category" : "refstoragemanual:networking",
+"pages" : [
+{
+"type" : "text",
+"text" : "네트워크 송신기는 Refined Storage 네트워크를 장거리로 확장하는 데 중요한 구성 요소입니다. 네트워크 송신기는 $(l:network_card)네트워크 카드$()에 지정된 $(l:receiver)네트워크 수신기$()로 네트워크 신호를 전송합니다. 네트워크 송신기가 작동하려면 연결된 $(l:control)컨트롤러$()가 청크로딩되어야 합니다. 이러한 설정을 통해 원격 스토리지 시스템을 원활하게 통합할 수 있습니다. 자세한 내용은 $(l:distance)여기$()를 참조하세요."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:network_transmitter",
+"text" : "네트워크 송신기 제작 레시피."
+}
+]
+}

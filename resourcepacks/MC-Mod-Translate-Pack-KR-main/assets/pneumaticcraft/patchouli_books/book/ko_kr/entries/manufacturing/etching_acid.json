@@ -1,0 +1,16 @@
+{
+  "name": "식각 산",
+  "icon": "pneumaticcraft:etching_acid_bucket",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "식각 산은 $(l:components/pcb)PCB/$를 화학적으로 현상하는 데 사용됩니다. 식각 산은 $(l:manufacturing/pressure_chamber)압력 챔버/$에서 만들어지며 $(l:manufacturing/etching_tank)식각 탱크/$에서 사용됩니다.$(p)PCB 생산에 대한 자세한 내용은 $(l:components/pcb)PCB/$ 항목을 참조하세요."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/etching_acid"
+    }
+  ]
+}

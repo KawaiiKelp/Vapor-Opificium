@@ -1,0 +1,27 @@
+{
+  "name": "진공 모듈",
+  "icon": "pneumaticcraft:vacuum_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)진공 모듈/$은 $(l:machines/vacuum_pump)진공 펌프/$와 같은 작업(부압 제공)을 수행하지만 약간 더 컴팩트한 방식입니다. 수평으로만 배치할 수 있는 전체 크기 펌프와 달리 수직 튜브에 배치할 수 있습니다.$(p)장점은 컴팩트함이고, 단점은 속도와 용량 측면에서 업그레이드 가능성이 제한적이라는 것입니다."
+    },
+    {
+      "type": "text",
+      "title": "배치",
+      "text": "진공 모듈은 $(thing)인라인/$ 모듈입니다. 진공 측이어야 하는 튜브 끝에 배치하세요. 튜브의 넓은/초록색 끝에 최소 2 bar의 압력을 제공하면 모듈이 회전하여 좁은/빨간색 끝을 지나는 튜브에서 공기를 제거합니다.$(p)$(#f00)레드스톤 신호/$를 적용하면 모듈 작동이 중지됩니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)모듈 확장 카드/$는 모듈의 속도를 높여주며, 진공 펌프에 4개의 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 추가하는 것과 거의 같습니다. 속도 업그레이드를 추가하는 것과 마찬가지로, 이는 양압 측면의 공기 사용 효율 감소를 동반합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "진공 모듈 제작",
+      "recipe": "pneumaticcraft:vacuum_module"
+    }
+  ]
+}

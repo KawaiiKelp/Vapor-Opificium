@@ -1,0 +1,16 @@
+{
+"name" : "프로세서 바인딩",
+"icon" : "refinedstorage:processor_binding",
+"category" : "refstoragemanual:tools_and_utilities",
+"pages" : [
+{
+"type" : "text",
+"text" : "프로세서 바인딩은 다양한 프로세서를 제작하는 데 사용됩니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:processor_binding",
+"text" : "프로세서 바인딩 제작 레시피."
+}
+]
+}

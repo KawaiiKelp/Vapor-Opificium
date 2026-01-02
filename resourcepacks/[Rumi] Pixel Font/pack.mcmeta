@@ -1,0 +1,10 @@
+{
+   "pack": {
+      "pack_format": 37,
+      "description": "운트로오올",
+      "supported_formats": {
+         "min_inclusive": 4,
+         "max_inclusive": 16383
+      }
+   }
+}

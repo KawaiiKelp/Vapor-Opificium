@@ -1,0 +1,23 @@
+{
+"name": "석영 강화 철",
+"category": "refstoragemanual:basics",
+"icon": "refinedstorage:quartz_enriched_iron",
+"pages": [
+{
+"type": "text",
+"text": "석영 강화 철은 다양한 정제된 저장 장치 부품 제작에 사용되는 기본 재료입니다. 철과 석영을 특정 비율로 결합하여 만들어집니다."
+},
+{
+"type": "text",
+"text": "특징:$(li)기본 제작 재료$(li)다양한 장치 제작법에 사용$(li)블록으로 제작 가능$(li)초기 게임 진행에 필수"
+},
+{
+"type": "text",
+"text": "석영 강화 철 제작 방법:$(li)철 주괴와 석영을 결합$(li)1:1 비율로 사용$(li)일반 제작대에서 제작 가능$(li)자동 제작으로 자동화 가능"
+},
+{
+"type": "crafting",
+"recipe": "refinedstorage:quartz_enriched_iron"
+}
+]
+}

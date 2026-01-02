@@ -1,0 +1,32 @@
+{
+  "name": "범용 센서",
+  "icon": "pneumaticcraft:universal_sensor",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)범용 센서/$는 이름에서 알 수 있듯이 많은 응용 분야에서 사용할 수 있는 센서입니다. 월드 조건을 측정하고 그 조건에 따라 $(#f00)레드스톤 신호/$를 출력합니다.$(p)범용이라는 것은 공짜가 아닙니다. 센서는 $(ttcolor)$(t:상수 레드스톤 방출기는 무료로 사용할 수 있습니다)거의 모든/$ 경우에 실행하는 데 $(l:base_concepts/pressure)공기/$(1 mL/틱)가 필요하며, 센서를 실행하려면 특정 $(l:base_concepts/upgrades)업그레이드/$가 필요합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:universal_sensor",
+      "text": "현재 특정 좌표에 블록이 있는지 확인하거나 트위치 스트리머가 방송 중인지 확인하는 것부터 시작하여 센서가 측정할 수 있는 15가지 이상의 다양한 조건이 있습니다. $(thing)범용 센서/$의 GUI를 열어 무엇을 사용할 수 있는지 확인하고 설명을 보세요."
+    },
+    {
+      "type": "text",
+      "title": "업그레이드",
+      "text": "해당 범주의 센서를 선택할 수 있도록 $(l:base_concepts/upgrades#entity_tracker)엔티티 추적기/$, $(l:base_concepts/upgrades#dispenser)발사기/$ 또는 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$와 $(l:tools/gps_tool)GPS 도구/$를 삽입해야 합니다. 예: 범위 내 엔티티 수를 세려면 $(item)엔티티 추적기 업그레이드/$가 설치되어 있어야 합니다."
+    },
+    {
+      "type": "text",
+      "title": "예시: 엔티티 수 세기",
+      "text": "동물로 가득 찬 우리가 있고 일부를 죽이고 싶지만, 충분히 많을 때만 죽이고 싶다고 가정해 봅시다.$(p)$(l:base_concepts/upgrades#entity_tracker)엔티티 추적기 업그레이드/$와 우리 크기를 덮을 만큼 충분한 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 추가하세요.$(p)이제 GUI에서 $(thing)엔티티/$ 버튼을 선택한 다음 $(thing)범위 내/$를 선택하고, 마지막으로 동물 유형(예: 'cow')과 일치하는 $(l:base_concepts/entity_filter)엔티티 필터/$를 입력하세요."
+    },
+    {
+      "type": "crafting",
+      "text": "범용 센서 제작",
+      "recipe": "pneumaticcraft:universal_sensor"
+    }
+  ]
+}

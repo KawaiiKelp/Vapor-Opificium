@@ -1,0 +1,16 @@
+{
+"name" : "설치기",
+"icon" : "refinedstorage:constructor",
+"category" : "refstoragemanual:item_and_fluid_movement",
+"pages" : [
+{
+"type" : "text",
+"text" : "설치기는 저장 네트워크에서 아이템이나 유체를 월드에 배치하는 다재다능한 블록입니다. 작동하려면 앞쪽에 장애물이 없는 공간이 필요하며, 필요에 따라 블록을 배치하거나 아이템을 떨어뜨릴 수 있습니다. 스택 업그레이드를 사용하면 전체 스택을 한 번에 떨어뜨릴 수 있으므로 대규모 아이템 배치 작업에 이상적입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:constructor",
+"text" : "제작 레시피."
+}
+]
+}

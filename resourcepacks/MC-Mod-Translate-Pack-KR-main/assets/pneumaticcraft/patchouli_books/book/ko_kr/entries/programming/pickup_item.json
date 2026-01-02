@@ -1,0 +1,23 @@
+{
+  "name": "아이템 줍기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/item_pick_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$은 월드에 있는 아이템 엔티티를 주워 인벤토리에 넣습니다. 이 위젯에 연결된 모든 $(l:programming/area)영역/$ 위젯은 영역 유형이 $(thing)상자/$여야 한다는 점을 명심하세요. 이것이 유일하게 지원되는 모양입니다. 하지만 여러 영역의 화이트리스트/블랙리스트를 사용하여 더 복잡한 모양을 만드는 것은 가능합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:programming/item_filter)아이템 필터/$ 위젯을 추가하여 주울 수 있는 아이템을 제한할 수 있습니다(블랙리스트 필터는 $(thing)왼쪽/$에 배치됨을 기억하세요).$(p)이 위젯은 땅에 있는 아이템(아이템 필터를 통과하는)이 드론의 인벤토리에 들어갈 수 없거나 주울 아이템이 더 이상 없을 때 실행이 완료됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_pick_piece.png"
+      ],
+      "text": "$(italic)내 거. 내 거. 내 거./$"
+    }
+  ]
+}

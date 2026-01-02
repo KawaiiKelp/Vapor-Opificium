@@ -1,0 +1,8 @@
+{
+	"item.uppers.upper_item": "업퍼",
+	"block.uppers.upper": "업퍼",
+	"tooltip.upper_1": "거꾸로 된 호퍼처럼 작동합니다.",
+	"tooltip.upper_2": "아래 블록에서 항목을 빨아들입니다.",
+	"container.upper": "아이템 업퍼",
+	"itemGroup.uppers": "업퍼"
+}

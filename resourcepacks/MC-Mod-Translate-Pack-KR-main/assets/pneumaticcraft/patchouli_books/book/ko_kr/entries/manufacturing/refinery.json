@@ -1,0 +1,52 @@
+{
+  "name": "정제소",
+  "icon": "pneumaticcraft:refinery",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:oil_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)정제소/$는 $(l:base_concepts/heat)열/$을 사용하여 $(l:base_concepts/oil)원유/$를 다양한 연료로 정제하는 멀티블록 기계입니다. 100°C에서 작동하기 시작합니다. 온도가 높을수록 더 빨리 정제합니다. 생산할 수 있는 연료는 가장 가벼운 것부터 무거운 순서로 다음과 같습니다:$(li)$(thing)LPG (액화 석유 가스)/$$(li)$(thing)가솔린/$$(li)$(thing)등유/$$(li)$(thing)디젤/$"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)정제소/$는 멀티블록 구조입니다. $(item)정제소 컨트롤러/$를 배치한 다음, 컨트롤러 위나 옆에 2~4개의 $(item)정제소 출력부/$를 쌓으세요. $(p)멀티블록 크기에 따라 수확량이 다릅니다. 10mB의 원유를 입력으로 했을 때:$(p)$(bold)출력부 2개/$$(li)$(thing)LPG/$ (2mB)$(li)$(thing)디젤/$ (4mB)$(br)$(bold)출력부 3개/$$(li)$(thing)LPG/$ (2mB)$(li)$(thing)등유/$ (3mB)$(li)$(thing)디젤/$ (2mB)"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)출력부 4개/$$(li)$(thing)LPG/$ (2mB)$(li)$(thing)가솔린/$ (3mB)$(li)$(thing)등유/$ (3mB)$(li)$(thing)디젤/$ (2mB)$(p)가장 가벼운 연료는 항상 맨 위 $(item)정제소 출력부/$에, 가장 무거운 연료는 맨 아래에 들어갑니다. 기존 스택에 $(item)정제소 출력부/$를 더 추가하면, 멀티블록은 시스템을 계속 가동하기 위해 기존 출력 액체를 올바른 블록으로 자동 재배치하려고 최선을 다할 것입니다."
+    },
+    {
+      "type": "text",
+      "text": "생산된 모든 액체는 $(l:compressors/liquid_compressor)액체 압축기/$의 연료로 사용할 수 있습니다(가벼운 연료일수록 품질이 좋습니다).$(p)하지만 매우 중요한 두 가지 다른 용도가 있습니다:$(li)$(thing)LPG/$는 액체 $(l:components/plastic)플라스틱/$을 만드는 데 사용됩니다.$(li)$(thing)디젤/$은 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 위한 $(l:components/lubricant)윤활유/$를 만드는 데 사용됩니다.$(p)이 두 공정 모두에 $(l:manufacturing/thermopneumatic_processing_plant)열공압식 열처리 공장/$이 사용됩니다."
+    },
+    {
+      "type": "text",
+      "title": "비교기 지원",
+      "text": "$(item)정제소/$는 $(item)비교기/$와 함께 작동합니다. 부착된 비교기는 $(item)정제소/$가 작업 중일 때 신호 강도 15를 출력하고, 그렇지 않으면 0을 출력합니다. 작업 중이라는 것은 정제할 $(thing)원유/$가 있고 $(italic)또한/$ 정제된 제품을 위한 공간이 출력 탱크에 있을 때입니다.$(p)이것은 예를 들어 공기를 절약하기 위해 $(l:machines/vortex_tube)와류 튜브/$로의 공기 공급을 차단하는 것을 자동화하는 데 사용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "설정 팁",
+      "text": "$(item)정제소/$는 공기에 노출된 면이 많은 멀티블록이므로 단열이 잘 되지 않으면 $(l:base_concepts/heat)열/$을 매우 빠르게 잃을 수 있습니다. 따라서 효율성을 극대화하기 위해 멀티블록의 사용하지 않는 모든 면을 덮는 것이 강력히 권장됩니다. 열전도성이 없는 블록이라면 $(item)반 블록/$이나 $(item)다락문/$과 같은 반고체 블록도 사용할 수 있지만, $(l:machines/thermal_lagging)단열재/$가 특히 권장됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:machines/vortex_tube)와류 튜브/$를 사용하여 $(item)정제소/$를 가열하거나, 뜨거운 유체(용암...)나 블록(마그마...)을 $(item)정제소/$ 블록 옆에 배치할 수 있습니다. 이러한 유체와 블록은 소모되므로(열이 빠져나감), 해당 자원의 생산 및 배치를 자동화할 방법을 찾고 싶을 수도 있습니다."
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(item)정제소/$는 $(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$를 지원합니다: 레시피를 추가하고 제거할 수 있습니다. 자세한 내용은 아래 링크를 참조하세요.",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/Refinery",
+      "link_text": "CraftTweaker 문서"
+    },
+    {
+      "type": "crafting",
+      "text": "정제소 제작",
+      "recipe": "pneumaticcraft:refinery",
+      "recipe2": "pneumaticcraft:refinery_output"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "block.create_mechanical_chicken.mechanical_chicken": "기계식 닭",
+  "block.create_mechanical_chicken.mechanical_chicken.tooltip": "기계식 닭",
+  "block.create_mechanical_chicken.mechanical_chicken.tooltip.summary": "_달걀_ 생성기.",
+  "block.create_mechanical_chicken.seed_oil": "종자유",
+  "config.jade.plugin_create_mechanical_chicken.data": "기계식 닭 데이터",
+  "create_mechanical_chicken.chicken.tooltip.progress": "진행도: %d%%",
+  "create_mechanical_chicken.ponder.mechanical_chicken.header": "달걀 생성",
+  "create_mechanical_chicken.ponder.mechanical_chicken.text_1": "기계식 닭은 회전력과 특정 유체를 이용해 계란을 생산합니다.",
+  "create_mechanical_chicken.ponder.mechanical_chicken.text_2": "바닥에서 전원을 공급합니다",
+  "create_mechanical_chicken.ponder.mechanical_chicken.text_3": "유체 입력은 전면에서만 가능합니다.",
+  "create_mechanical_chicken.ponder.mechanical_chicken.text_4": "달걀 출력은 뒤쪽에만 있습니다.",
+  "create_mechanical_chicken.ponder.mechanical_chicken.text_5": "자동화로만 추출 가능합니다.",
+  "create_mechanical_chicken.recipe": "기계식 닭 제작법",
+  "fluid.create_mechanical_chicken.seed_oil": "종자유",
+  "item.create_mechanical_chicken.seed_oil_bucket": "종자유 양동이",
+  "itemGroup.create_mechanical_chicken:main": "Create Mechanical Chicken"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "자폭 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/suicide_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$은 즉시 아이템 형태로 변하여 땅에 아이템 엔티티로 떨어집니다. 물론 프로그램 실행은 즉시 종료됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/suicide_piece.png"
+      ],
+      "text": "$(italic)그게 다야, 친구들/$"
+    }
+  ]
+}

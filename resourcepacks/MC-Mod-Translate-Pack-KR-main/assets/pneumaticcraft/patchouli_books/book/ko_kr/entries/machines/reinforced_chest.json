@@ -1,0 +1,17 @@
+{
+  "name": "보강된 상자",
+  "icon": "pneumaticcraft:reinforced_chest",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)보강된 상자/$는 흑요석 수준의 폭발 저항력을 가지고 파괴 시 인벤토리를 유지하는 36슬롯 상자입니다."
+    },
+    {
+      "type": "crafting",
+      "text": "보강된 상자 제작",
+      "recipe": "pneumaticcraft:reinforced_chest"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "조합 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/craft_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$은 인벤토리에 있는 아이템을 사용하여 아이템을 제작합니다. 조합법을 지정하려면 조합 위젯의 오른쪽에 조합법 패턴으로 $(l:programming/item_filter)아이템 필터/$를 배치하세요.$(p)정확히 9개의 $(thing)아이템 필터/$를 사용할 필요는 없습니다. 레시피 패턴을 만들 수만 있으면 작동합니다."
+    },
+    {
+      "type": "text",
+      "text": "기본적으로 조합 위젯은 가능한 한 많은 아이템을 제작하려고 시도합니다. 위젯 GUI의 $(thing)횟수 사용/$ 설정으로 이를 제한할 수 있습니다.$(p)$(item)드론/$에 $(l:base_concepts/upgrades#dispenser)인벤토리 업그레이드/$를 설치하여 더 큰 인벤토리를 제공하고 싶을 것입니다."
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "title": "JEI 연동",
+      "text": "JEI를 사용하여 조합 위젯의 아이템 필터를 빠르고 쉽게 설정할 수 있습니다. 자세한 내용은 $(l:programming/programmer#jei)이 페이지/$를 참조하세요."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/craft_piece.png"
+      ],
+      "text": "$(italic)조합 위젯/$"
+    }
+  ]
+}

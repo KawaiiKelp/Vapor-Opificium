@@ -1,0 +1,31 @@
+{
+"name" : "액체 저장 파트",
+"icon" : "refinedstorage:4096k_fluid_storage_part",
+"category" : "refstoragemanual:disks_and_drives",
+"pages" : [
+{
+"type" : "text",
+"text" : "액체 저장 파트은 $(l:fluid_storage_disks)유체 저장 디스크$()와 $(l:fluid_storage_blocks)유체 저장 블록$()을 제작하는 데 사용되는 기본 구성 요소입니다. 디스크와 블록의 저장 용량을 결정하므로 네트워크 내 유체 저장 용량 확장에 필수적입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:64k_fluid_storage_part",
+"text" : "64k 액체 저장 파트 제작 레시피."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:256k_fluid_storage_part",
+"text" : "256k 액체 저장 파트 제작 레시피입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:1024k_fluid_storage_part",
+"text" : "1024k 액체 저장 파트 제작 레시피입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:4096k_fluid_storage_part",
+"text" : "4096k 액체 저장 파트 제작 레시피입니다."
+}
+]
+}

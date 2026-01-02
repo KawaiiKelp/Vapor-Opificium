@@ -1,0 +1,34 @@
+{
+  "name": "공압 문",
+  "icon": "pneumaticcraft:pneumatic_door",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 특수 문은 충분한 $(l:base_concepts/pressure)공기 압력/$이 제공되면 근처에 플레이어가 있을 때 자동으로 열립니다. 기본 감지 범위는 2블록이지만 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 삽입하여 늘릴 수 있습니다.$(p)$(thing)공압 문/$을 건설하려면 $(thing)공압 문 기반/$을 문 자체의 $(italic)위쪽 절반/$과 수평이 되도록 배치해야 합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pneumatic_door.png"
+      ],
+      "text": "$(italic)이중 공압 문; 왼쪽은 $(l:tools/camo_applicator)위장됨/$$(italic), 오른쪽은 위장되지 않음/$"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:security_station",
+      "text": "$(item)공압 문 기반/$이 작동 중인 $(l:machines/security_station)보안 센터/$의 범위 내에 있을 때, $(thing)보안 센터/$가 신뢰하는 플레이어에게만 문을 엽니다."
+    },
+    {
+      "type": "text",
+      "title": "작동 모드",
+      "text": "$(thing)공압 문/$은 문 기반 GUI를 통해 선택할 수 있는 세 가지 모드 중 하나로 작동합니다:$(li)$(thing)플레이어 근접/$: 플레이어가 범위 내에 있을 때 문이 열립니다.$(li)$(thing)근접 및 바라봄/$: 플레이어가 근처에 있고 $(italic)또한/$ 문을 바라볼 때 문이 열립니다.$(li)$(thing)나무 문/$: 문이 바닐라 $(item)나무 문/$처럼 작동합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_door",
+      "recipe2": "pneumaticcraft:pneumatic_door_base"
+    }
+  ]
+}

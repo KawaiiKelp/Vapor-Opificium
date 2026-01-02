@@ -1,0 +1,44 @@
+{
+  "name": "압력 튜브",
+  "icon": "pneumaticcraft:pressure_tube",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:root",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "압력 튜브는 압축기와 기계 간에 압축 공기를 운송하는 $(pncr)의 주요 장치입니다.$(p)연결되지 않은 튜브는 공기가 샙니다! 하지만 $(l:tools/pneumatic_wrench)공압 렌치/$로 우클릭하여 튜브의 측면을 열거나 닫을 수 있습니다. 다른 모드의 렌치도 작동할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "title": "튜브!",
+      "text": "$(italic)$(l:compressors/air_compressor)공기 압축기/$와 $(l:machines/air_cannon)공기 대포/$를 연결하는 $(l:tubes/pressure_gauge_module)압력계/$가 있는 두 개의 압력 튜브/$",
+      "images": [
+        "pneumaticcraft:textures/patchouli/pressure_tubes.png"
+      ],
+      "border": "true"
+    },
+    {
+      "type": "text",
+      "text": "압력 튜브에는 튜브에 다양한 기능을 추가하는 부착형 부품인 $(l:tubes/tube_modules)튜브 모듈/$을 장착할 수 있습니다. 자세한 내용은 각 모듈의 개별 페이지를 참조하세요.$(p)압력 튜브는 $(l:tools/camo_applicator)위장 도포 도구/$로 숨길 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "튜브에는 세 가지 $(l:base_concepts/pressure_tiers)등급/$이 있습니다:$(br)$(li)1등급 튜브는 최대 5 bar의 압력을 견딜 수 있으며 1000mL의 공기 용량을 가집니다.$(li)1.5등급 (보강된) 튜브는 최대 10 bar의 압력을 처리할 수 있으며 용량은 1000mL입니다.$(li)2등급 (고급) 튜브는 최대 20 bar의 압력을 처리할 수 있으며 4000mL의 공기 용량을 가집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "압력 튜브 제작",
+      "recipe": "pneumaticcraft:pressure_tube"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/reinforced_pressure_tube"
+    },
+    {
+      "anchor": "advanced",
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/advanced_pressure_tube"
+    }
+  ]
+}

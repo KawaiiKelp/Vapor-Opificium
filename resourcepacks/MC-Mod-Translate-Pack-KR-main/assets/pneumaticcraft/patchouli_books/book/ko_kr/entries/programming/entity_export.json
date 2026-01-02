@@ -1,0 +1,19 @@
+{
+  "name": "엔티티 내보내기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)드론/$은 지정된 $(l:programming/area)영역/$으로 이동하여, 연결된 $(l:programming/text)텍스트/$ 위젯에 지정된 (선택적) $(l:base_concepts/entity_filter)엔티티 필터/$에 의해 허용되는 경우 운반 중인 엔티티를 떨어뜨립니다.$(p)$(l:programming/entity_import)엔티티 가져오기/$ 위젯도 참조하세요."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_export_piece.png"
+      ],
+      "text": "$(italic)엔티티 내보내기 위젯/$"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "메모리 스틱",
+  "icon": "pneumaticcraft:memory_stick",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)메모리 스틱/$은 플레이어 경험치 레벨을 추출, 저장 및 복원하는 데 유용한 휴대용 장치입니다:$(li)$(thing)우클릭/$: 자신의 경험치 1레벨을 스틱으로 이동$(li)$(thing)웅크리기 + 우클릭/$: 스틱의 경험치 1레벨을 자신에게 이동$(li)$(thing)좌클릭/$: XP 자동 흡수 토글, 수집하는 XP 구슬이 자동으로 스틱에 흡수됨"
+    },
+    {
+      "type": "text",
+      "text": "메모리 스틱에 저장된 경험치는 $(l:base_concepts/memory_essence)기억의 정수/$ 유체로 추출할 수도 있습니다. 이렇게 하려면 아무 $(l:machines/tanks)유체 탱크/$나 $(thing)우클릭/$하여 탱크로 XP를 전송하거나 탱크에서 XP를 가져오세요(다른 모드의 유체 탱크도 여기서 잘 작동할 것입니다). 빈 탱크를 우클릭하면 스틱에서 탱크로 기억의 정수를 전송하려고 시도하고, 기억의 정수가 있는 탱크를 우클릭하면 탱크에서 스틱으로 전송하려고 시도합니다."
+    },
+    {
+      "type": "text",
+      "title": "Curios",
+      "flag": "mod:curios",
+      "text": "$(thing)Curios/$ 모드가 설치된 경우 메모리 스틱을 아무 Curios 슬롯에나 저장하여 인벤토리 공간을 절약할 수 있습니다. 이는 XP 자동 흡수가 켜져 있을 때 특히 유용합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "메모리 스틱 제작",
+      "recipe": "pneumaticcraft:memory_stick"
+    }
+  ]
+}

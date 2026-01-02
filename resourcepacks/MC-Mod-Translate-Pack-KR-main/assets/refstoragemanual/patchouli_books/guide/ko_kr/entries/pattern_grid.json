@@ -1,0 +1,17 @@
+{
+"name" : "패턴 그리드",
+"icon" : "refinedstorage:pattern_grid",
+"category" : "refstoragemanual:access_and_grids",
+"pages" : [
+{
+"type" : "text",
+"text" : "패턴 그리드는 $(l:grid)그리드$()의 특수 버전으로, 패턴 생성을 위해 특별히 설계되었습니다. Refined Storage 네트워크 내에서 자동 제작 레시피를 설정하는 데 필수적인 도구입니다. 패턴 그리드를 사용하면 제작 및 프로세싱 패턴을 인코딩할 수 있으며, 이를 통해 제작기는 제작 과정을 자동화할 수 있습니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:pattern_grid",
+"text" : "패턴 그리드 제작 레시피."
+}
+
+]
+}

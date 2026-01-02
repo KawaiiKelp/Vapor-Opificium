@@ -1,0 +1,74 @@
+{
+  "name": "공압 헬멧",
+  "icon": "pneumaticcraft:pneumatic_helmet",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+
+    {
+      "type": "text",
+      "text": "$(item)공압 헬멧/$은 네 가지 $(thing)공압 방어구/$ 부위 중 하나입니다.$(p)오랫동안 유일하게 사용할 수 있는 부위였습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_helmet",
+      "text": "공압 헬멧 제작"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "entity_tracker",
+      "item": "pneumaticcraft:entity_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#entity_tracker)엔티티 추적기/$ 업그레이드를 설치하면 16블록 범위 내의 생명체가 벽을 뚫고서도 자동으로 추적됩니다. 엔티티가 공격적인 몹이고 당신을 목표로 삼으면 경고를 받게 됩니다. 이를 통해 전투를 준비(하거나 도망!)할 수 있습니다. $(l:base_concepts/entity_filter)엔티티 필터/$로 GUI에서 추적할 엔티티를 필터링할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:block_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#block_tracker)블록 추적기/$ 업그레이드를 설치하면 30블록 내의 특수 블록이 벽을 뚫고서도 추적됩니다. 다음 블록들이 추적됩니다:$(li)모든 인벤토리 (내용물 표시됨)$(li)몬스터 생성기 (생성 시간 표시됨)$(li)좀벌레 블록$(li)엔더 포탈 프레임$(li)TNT$(li)철사 덫 갈고리"
+    },
+    {
+      "type": "text",
+      "title": "블록 추적기 (계속)",
+      "text": "이러한 블록 중 일부는 꽤 흔하므로(플레이어 집의 인벤토리, 요새의 좀벌레 블록), 특정 유형의 블록 수가 일정 수에 도달하면 HUD가 라벨 표시를 자동으로 중지합니다. 하지만 십자선으로 추적된 블록을 가리키면 여전히 정보를 얻을 수 있습니다. 또한 설정 GUI에서 체크를 해제하여 추적하고 싶은 블록을 지정할 수도 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:coordinate_tracker_upgrade",
+      "text": "$(l:base_concepts/upgrades#coordinate_tracker)좌표 추적기/$ 업그레이드는 마인크래프트 자체 경로 탐색을 사용하여 선택한 위치까지의 최단 경로를 계산합니다.$(p)동굴에서 길을 잃고 나가고 싶을 때 매우 유용합니다. 옵션 메뉴를 열고($(thing)$(k:pneumaticcraft.armor.options)/$ 누름) $(bold)지표면으로 이동/$을 선택하세요."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:search_upgrade",
+      "text": "기지에 상자가 너무 많아서 특정 아이템을 찾는 데 애를 먹은 적이 있나요? 그렇다면 $(l:base_concepts/upgrades#item_searcher)검색 업그레이드/$가 딱입니다. GUI에서 아이템을 검색할 수 있습니다. 스크롤바를 사용하여 찾는 아이템을 탐색하거나 검색 상자에 아이템 이름을 입력하세요. 아이템을 찾으면 목표 슬롯에 넣으세요."
+    },
+    {
+      "type": "text",
+      "title": "아이템 검색기 (계속)",
+      "text": "이제 16블록 범위 내의 바닥이나 인벤토리에 있는 선택된 아이템은 $(thing)녹색 빛/$을 띠게 됩니다. 빛의 크기는 해당 위치의 아이템 비율에 따라 달라집니다.$(p)헬멧에 $(l:base_concepts/upgrades#entity_tracker)엔티티 추적기/$(바닥에 있는 아이템용) 및/또는 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$(인벤토리에 있는 아이템용) 업그레이드도 필요합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "$(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 $(l:base_concepts/upgrades#entity_tracker)엔티티 추적기 업그레이드/$와 함께 설치하면 $(l:tools/drone)드론/$을 모니터링/디버깅할 수 있습니다. $(item)드론/$을 바라보며 $(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$ 키를 누르세요. 추적 애니메이션에 빨간색 테두리가 생깁니다. 이제 $(thing)$(k:pneumaticcraft.armor.options)/$ 키를 눌러 헬멧 옵션 창을 열고 $(bold)드론 디버깅/$ 패널로 이동하세요."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:range_upgrade",
+      "text": "$(l:base_concepts/upgrades#range)범위 업그레이드/$는 업그레이드 하나당 $(l:base_concepts/upgrades#entity_tracker)엔티티 추적기/$와 $(l:base_concepts/upgrades#block_tracker)블록 추적기/$의 범위를 5블록씩 늘립니다. 엔티티 추적기에는 제한이 없지만, 블록 추적기는 최대 5개의 업그레이드만 허용됩니다.$(p)이 업그레이드는 헬멧의 공기 사용량을 증가시킵니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:night_vision_upgrade",
+      "text": "$(l:base_concepts/upgrades#night_vision)야간 투시 업그레이드/$는 이름 그대로 매우 적은 $(l:base_concepts/pressure)공기 비용/$으로 어둠 속에서도 볼 수 있게 해줍니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:scuba_upgrade",
+      "text": "$(l:base_concepts/upgrades#scuba)스쿠버 업그레이드/$는 헬멧의 예비 공기를 사용하여 물속에서 숨을 쉴 수 있게 해줍니다. 추가 보너스로, 훨씬 더 선명한 수중 시야를 제공하는 안면 마스크를 제공합니다. $(l:base_concepts/upgrades#night_vision)야간 투시 업그레이드/$와 함께 사용하면 꽤 멋진 광경을 볼 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:ender_visor_upgrade",
+      "text": "$(l:base_concepts/upgrades#ender_visor)엔더 바이저 업그레이드/$는 고급 $(thing)호박/$ 연구를 기반으로 하며, 실제 호박에 머리를 집어넣을 때 발생하는 시각적 어려움을 완화하면서 $(thing)엔더맨/$의 어그로를 피할 수 있는 전환 가능한 수단을 제공합니다."
+    }
+  ]
+}

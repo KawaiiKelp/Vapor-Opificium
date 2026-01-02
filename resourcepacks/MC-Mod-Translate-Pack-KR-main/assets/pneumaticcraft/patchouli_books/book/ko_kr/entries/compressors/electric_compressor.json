@@ -1,0 +1,26 @@
+{
+  "name": "전기 압축기",
+  "icon": "pneumaticcraft:electric_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "flag": "pneumaticcraft:electricCompressorEnabled",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)전기 압축기/$는 $(thing)IndustrialCraft 2의 EU/$로부터 압축 공기를 생성할 수 있습니다. 기본적으로 효율은 40%이지만 $(ttcolor)$(t:'I:electricCompressorEfficiency' 참조)설정에서 변경할 수 있습니다./$.$(p)IC2 1티어 기계처럼 작동하므로 32 EU/t 이상을 받으면 폭발합니다. 하지만 일반 IC2 기계와 마찬가지로 IC2 $(item)변압기 업그레이드/$를 추가하여 더 높은 전압을 허용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "mL/틱 단위의 에너지 출력은 다음과 같습니다:$(p)  $(formula)입력 속도 / E * 400/$$(p)여기서 $(formula)E/$는 효율입니다.$(p)예를 들어, 기본 효율이 40%이고 입력이 32EU/틱인 경우 압축 공기 생산량은 $(formula)32 / 40 * 400 = 320mL/틱/$이 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "효율에 영향을 미치는 또 다른 요소는 기계의 $(l:base_concepts/heat)열/$입니다. 온도가 올라가면 효율이 떨어져 결국 공기가 전혀 생성되지 않으므로 기계를 식혀야 합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)전기 압축기/$ 제작",
+      "recipe": "pneumaticcraft:electric_compressor"
+    }
+  ]
+}

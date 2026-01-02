@@ -1,0 +1,23 @@
+{
+"name" : "실리콘",
+"icon" : "refinedstorage:silicon",
+"category" : "refstoragemanual:basics",
+"pages" : [
+{
+"type" : "text",
+"text" : "실리콘은 Refined Storage용 전자 부품 제작에 사용되는 핵심 소재입니다. 석영을 특정 방식으로 가공하여 만들어집니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)전자 부품에 사용$(li)프로세서에 필요$(li)작은 조각으로 절단 가능$(li)고급 제작에 필수"
+},
+{
+"type" : "text",
+"text" : "실리콘 제작:$(li)특정 방식으로 석영 가공$(li)기계로 자동화 가능$(li)다양한 장치 제조법에 사용$(li)대량 보관 가능"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:silicon"
+}
+]
+}

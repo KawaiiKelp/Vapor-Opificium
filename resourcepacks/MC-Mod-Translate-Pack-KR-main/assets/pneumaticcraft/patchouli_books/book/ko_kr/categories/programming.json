@@ -1,0 +1,6 @@
+{
+  "name": "드론 프로그래밍",
+  "description": "$(l:tools/drone)드론/$ 프로그래밍에 관한 모든 것, 다양한 프로그래밍 위젯에 대한 튜토리얼과 참조 가이드를 포함합니다.",
+  "icon": "pneumaticcraft:programmer",
+  "sortnum": 10
+}

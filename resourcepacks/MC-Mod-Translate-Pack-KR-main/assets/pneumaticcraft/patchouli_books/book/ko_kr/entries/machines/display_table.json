@@ -1,0 +1,21 @@
+{
+  "name": "전시용 탁자",
+  "icon": "pneumaticcraft:display_table",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)전시용 탁자/$는 단일 아이템을 저장(하고 전시)할 수 있는 간단한 인벤토리입니다. 부분적으로는 장식용으로 의도되었지만, 탁자의 인벤토리는 호퍼, 드론 및 기타 파이프 시스템과 상호작용할 수 있으므로 자동화에도 유용할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "전시용 탁자를 서로 옆에 배치하면 시각적으로 연결되어 인접한 다리를 렌더링하지 않고 하나의 더 큰 탁자를 형성합니다. 이를 위해서는 두 블록의 회전이 정확히 같아야 합니다. 회전이 다르면 탁자가 이런 식으로 연결되지 않습니다.$(p)시각적으로 연결된 탁자는 여전히 각 탁자마다 별도의 1개 아이템 인벤토리를 가집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "전시용 탁자 제작",
+      "recipe": "pneumaticcraft:display_table"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "PCB 청사진",
+  "icon": "pneumaticcraft:pcb_blueprint",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)PCB 청사진/$은 $(l:manufacturing/uv_light_box)자외선 노출 상자/$ 제작에 필요한 특수 부품입니다.$(p)일반적으로 제작할 수 없으며, 주로 $(l:tools/amadron_tablet)아마드론 태블릿/$을 통해 거래하거나, $(l:base_concepts/villagers)기계공 주민/$을 통해서도 거래해야 합니다."
+    },
+    {
+      "type": "pneumaticcraft:amadron_trade",
+      "recipe": "pneumaticcraft:amadron/pcb_blueprint",
+      "text": "$(item)PCB 청사진/$ 거래."
+    }
+  ]
+}

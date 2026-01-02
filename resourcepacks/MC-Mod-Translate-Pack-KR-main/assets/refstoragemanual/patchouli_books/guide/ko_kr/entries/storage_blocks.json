@@ -1,0 +1,35 @@
+{
+"name" : "저장공간",
+"icon" : "refinedstorage:64k_storage_block",
+"category" : "refstoragemanual:disks_and_drives",
+"pages" : [
+{
+"type" : "text",
+"text" : "저장공간은 Refined Storage 네트워크의 필수 구성 요소로, 안정적이고 신뢰할 수 있는 아이템 저장 수단을 제공합니다. $(l:storage_disks)저장 디스크$()와 달리, 저장공간은 월드에 배치할 수 있어 더욱 실체적인 형태의 저장 공간을 제공합니다. 저장공간이 파손되어도 내용물은 그대로 유지되므로 아이템 손실이 발생하지 않습니다. 저장공간은 비휘발성이며 떨어뜨려도 사라지지 않습니다."
+},
+{
+"type" : "text",
+"text" : "저장공간은 여러 가지 고급 기능을 제공합니다.$(br)$(li) 우선순위 설정 가능: 아이템 라우팅을 제어하기 위해 양수 또는 음수 우선순위 설정$(li) 허용 목록/차단 목록: 보관 가능한 아이템 필터링$(li) NBT/데미지 민감도: 필터링 정확도 설정$(li) 모드 선택: 삽입 및 추출, 삽입만 또는 추출만 선택$(br2) 저장공간은 Shift 키를 누른 채 마우스 오른쪽 버튼을 클릭하여 해체할 수 있으며, 해체된 블록의 구성 요소는 반환됩니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:1k_storage_block",
+"text" : "1k 저장공간 - 아이템 1,000개 저장 가능. 구성 요소: 1k 저장 부품, 기본 프로세서, 기계 케이스"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:4k_storage_block",
+"text" : "4k 저장공간 - 아이템 4,000개 저장 가능. 구성 요소: 4k 저장 부품, 기본 프로세서, 기계 케이스"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:16k_storage_block",
+"text" : "16k 저장공간 - 아이템 16,000개 저장 가능. 구성 요소: 16k 저장 부품, 기본 프로세서, 기계 케이스"
+},
+{
+"type" : "crafting",
+"recipe": "refinedstorage:64k_storage_block",
+"text": "64k 저장공간 - 64,000개의 아이템을 저장할 수 있습니다. 구성품: 64k 저장 부품, 기본 프로세서, 기계 케이스"
+}
+]
+}

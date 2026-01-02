@@ -1,0 +1,27 @@
+{
+  "name": "식각 탱크",
+  "icon": "pneumaticcraft:etching_tank",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:etchacid_bucket",
+  "pages": [
+    {
+    "type": "text",
+    "text": "$(thing)식각 탱크/$는 먼저 $(l:manufacturing/etching_acid)식각 산/$으로 채워야 합니다. 그런 다음 $(l:manufacturing/uv_light_box)자외선 노출 상자/$에서 부분적으로 또는 완전히 노출된 $(thing)빈 PCB/$를 최대 25개까지 넣으세요.$(p)식각 산을 월드에 붓고 웅덩이에 PCB를 던져 넣는 것도 가능하지만, 식각 탱크를 사용하는 것이 훨씬 안전하고 빠릅니다."
+    },
+    {
+      "type": "text",
+      "title": "자동화",
+      "text": "어느 쪽이든 $(thing)빈 PCB/$를 파이프로 넣을 수 있습니다. 성공적으로 식각된 $(thing)조립되지 않은 PCB/$는 오른쪽 상단 출력 슬롯으로 이동하고, $(thing)불량 PCB/$는 오른쪽 하단 슬롯으로 이동합니다. 자동 추출을 위해 기계 측면에서 조립되지 않은 PCB를 추출하고 상단 또는 하단에서 불량 PCB를 추출하세요. 불량 PCB를 $(thing)용광로/$로 보내 노출되지 않은 빈 PCB를 되찾고 프로세스를 다시 시작하도록 자동화할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "가열",
+      "text": "$(l:base_concepts/heat)열/$이 없으면 식각 탱크가 PCB를 완전히 식각하는 데 150초가 걸립니다(물론 최대 25개를 병렬로 식각할 수 있음). 탱크에 열을 가하면 처리 시간을 최소 30초까지 더 줄일 수 있습니다. 탱크가 뜨거울수록 처리 시간이 빨라집니다. 하지만 가열되면 PCB가 식각되는 동안 소량의 식각 산이 소모된다는 점에 유의하세요."
+    },
+    {
+      "type": "crafting",
+      "text": "식각 탱크 제작",
+      "recipe": "pneumaticcraft:etching_tank"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+"name" : "고급 프로세서",
+"icon" : "refinedstorage:advanced_processor",
+"category" : "refstoragemanual:processors_and_upgrades",
+"pages" : [
+{
+"type" : "text",
+"text" : "고급 프로세서는 가장 진보된 Refined Storage 장치를 제작하는 데 사용되는 상위 티어 프로세서입니다. 기본 및 개선된 프로세서보다 효율적이고 강력합니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)고급 장치 조합법에 사용됨$(li)하위 티어 프로세서보다 효율적임$(li)고급 자동화에 필요함$(li)무선 및 자동 조합 구성 요소에 사용됨"
+},
+{
+"type" : "text",
+"text" : "고급 프로세서 제작 방법:$(li)먼저 미완성 고급 프로세서 제작$(li)미완성 고급 프로세서를 화로에서 제련$(li)프로세서 바인딩과 결합$(li)하위 티어보다 더 많은 자원 필요"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:advanced_processor"
+}
+]
+}

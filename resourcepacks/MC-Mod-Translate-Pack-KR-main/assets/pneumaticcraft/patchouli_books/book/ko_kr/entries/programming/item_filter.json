@@ -1,0 +1,23 @@
+{
+  "name": "아이템 필터 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/item_filter_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)아이템 필터/$는 다른 위젯의 $(thing)매개변수/$로만 사용되는 위젯입니다. 어떤 블록과 아이템을 줍거나/배치하거나/채굴할지 등을 지정하는 데 사용할 수 있습니다.$(p)위젯을 $(thing)우클릭/$하여 시작하세요. 그런 다음 $(thing)아이템 검색.../$을 클릭하여 게임 내 아이템을 검색하거나 $(thing)인벤토리 검색.../$을 클릭하여 인벤토리에서 아이템을 선택할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "그런 다음 몇 가지 추가 필터 옵션을 적용하여 일치 방식을 제어할 수 있습니다. 이러한 옵션이 작동하는 방식은 GUI의 체크박스 툴팁에 표시됩니다.$(p)평소와 같이 이 위젯을 부모의 $(italic)오른쪽/$에 배치하면 화이트리스트 역할을 하고, $(italic)왼쪽/$에 배치하면 블랙리스트 역할을 합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_filter_piece.png"
+      ],
+      "text": "$(italic)아이템 필터 위젯/$"
+    }
+  ]
+}

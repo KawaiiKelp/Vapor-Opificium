@@ -1,0 +1,17 @@
+{
+"name" : "제작기 관리자",
+"icon" : "refinedstorage:crafter_manager",
+"category" : "refstoragemanual:access_and_grids",
+"pages" : [
+{
+"type" : "text",
+"text" : "제작기 관리자는 Refined Storage 네트워크 내의 모든 패턴을 관리하는 데 매우 유용한 도구입니다. 패턴 관리를 단일 인터페이스로 통합하여, 특히 대규모의 복잡한 시스템에서 제작 작업의 구성 및 수정을 간소화합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:crafter_manager",
+"text" : "제작 레시피."
+}
+
+]
+}

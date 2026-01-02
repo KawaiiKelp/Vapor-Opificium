@@ -1,0 +1,579 @@
+{
+	autofocus_id: "2EE923F7CC700F45"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: ""
+	icon: "minecraft:red_bed"
+	id: "608F1EB0A2F1E7A1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"다시 만나게 되어 반갑습니다!"
+				""
+				"드디어 &2Terra Mechanica™&r과 &2Unitas Nihilium™&r을 모두 마치고, 평범한 세상으로 돌아왔습니다!"
+				""
+				"어때요? &a오버월드&r의 공기는 상쾌하지 않나요?"
+				"&7&o물론 여러분의 선택에 따라 공기가 더럽혀질 수도 있습니다. 아마도요.&r"
+				""
+				"이번에는 꽤나 복잡한 기술력이 요구되는 모드, &bGregTech&r와 함께 돌아왔습니다!"
+				""
+				"&4다시 지옥을 맛볼 시간&r입니다. &7흙을 8개 정도 구하는 것&r으로 시작해 보죠."
+				""
+				"이 &7원목 2개와 부싯돌 2개&r는 &6제작대를 만드는 데 사용&r할 겁니다. &l절대 사용하지 마십시오.&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:textures/gui/icon/bucket_mode/water_drop.png"
+				}
+			}
+			id: "2EE923F7CC700F45"
+			rewards: [
+				{
+					count: 2
+					id: "6049D210E3D69DC3"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "329AFDC1BC6ECFD5"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "그래도 갈증이나 그런 건 없네요"
+			tasks: [{
+				count: 8L
+				id: "46FE9917FB620896"
+				item: { Count: 8, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			title: "이번엔 또 뭐예요?!"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"&3갈증&r과 &6체온&r은 없습니다. 하지만 유감스럽게도, &l다양한 음식을 먹어야 하는 건&r 변함 없습니다."
+				""
+				"이번에도 &aFarmer's Delight&r가 존재하니, 그 음식들을 먹으면서 버텨보세요! 이번에도 &d무한의 스튜&r가 존재하니까요."
+				""
+				"음식을 좀 드릴게요. 맛있게 먹어요!"
+			]
+			icon: "avaritia:ultimate_stew"
+			id: "0F81FED3FF33B685"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "0B4B673751433119"
+				item: "mynethersdelight:hotdog"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "하나만 먹다간 금방 질려요"
+			tasks: [{
+				id: "12C3B59E6CADC194"
+				title: "확인"
+				type: "checkmark"
+			}]
+			title: "너무 물려요..."
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"이 퀘스트에서는 &b유용한 단축키&r를 설명합니다."
+				""
+				"[\"만약 \",{\"translate\":\"controls.title\",\"color\":\"green\"},\" 메뉴에서 \\u00a7n키를 변경하셨다면\\u00a7r, 걱정하지 마세요!\"]"
+				""
+				"저희 &2Vapor Opificium™&r의 최첨단 기술력으로 &b변경한 조작 키&r가 &l반영됩니다!&r"
+				""
+				"이제부터 단축키를 나열하겠습니다."
+				""
+				"[\"\",{\"keybind\":\"key.ftbchunks.map\",\"color\":\"aqua\"},\" 키를 눌러 FTB 청크 지도를 열 수 있습니다.\"]"
+				""
+				"[\"\",{\"keybind\":\"key.ftbchunks.claim_manager\",\"color\":\"aqua\"}, \" 키를 눌러 소유한 청크를 확인하고 추가/제거할 수 있습니다.\"]"
+				""
+				"[\"\",{\"keybind\":\"key.ftbchunks.add_waypoint\",\"color\":\"aqua\"}, \" 키를 눌러 경유지를 빠르게 생성할 수 있습니다.\"]"
+				""
+				"[\"\",{\"keybind\":\"key.ftbchunks.waypoint_manager\",\"color\":\"aqua\"}, \" 키를 눌러 경유지를 관리할 수 있습니다.\"]"
+				""
+				"[\"\",{\"keybind\":\"key.ftbquests.quests\",\"color\":\"aqua\"}, \" 키를 눌러 현재 당신이 보고 있는 화면인, 퀘스트 창을 열 수 있습니다!\"]"
+				""
+				"[\"\",{\"keybind\":\"key.modmenu.open_menu\",\"color\":\"aqua\"}, \" 키를 눌러 모드 메뉴를 열 수 있습니다.\"]"
+				""
+				"[\"\",{\"keybind\":\"key.inventoryessentials.sort_inventory\",\"color\":\"aqua\"}, \" 키를 눌러 현재 인벤토리를 정렬할 수 있습니다. \"]"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/gui/key.png"
+				}
+			}
+			id: "00D105009CF7EF44"
+			optional: true
+			rewards: [{
+				id: "3C5FF2196010102E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "알아두면 좋습니다"
+			tasks: [{
+				id: "2D6560265C0B9F14"
+				title: "확인"
+				type: "checkmark"
+			}]
+			title: "유용한 단축키들"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"&3첫날 밤&r을 보내기 위해 임시로 도구라도 만들어야겠습니다."
+				""
+				"&7나무 도구와 돌 도구&r는 사용할 수 없으니, &8부싯돌 도구&r를 사용합시다!"
+				""
+				"&e한 가지 문제&r가 있다면, &c자갈을 캐도 부싯돌이 나오지 않습니다!&r"
+				""
+				"대신 &7자갈 3개&r를 희생해 &b부싯돌 하나&r를 만들 수 있습니다."
+				"&7&o초반에만 조금 힘들 뿐입니다. 진정하세요.&r"
+				""
+				"&7자갈 9개&r를 가져와 &7부싯돌 3개&r를 만드세요. &7부싯돌&r을 하나 더 드리겠습니다."
+			]
+			icon: "minecraft:gravel"
+			id: "7D7E53FD92B00E76"
+			rewards: [{
+				id: "1AC27C002DBA67D9"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "부싯돌이 안 나온다고요? 정상입니다"
+			tasks: [
+				{
+					count: 9L
+					id: "24AD0CD95F5E40AC"
+					item: { Count: 9, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1EB5EB756AA63E74"
+					item: "minecraft:flint"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2351055DB586E38D"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "임시 도구를 위한 준비"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D7E53FD92B00E76"
+				"181E99CC5F4A208B"
+			]
+			description: [
+				"&7부싯돌&r이 &c살짝 부족&r할 수도 있습니다! 그러니 &b삽&r을 먼저 만드세요."
+				""
+				"&b부싯돌 도구&r를 완성하셨다면 &7자갈&r을 조금 더 캐보세요."
+				""
+				"그리고 이 &7살짝 사용한 절구&r를 가져가세요. 이걸 왜 주는 지는 다음 퀘스트에서 알게 됩니다!"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:flint_pickaxe"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 1
+						MaxDamage: 63
+						ToolSpeed: 4.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "2BE8342EB862519A"
+			rewards: [{
+				id: "10D6EFFDCB77A557"
+				item: {
+					Count: 1
+					id: "gtceu:flint_mortar"
+					tag: {
+						Damage: 54
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 0.0f
+							AttackSpeed: -2.4f
+							DefaultEnchantments: [ ]
+							MaxDamage: 64
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "나무 자갈 다 뒤졌다 ㅋㅋ"
+			tasks: [
+				{
+					id: "1CF0B9A7687329B2"
+					item: {
+						Count: 1
+						id: "gtceu:flint_shovel"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 63
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20FD4802838FD461"
+					item: {
+						Count: 1
+						id: "gtceu:flint_pickaxe"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								TorchPlacing: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 63
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "617A1424D4BCD00A"
+					item: {
+						Count: 1
+						id: "gtceu:flint_axe"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 63
+								ToolSpeed: 2.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "기초 도구 3종 세트"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BE8342EB862519A"]
+			description: [
+				"제가 드린 &7&o살짝 사용한 절구&r를 어떻게 쓰는지 알려드리겠습니다!"
+				""
+				"간단합니다. &7부싯돌&r이나 &7뼛가루&r같은 &n잘게 다져진 재료&r들을 만드는 데 사용합니다!"
+				""
+				"네, 맞습니다. 이제 &b자갈 1개로 부싯돌 1개&r를 만들 수 있습니다!"
+				""
+				"축하드립니다! &7부싯돌&r을 좀 더 갈아오세요."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:flint_mortar"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						MaxDamage: 63
+					}
+					HideFlags: 2
+				}
+			}
+			id: "13A17134F290D4FE"
+			rewards: [{
+				id: "6DE3844EB0F0623A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "내 인생도 갈아넣어야 할 판에 재료나 갈고 있다니"
+			tasks: [
+				{
+					id: "1492F69BF6774581"
+					item: {
+						Count: 1
+						id: "gtceu:flint_mortar"
+						tag: {
+							Damage: 54
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 0.0f
+								AttackSpeed: -2.4f
+								DefaultEnchantments: [ ]
+								HarvestLevel: 1
+								MaxDamage: 64
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "413657D00D81980C"
+					item: { Count: 2, id: "minecraft:flint" }
+					type: "item"
+				}
+			]
+			title: "빻아버리기"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "firstaid:textures/items/plaster.png"
+				}
+			}
+			id: "0AD5E0AD4F9CA4FE"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "6DA3D0E493D5C7B1"
+				item: "firstaid:plaster"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "저 다쳤어요! 빨리 응급실 보내주세요! 아니 여기는 치과잖아!!!"
+			tasks: [{
+				id: "1298A8A88A96EEF6"
+				title: "확인"
+				type: "checkmark"
+			}]
+			title: "중요한 체력 관리"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"&dE&aM&bI&r를 배워봅시다!"
+				""
+				"[\"\\u00a72JEI\\u00a7r와 비슷하지만 좀 다릅니다. \\u00a7dE\\u00a7aM\\u00a7bI\\u00a7r 설정을 열어보시면 아시겠지만, 개발자가 만들어 둔 \",{\"translate\":\"screen.emi.presets\",\"color\":\"blue\"},\"이 있습니다.\"]"
+				""
+				"[\"\",{\"translate\":\"screen.emi.presets\",\"color\":\"blue\"},\" 중 \",{\"translate\":\"config.emi.presets.recipe_book_plus\",\"color\":\"green\"},\"를 적용하면 왼쪽 메뉴가 \",{\"translate\":\"emi.sidebar.type.craftables\",\"color\":\"yellow\"},\"과 \",{\"translate\":\"emi.sidebar.type.favorites\",\"color\":\"gold\"},\"(으)로 나뉩니다.\"]"
+				""
+				"&b아이콘&r을 누르는 것으로 &a변경할 수 있으며&r, &e제작 가능한 아이템 목록&r이 보이는 덕에 &o아주 빠른 제작&r이 가능해집니다!"
+				""
+				"[\"게다가, \",{\"translate\":\"key.keyboard.left.control\",\"color\":\"green\"},\" + \",{\"translate\":\"key.mouse.left\",\"color\":\"yellow\"},\"으로 아이템을 빠르게 제작할 수 있습니다!\"]"
+				""
+				"[\"\",{\"translate\":\"key.keyboard.left.control\",\"color\":\"green\"},\" + \",{\"translate\":\"key.keyboard.left.shift\",\"color\":\"aqua\"},\" + \",{\"translate\":\"key.mouse.left\",\"color\":\"yellow\"},\"으로 한 묶음씩 제작할 수도 있습니다!\"]"
+				""
+				"[\"\\u00a77다음 페이지\\u00a7r에서 \\u00a7dE\\u00a7aM\\u00a7bI\\u00a7r의 꽃, \",{\"translate\":\"tooltip.emi.recipe_tree\",\"color\":\"green\"},\"를 강의해 드리겠습니다!\"]"
+				"{@pagebreak}"
+				"[\"이번 페이지에서는 \",{\"translate\":\"tooltip.emi.recipe_tree\",\"color\":\"green\"},\"를 다룹니다.\"]"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/gui/emi.png"
+				}
+			}
+			id: "2B4787DC8FB5ACC8"
+			optional: true
+			shape: "rsquare"
+			subtitle: "이거만큼 편한 게 없는데 아직도 &2JEI&r를 고집하시나요?"
+			tasks: [{
+				id: "30D7784B07D2E948"
+				title: "확인"
+				type: "checkmark"
+			}]
+			title: "&dE&aM&bI&r와 함께 하는 편리한 제작 생활"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"&c밤은 위험합니다! &r"
+				"더럽게 사악한 &2Vapor Opificium™&r의 개발자가 &e빛&r과 &1어둠&r을 명확히 나눠버렸네요!"
+				""
+				"빛이 &80&r이라면 &c아무 것도 보이지 않을 거예요!&r 당신의 주변을 꼭 &e밝게 유지&r하세요."
+				""
+				"여기, 제가 드리는 &7횃불&r을 좀 챙겨 가세요."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:item/invar_lighter"
+				}
+			}
+			id: "61A70FBE94F14C21"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "217F6F8A67E0F9AB"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "그런데 빛을 만들기 전에는 무엇으로 불을 밝혔나요?"
+			tasks: [{
+				id: "3F63727C93307B17"
+				title: "확인"
+				type: "checkmark"
+			}]
+			title: "빛이 있으라!"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"&bGregTech&r는 &n전력 기계를 다루는 모드&r이기 때문에, &9비가 오거나&r &6불이 붙으면&r &c기계가 폭발할 위험성&r이 있습니다!"
+				""
+				"이를 방지하려면 &e천장을 덮거나&r 주변에 &b인화성 물질&r을 두지 마세요."
+				""
+				"&a산업 단지&r를 구축하고 &2산업 단지 내부&r에 &6공장을 짓는 것&r도 좋은 방법입니다."
+				""
+				"특히 &6사바나&r 혹은 &e사막&r같은 &o건조한 기후&r에 가면 &c물은 얻을 수 없지만&r &a비가 내리지 않습니다.&r"
+				"&7&o그렇지만, 절대 건조한 기후에 공장을 짓지 마세요. 물을 얻지 못한다면 꽤 고생해야 합니다..&r"
+				""
+				"또 주의할 점이 있는데, 예를 들어보겠습니다."
+				"&7저전압(LV) 기계&r는 &b저전압보다 높은 전압(MV)&r을 받을 시 폭발합니다."
+				""
+				"즉, &7LV&r 기계에 &bMV&r 전압을 꽂으면 &c폭발합니다!&r &8&l&o펑!&r"
+				""
+				"&a기계를 다룰 때&r는 언제나 &6안전을 우선시&r하세요."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:block/casings/signs/machine_casing_explosionhazard"
+				}
+			}
+			id: "205ACEBFC9B81136"
+			optional: true
+			rewards: [{
+				id: "157678A4ED73D15C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "이걸 안 읽으면 어떻게 되냐고요? 공장 펑! 멘탈 펑! 컴퓨터 펑!"
+			tasks: [{
+				id: "3382E423CFE5290C"
+				title: "확인"
+				type: "checkmark"
+			}]
+			title: "산업 안전 안내 책자"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D7E53FD92B00E76"]
+			description: [
+				"&c나무는 도구 없이 캘 수 없습니다.&r "
+				""
+				"생각해 보세요, &9맨손으로 나무를 부수는 게&r &o말이 된다고 생각하십니까?&r"
+				""
+				"&c당연히 말이 안 되죠!&r 그래서 &7도구&r가 없이는 &c나무를 캘 수 없습니다.&r"
+				""
+				"대신 여러분이 &9도구를 만들 수 있도록&r &7막대기&r를 좀 지원해 드리겠습니다. 가서 &7삽&r과 &7도끼&r를 제작하세요!"
+			]
+			icon: "minecraft:oak_log"
+			id: "181E99CC5F4A208B"
+			rewards: [{
+				count: 6
+				id: "3EA0C2B9692928B7"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			secret: true
+			subtitle: "하긴 누가 맨손으로 나무를 부숴요"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/gui/breaking_log.png"
+					}
+				}
+				id: "0E2CF1840B7D1B14"
+				stage: "tree_fail"
+				title: "맨 손으로 나무를 캐려다 실패했습니다!"
+				type: "gamestage"
+			}]
+			title: "나무를 캘 수 없는 이유"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13A17134F290D4FE"]
+			id: "2CE35B78DF8DB1AF"
+			subtitle: "양에게 뾰족한 것을 찔러본 적이 있나요?"
+			tasks: [{
+				count: 6L
+				id: "411A8B6786080369"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "양털 구하기"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "첫 번째 밤"
+}

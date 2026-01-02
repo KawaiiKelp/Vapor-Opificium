@@ -1,0 +1,23 @@
+{
+  "name": "외부 프로그램 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/external_program_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 지정된 $(l:programming/area)영역/$에서 인벤토리를 검색합니다. 모든 인벤토리에 대해 각 슬롯을 살펴봅니다. $(l:tools/drone)드론/$ 또는 $(l:components/network_components#network_api)네트워크 API/$가 발견되면 해당 아이템에 저장된 프로그램을 실행합니다.$(p)프로그램이 완료되면 $(item)드론/$은 다음 슬롯 및/또는 인벤토리로 이동합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:programming/programmer)프로그래머/$도 인벤토리로 간주되므로 이 위젯을 사용하여 $(item)드론/$ 프로그램을 디버깅할 수 있습니다. $(item)프로그래머/$ (만)의 영역으로 $(thing)외부 프로그램/$ 위젯을 사용하여 $(item)드론/$을 프로그래밍하고 배치하세요.$(p)이제 프로그래머에 $(item)드론/$ 또는 $(item)네트워크 API/$를 넣고 프로그램을 만드세요. $(item)프로그래머/$에서 $(thing)⟶ (내보내기)/$ 버튼을 누르면 배치된 $(item)드론/$이 즉시 프로그램을 실행합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/external_program_piece.png"
+      ],
+      "text": "$(italic)프로그램셉션/$"
+    }
+  ]
+}

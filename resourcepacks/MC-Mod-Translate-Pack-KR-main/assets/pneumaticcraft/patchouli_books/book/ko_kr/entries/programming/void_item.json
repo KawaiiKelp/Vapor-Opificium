@@ -1,0 +1,19 @@
+{
+  "name": "아이템 무효화 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/void_item_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 드론 인벤토리의 아이템을 즉시 영구적으로 파괴합니다 - 조심하세요! $(l:programming/item_filter)아이템 필터/$와 함께 사용하는 것이 매우 강력히 권장됩니다. 필터가 있으면 필터에서 허용하는 아이템만 무효화됩니다.$(p)이 위젯은 $(item)드론의/$ 인벤토리에 해당 아이템이 남아 있지 않을 때 실행이 완료됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/void_item_piece.png"
+      ],
+      "text": "$(italic)어차피 원하지 않았어/$"
+    }
+  ]
+}

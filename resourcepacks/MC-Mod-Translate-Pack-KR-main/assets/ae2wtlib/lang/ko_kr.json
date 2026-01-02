@@ -1,0 +1,10 @@
+{
+  "gui.ae2wtlib.trash": "쓰레기통",
+
+  "item.ae2wtlib.quantum_bridge_card": "양자 터널 카드",
+  "item.ae2wtlib.quantum_bridge_card.desc": "무선 터미널이 양자 터널에 연결되도록 하여 무제한 범위를 허용합니다.",
+
+  "gui.ae2wtlib.magnetcard.desc.me": "네트워크로 넣기",
+
+  "text.autoconfig.de/mari_023/ae2wtlib.title": "AE2 무선 터미널"
+}

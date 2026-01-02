@@ -1,0 +1,19 @@
+{
+  "name": "드론 조건: 아이템 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_inventory_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)드론 조건: 아이템/$ 위젯을 사용하면 이 $(l:tools/drone)드론/$의 인벤토리에 특정 양의 아이템이 있는지 확인할 수 있습니다. 일치하는 모든 아이템(연결된 $(l:programming/item_filter)아이템 필터/$로 지정, 필터 없으면 모든 아이템 계산)을 셉니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_inventory_piece.png"
+      ],
+      "text": "$(italic)드론 조건: 아이템 위젯/$"
+    }
+  ]
+}

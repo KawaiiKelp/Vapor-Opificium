@@ -1,0 +1,25 @@
+{
+  "name": "생성기 추출기",
+  "icon": "pneumaticcraft:spawner_extractor",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)생성기 추출기/$는 $(l:spawning/pressurized_spawner)가압식 생성기/$를 사용하려는 경우 필요한 $(l:spawning/spawner_core)생성기 코어/$를 얻는 두 가지 방법 중 하나입니다.$(p)생성기 추출기를 사용하려면 월드 어딘가에서 찾아야 하는 바닐라 $(item)생성기/$ 위에 놓으세요."
+    },
+    {
+      "type": "text",
+      "text": "그런 다음 생성기 추출기에 $(thing)-0.5 bar/$ 이하의 진공을 제공하고 전투를 준비하세요. 생성기는 추출되는 것을 $(italic)정말/$ 싫어하며 자신을 방어하기 위해 엄청나게 증가된 속도로 몹을 생성합니다. 몇 가지 유용한 팁:$(li)기본 추출 시간은 약 60초입니다.$(li)하지만 근처의 방어 몹은 추출 속도를 늦추고, 너무 많으면 추출이 중단됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)최소 한 명의 플레이어가 근처에 있어야 합니다. 그렇지 않으면 추출이 중단됩니다.$(li)$(thing)생성기/$가 방어자를 생성할 수 없는 경우(예: 나쁜 조명 수준, 땅 없음...), 프로세스도 느려지고 결국 중단됩니다.$(p)추출이 완료되면 $(thing)생성기 코어/$가 배출되고 생성기는 $(item)빈 생성기/$가 됩니다. 이 블록은 $(l:spawning/pressurized_spawner)가압식 생성기/$를 만드는 데 사용되므로 주워야 합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "생성기 추출기 제작.",
+      "recipe": "pneumaticcraft:spawner_extractor"
+    }
+  ]
+}

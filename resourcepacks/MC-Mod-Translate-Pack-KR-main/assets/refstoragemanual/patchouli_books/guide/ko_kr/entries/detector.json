@@ -1,0 +1,16 @@
+{
+"name" : "감지기",
+"icon" : "refinedstorage:detector",
+"category" : "refstoragemanual:networking",
+"pages" : [
+{
+"type" : "text",
+"text" : "감지기는 저장소 네트워크에 있는 아이템이나 액체의 양에 따라 레드스톤 신호를 방출하는 블록입니다. NBT 및 손상 감도를 지원하며, 수량이 지정된 양보다 많거나 적거나 같을 때 신호를 방출하도록 설정할 수 있어 자동화 시스템에 강력한 도구입니다.$(br2) 기준 유형:$(br)> 지정된 양보다 많을 때 신호 방출$(br)< 지정된 양보다 적을 때 신호 방출$(br)= 지정된 양에 도달할 때 신호 방출"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:detector",
+"text" : "제작 레시피."
+}
+]
+}

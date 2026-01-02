@@ -1,0 +1,23 @@
+{
+"name" : "저장 모니터",
+"icon" : "refinedstorage:storage_monitor",
+"category" : "refstoragemanual:access_and_grids",
+"pages" : [
+{
+"type" : "text",
+"text" : "저장 모니터는 스토리지 네트워크에 있는 특정 아이템이나 액체의 양을 표시하는 블록입니다. 자원 상태를 시각적으로 보여줍니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)아이템 또는 액체 수량 표시$(li)실시간 업데이트$(li)구성 가능한 표시 아이템$(li)수량에 따른 레드스톤 출력$(li)비교기와 함께 사용 가능"
+},
+{
+"type" : "text",
+"text" : "저장 모니터를 사용하려면:$(li)컨트롤러 범위 내에 배치합니다.$(li)케이블을 사용하여 네트워크에 연결합니다.$(li)마우스 오른쪽 버튼을 클릭하여 설정합니다.$(li)모니터링할 아이템 또는 액체를 설정합니다.$(li)원하는 경우 레드스톤 출력을 구성합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:storage_monitor"
+}
+]
+}

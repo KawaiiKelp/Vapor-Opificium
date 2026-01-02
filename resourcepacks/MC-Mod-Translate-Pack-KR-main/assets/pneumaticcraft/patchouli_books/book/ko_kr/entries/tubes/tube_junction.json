@@ -1,0 +1,17 @@
+{
+  "name": "튜브 교차점",
+  "icon": "pneumaticcraft:tube_junction",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)튜브 교차점/$은 두 개의 $(l:tubes/pressure_tubes)압력 튜브/$(모든 $(l:base_concepts/pressure_tiers)압력 등급/$)가 연결되지 않고 서로 교차할 수 있게 해주는 매우 간단한 장치입니다."
+    },
+    {
+      "type": "crafting",
+      "text": "튜브 교차점 제작",
+      "recipe": "pneumaticcraft:tube_junction"
+    }
+  ]
+}

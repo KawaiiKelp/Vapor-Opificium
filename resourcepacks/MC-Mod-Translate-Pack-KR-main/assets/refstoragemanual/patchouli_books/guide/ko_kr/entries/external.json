@@ -1,0 +1,16 @@
+{
+"name" : "외부 저장소",
+"icon" : "refinedstorage:external_storage",
+"category" : "refstoragemanual:item_and_fluid_movement",
+"pages" : [
+{
+"type" : "text",
+"text" : "외부 저장소는 외부 인벤토리 또는 유체 탱크를 Refined Storage 네트워크에 연결하여 저장소 용량을 효과적으로 확장하는 다재다능한 블록입니다. 네트워크에서 연결된 인벤토리 또는 탱크의 저장 공간을 활용하여 외부 리소스를 원활하게 통합하고 관리할 수 있습니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:external_storage",
+"text" : "외부 저장소 제작 레시피."
+}
+]
+}

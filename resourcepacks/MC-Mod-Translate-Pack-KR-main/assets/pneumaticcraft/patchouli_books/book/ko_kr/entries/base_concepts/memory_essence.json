@@ -1,0 +1,16 @@
+{
+  "name": "기억의 정수",
+  "icon": "pneumaticcraft:memory_essence_bucket",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)기억의 정수/$는 플레이어의 기억과 경험을 액체 형태로 나타낸 유체입니다. 나중에 사용하기 위해 추출하고 저장할 수 있으며, 바닐라 마법부여나 특정 $(pncr) 제작 공정에 사용됩니다.$(p)$(item)기억의 정수/$를 얻는 방법은 두 가지가 있습니다:$(li)1. $(l:tools/memory_stick)메모리 스틱/$ 사용$(li)2. $(l:machines/aerial_interface)공중 인터페이스/$ 사용."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:memory_essence_bucket",
+      "text": "$(italic)경험이 풍부하신가요/$"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "압축된 철 방어구",
+  "icon": "pneumaticcraft:compressed_iron_helmet",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)압축된 철 방어구/$는 초반용 방어구 세트로, 동급의 $(item)철 갑옷/$보다 성능이 약간 더 좋습니다. 방어 강도와 내구도가 조금 더 높으며, 부분적인 밀치기 저항을 제공합니다. $(item)모루/$에서 $(item)압축된 철 주괴/$로 수리할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_iron_helmet",
+      "recipe2": "pneumaticcraft:compressed_iron_chestplate"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:compressed_iron_leggings",
+      "recipe2": "pneumaticcraft:compressed_iron_boots"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "유량 감지기 모듈",
+  "icon": "pneumaticcraft:flow_detector_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "유량 감지기 튜브 모듈은 튜브를 통과하는 $(thing)공기 흐름/$을 측정하는 $(l:tubes/tube_modules#inline)인라인/$ 모듈입니다. 다음 공식을 사용하여 그 결과로 $(#f00)레드스톤 신호/$를 방출합니다:$(p)  $(formula)0.2 * 유량 (mL/틱)/$$(p)예: 20mL/틱의 공기가 흐르면 신호 레벨은 20*0.2=4가 됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)유량/$은 $(l:base_concepts/pressure)압력/$과는 다른 물리량이라는 점에 유의하세요. 유량은 틱당 튜브를 이동하는 공기의 양입니다. 따라서 작동하지 않는 $(l:machines/elevators)엘리베이터/$가 있다면 유량은 0이지만, 작동할 때는 공기를 소모하므로 유량은 0이 아닙니다. 따라서 이 모듈은 기계가 공기를 사용하고 있는지 감지하는 데 사용할 수 있습니다.$(p)유량 감지기 모듈은 $(l:tubes/module_expansion_card)모듈 확장 카드/$를 받지 않습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "유량 감지기 모듈 제작",
+      "recipe": "pneumaticcraft:flow_detector_module"
+    }
+  ]
+}

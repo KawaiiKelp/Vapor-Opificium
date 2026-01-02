@@ -1,0 +1,22 @@
+{
+  "name": "와류 튜브",
+  "icon": "pneumaticcraft:vortex_tube",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)와류 튜브/$는 $(l:https://en.wikipedia.org/wiki/vortex_tube)실제 물리학/$에 기반한 장치입니다. 유입되는 $(l:base_concepts/pressure)공기/$를 $(l:base_concepts/heat)뜨거운 부분과 차가운 부분/$으로 나누어 튜브의 한쪽을 가열하고 반대쪽을 냉각시킵니다. 뜨거운 쪽과 차가운 쪽은 열적으로 연결되어 있으므로, 열을 활용하려면 차가운 쪽을, 냉기를 사용하려면 뜨거운 쪽을 환기하는 것이 더 효율적이라는 점을 유의하세요. 이는 $(l:machines/heat_sink)방열판/$으로 수행할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vortex_tube",
+      "text": "$(thing)와류 튜브/$를 배치하거나 회전할 때 뜨거운 끝이 당신을 향합니다. 각 끝에는 어느 쪽인지 나타내는 좁은 빨간색 또는 파란색 띠가 있습니다.$(p)$(thing)와류 튜브/$를 작동시키려면 가압된 공기가 필요합니다. 압력이 높을수록 온도 차이가 커지지만 공기도 더 빠른 속도로 사용됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "와류 튜브 제작",
+      "recipe": "pneumaticcraft:vortex_tube"
+    }
+  ]
+}

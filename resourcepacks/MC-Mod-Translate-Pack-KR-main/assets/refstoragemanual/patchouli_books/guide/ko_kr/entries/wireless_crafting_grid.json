@@ -1,0 +1,25 @@
+{
+"name": "무선 제작 그리드",
+"category": "refstoragemanual:access_and_grids",
+"icon": "refinedstorageaddons:wireless_crafting_grid",
+"flag": "refinedstorageaddons",
+"pages": [
+{
+"type": "text",
+"text": "무선 제작 그리드는 일반 제작 그리드의 휴대용 버전으로, 무선 송신기 범위 내 어디에서나 아이템을 제작하고 저장 네트워크에 접속할 수 있습니다. 참고: 이 아이템을 사용하려면 Refined Storage Addons 모드가 설치되어 있어야 합니다."
+},
+{
+"type": "text",
+"text": "무선 제작 그리드를 사용하려면: $(li) 마우스 오른쪽 버튼을 클릭하여 인터페이스를 엽니다. $(li) 네트워크 카드를 삽입하여 무선 네트워크에 연결합니다. $(li) 구성된 무선 송신기 범위 내에서 사용합니다. $(li) 일반 제작 그리드처럼 아이템에 접근하고 제작합니다. $(li) Refined Storage Addons 모드가 필요합니다."
+},
+{
+"type": "text",
+"text": "무선 제작 그리드는 일반 제작 그리드와 동일한 기능을 모두 지원합니다. 여기에는 다음이 포함됩니다. $(li) 아이템 보기 및 관리 $(li) 검색 및 필터링 $(li) 정렬 및 그룹화 $(li) 그리드 필터 사용 $(li) 3x3 제작 그리드를 사용하여 아이템 제작 $(li) 자동 제작 도안 접근 $(br2) 참고: 이 아이템은 Refined Storage Addons가 설치되어 있어야 사용할 수 있습니다."
+},
+{
+"type": "crafting",
+"recipe": "refinedstorageaddons:wireless_crafting_grid",
+"text": "무선 제작 그리드 제작 레시피. Refined Storage Addons 모드가 필요합니다."
+}
+]
+}

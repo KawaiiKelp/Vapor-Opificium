@@ -1,0 +1,21 @@
+{
+  "name": "지진 센서",
+  "icon": "pneumaticcraft:seismic_sensor",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "지진 센서는 $(l:base_concepts/oil)원유/$를 추적하는 데 사용되는 초반 아이템입니다. 대부분의 도구와 달리 센서는 작동하는 데 $(l:base_concepts/pressure)압력/$이 필요하지 않습니다. $(thing)우클릭/$하면 센서를 클릭한 블록 바로 아래 어딘가에 원유가 발견되었는지 여부를 보여줍니다."
+    },
+    {
+      "type": "text",
+      "text": "지진 센서는 두 가지 결과를 가질 수 있습니다:$(p)$(#008)  원유가 발견되지 않았습니다./$$(p)이 블록 바로 아래에는 원유가 없습니다. 계속 찾으세요.$(p)$(#008)  <거리>m 아래에서 원유 발견. 약 <양> 양동이의 원유가 들어 있습니다./$$(p)원유가 발견되었습니다! 클릭한 블록은 원유를 펌핑하기 위해 $(l:machines/gas_lift)가스 리프트/$를 배치하기에 적합한 장소입니다."
+    },
+    {
+      "type": "crafting",
+      "text": "지진 센서 제작",
+      "recipe": "pneumaticcraft:seismic_sensor"
+    }
+  ]
+}

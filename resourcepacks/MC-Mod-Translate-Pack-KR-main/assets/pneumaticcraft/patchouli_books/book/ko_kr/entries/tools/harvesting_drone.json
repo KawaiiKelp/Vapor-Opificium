@@ -1,0 +1,33 @@
+{
+  "name": "수확 드론",
+  "icon": "pneumaticcraft:harvesting_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)수확 드론/$은 배치된 블록을 중심으로 17x17x17 큐브에서 $(l:programming/harvest)작물/나무 수확/$ 작업을 수행하는 특수 비프로그래밍 유형의 $(l:tools/drone)드론/$입니다. 드론은 수확된 아이템을 줍지 $(italic)않습니다/$."
+    },
+    {
+      "type": "spotlight",
+      "title": "자동 충전",
+      "item": "pneumaticcraft:charging_station",
+      "text": "모든 유형의 드론과 마찬가지로 이 드론도 작동하려면 $(l:base_concepts/pressure)압력/$이 필요하며, 공기가 부족하면 자동으로 $(l:tools/drone#charging)발사기 업그레이드가 있는 충전소/$를 찾아갑니다."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:harvesting_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "title": "도구 사용",
+      "text": "모든 유형의 $(item)괭이/$(만)가 들어 있는 인벤토리에 $(item)수확 드론/$을 $(thing)웅크리고 우클릭/$하여 배치하면, 드론은 그 괭이를 사용하여 자동으로 작물을 다시 심고, 괭이를 장착하지 않고는 아무 작업도 시도하지 않습니다. 다시 심는 것에 신경 쓰지 않는다면 다른 블록에 드론을 배치하세요."
+    },
+    {
+      "type": "crafting",
+      "text": "수확 드론은 도끼 대신 괭이로 나무를 베는 법을 알아냈습니다. 참 똑똑하죠.",
+      "recipe": "pneumaticcraft:harvesting_drone"
+    }
+  ]
+}

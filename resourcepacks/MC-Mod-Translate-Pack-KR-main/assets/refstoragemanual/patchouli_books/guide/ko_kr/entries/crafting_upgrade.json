@@ -1,0 +1,23 @@
+{
+"name" : "제작 업그레이드",
+"icon" : "refinedstorage:crafting_upgrade",
+"category" : "refstoragemanual:processors_and_upgrades",
+"pages" : [
+{
+"type" : "text",
+"text" : "제작 업그레이드는 호환되는 기기에서 자동 제작 기능을 활성화합니다. 필요한 아이템을 구할 수 없는 경우, 기기가 자동으로 제작 일정을 예약합니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)자동 제작 가능$(li)수입 및 수출 장비에서 작동$(li)제작 작업 자동 예약$(li)전력 소비량 증가"
+},
+{
+"type" : "text",
+"text" : "제작 업그레이드 사용 방법:$(li)호환되는 장비를 마우스 오른쪽 버튼으로 클릭$(li)업그레이드 슬롯에 업그레이드 삽입$(li)장비의 제작 설정 구성$(li)장비가 자동으로 누락된 아이템 제작"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:crafting_upgrade"
+}
+]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "수집 드론",
+  "icon": "pneumaticcraft:collector_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)수집 드론/$은 인벤토리 블록(상자 등)에 맞대거나 옆에 배치해야 하는 특수 비프로그래밍 유형의 $(l:tools/drone)드론/$입니다. 주변 아이템을 수집하여 해당 인벤토리에 넣습니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "자동 충전",
+      "item": "pneumaticcraft:charging_station",
+      "text": "모든 유형의 드론과 마찬가지로 이 드론도 작동하려면 $(l:base_concepts/pressure)압력/$이 필요하며, 공기가 부족하면 자동으로 $(l:tools/drone#charging)발사기 업그레이드가 있는 충전소/$를 찾아갑니다."
+    },
+    {
+      "type": "text",
+      "title": "아이템 필터링",
+      "text": "$(thing)수집 드론/$에는 기본적인 아이템 필터링 기능이 있습니다. 인벤토리 블록에 $(italic)맞대어/$ 배치하면 해당 인벤토리에 이미 있는 아이템을 필터링합니다. 인벤토리 $(italic)옆의/$ 땅에(또는 빈 인벤토리 블록 위에) 배치하면 아이템을 필터링하지 $(italic)않습니다/$.$(p)드론의 필터를 변경하려면 렌치로 회수하고 다시 배치해야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)수집 드론/$은 배치된 블록을 중심으로 17x17x17 큐브의 기본 범위를 가집니다. 이 범위는 최대 16개의 $(l:base_concepts/upgrades#range)범위 업그레이드/$를 추가하여 늘릴 수 있습니다."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:collector_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "수집 드론 제작",
+      "recipe": "pneumaticcraft:collector_drone"
+    }
+  ]
+}

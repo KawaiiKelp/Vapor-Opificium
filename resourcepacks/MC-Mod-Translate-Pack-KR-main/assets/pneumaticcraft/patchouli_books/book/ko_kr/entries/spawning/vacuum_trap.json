@@ -1,0 +1,31 @@
+{
+  "name": "진공 덫",
+  "icon": "pneumaticcraft:vacuum_trap",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)진공 덫/$은 몹을 가두고 그들의 정수를 $(l:spawning/spawner_core)생성기 코어/$로 흡수하여 나중에 $(l:spawning/pressurized_spawner)가압식 생성기/$에서 사용하기 위한 기계입니다.$(p)$(thing)진공 덫/$을 사용하려면 다음 단계를 수행해야 합니다:"
+    },
+    {
+      "type": "text",
+      "text": "$(li)1. 진공 덫의 압력이 -0.5 bar 이하인지 확인하세요. 여기에는 $(l:base_concepts/upgrades#volume)용량 업그레이드/$가 권장됩니다. 또한 진공 덫을 옮기려면 저장된 진공을 보존하기 위해 곡괭이로 부수는 대신 렌치를 사용해야 합니다.$(li)2. 포획된 몹을 받을 꽉 차지 않은 $(l:spawning/spawner_core)생성기 코어/$를 넣으세요.$(li)3. $(thing)웅크리고 우클릭/$하거나 레드스톤 신호를 적용하여 진공 덫 문을 여세요."
+    },
+    {
+      "type": "text",
+      "title": "제한 사항",
+      "text": "진공 덫은 다음을 절대 포획하지 않습니다:$(li)플레이어$(li)드론$(li)보스 몹 (위더, 엔더 드래곤...)$(li)길들여진 동물$(li)바닐라 생성기에서 생성된 몹$(p)또한 엔티티 ID(예: $(thing)minecraft:zombie/$)를 $(thing)pneumaticcraft:vacuum_trap_blacklisted/$ 엔티티 유형 태그에 추가하여 몹을 블랙리스트에 올릴 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "기억의 정수",
+      "text": "진공 덫의 탱크에 최소 100mB의 $(l:base_concepts/memory_essence)기억의 정수/$가 포함되어 있으면 몹 흡수 효율이 크게 증가합니다. 포획된 몹은 설치된 $(thing)생성기 코어/$의 정수에 1% 대신 2~4%를 기여합니다. 즉, 코어를 채우기 위해 100마리의 몹을 포획하는 대신 25~50마리만 포획하면 됩니다. 몹이 포획될 때마다 100mB의 기억의 정수가 사용됩니다."
+    },
+    {
+      "type": "crafting",
+      "text": "진공 덫 제작",
+      "recipe": "pneumaticcraft:vacuum_trap"
+    }
+  ]
+}

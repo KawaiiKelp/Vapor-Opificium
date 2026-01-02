@@ -1,0 +1,16 @@
+{
+  "name": "터빈 날개",
+  "icon": "pneumaticcraft:turbine_blade",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "다른 장치를 위한 제작 부품입니다. 그 자체로는 아무런 용도가 없습니다."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/turbine_blade"
+    }
+  ]
+}

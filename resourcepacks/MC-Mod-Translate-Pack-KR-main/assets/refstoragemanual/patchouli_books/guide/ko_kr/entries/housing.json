@@ -1,0 +1,16 @@
+{
+"name" : "저장공간 하우징",
+"icon" : "refinedstorage:storage_housing",
+"category" : "refstoragemanual:disks_and_drives",
+"pages" : [
+{
+"type" : "text",
+"text" : "저장공간 하우징은 $(l:storage_disks)저장 디스크$() 및 $(l:fluid_storage_disks)액체 저장 디스크$()를 생성하는 기본 셸 역할을 합니다. 빈 케이스로, $(l:storage_parts)저장 파트$() 또는 $(l:fluid_storage_parts)액체 저장 파트$()와 결합하여 완전한 디스크를 구성할 수 있습니다. 이러한 유연성 덕분에 플레이어는 필요에 따라 저장 구성을 업그레이드하거나 변경할 수 있습니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:storage_housing",
+"text" : "저장공간 하우징 제작 레시피."
+}
+]
+}

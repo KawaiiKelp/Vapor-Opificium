@@ -1,0 +1,24 @@
+{
+  "name": "좌표별 반복 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/for_each_coordinate.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 고급 위젯은 지정된 $(l:programming/area)영역/$의 모든 단일 좌표를 반복합니다. 각 좌표에 대해 $(ttcolor)$(t:변수를 구성하려면 위젯을 우클릭하세요)지정된 변수/$를 해당 좌표로 설정하고 연결된 $(l:programming/text)텍스트/$ 위젯과 일치하는 $(l:programming/label)레이블/$로 점프합니다. 해당 루틴 실행이 완료되면(일반적으로 $(l:programming/start)시작/$으로 다시 점프하는 프로그램 끝에 도달하면) 이 위젯으로 돌아와 다음 좌표에 대해 반복합니다."
+    },
+    {
+      "type": "text",
+      "title": "중단",
+      "text": "$(thing)좌표별 반복/$에서 사용하는 좌표 변수를 현재 월드의 건축 높이 밖의 블록 위치로 설정하여 루프를 빠져나올 수 있습니다. 다음에 프로그램이 $(thing)좌표별 반복/$으로 다시 점프할 때 이를 감지하고 좌표 순회를 취소합니다.$(p)$(italic)이 동작은 새로운 월드 높이 기능으로 인해 MC 1.18+에서 변경되었습니다. (0,0,0)은 유효하지 않은 것으로 간주되었지만(공허 월드), 지금은 더욱 의심스럽습니다./$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/for_each_coordinate.png"
+      ],
+      "text": "$(italic)좌표별 반복 위젯/$"
+    }
+  ]
+}

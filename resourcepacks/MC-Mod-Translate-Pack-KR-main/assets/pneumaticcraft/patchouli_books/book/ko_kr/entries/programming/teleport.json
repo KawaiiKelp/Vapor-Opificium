@@ -1,0 +1,19 @@
+{
+  "name": "순간이동 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/teleport_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)순간이동/$은 $(l:programming/goto)이동/$ 위젯보다 ($(l:base_concepts/pressure)공기/$ 사용 측면에서) 더 비싸지만 똑같이 간단합니다. $(l:tools/drone)드론/$은 지정된 $(l:programming/area)영역/$ 내에서 도달할 수 있는 가장 가까운 위치로 순간이동합니다.$(p)$(item)드론/$은 순간이동에 10000mL의 공기를 사용하는데, 이는 업그레이드되지 않은 $(item)드론의/$ 용량 대부분이므로 $(l:base_concepts/upgrades#volume)용량 업그레이드/$가 권장됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/teleport_piece.png"
+      ],
+      "text": "$(italic)난 여기 있어. 이제 저기 있어./$"
+    }
+  ]
+}

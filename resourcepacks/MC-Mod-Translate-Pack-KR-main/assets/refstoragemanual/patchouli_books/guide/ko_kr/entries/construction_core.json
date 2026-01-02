@@ -1,0 +1,23 @@
+{
+"name": "형성 코어",
+"category": "refstoragemanual:processors_and_upgrades",
+"icon": "refinedstorage:construction_core",
+"pages": [
+{
+"type": "text",
+"text": "형성 코어는 월드에 블록과 아이템을 배치하거나 구성하는 장치에 사용되는 특수 구성 요소입니다. 블록 배치와 관련된 자동화에 필수적입니다."
+},
+{
+"type": "text",
+"text": "특징:$(li)건설 장비에서 사용$(li)블록 배치 자동화 활성화$(li)자동화 건설에 필요$(li)고급 자동화 시스템의 일부"
+},
+{
+"type": "text",
+"text": "사용법:$(li)자동화를 위한 건설 장비 제작$(li)자동화 블록 배치 활성화$(li)자동화 농장 시스템의 일부$(li)건설 자동화에 사용"
+},
+{
+"type": "crafting",
+"recipe": "refinedstorage:construction_core"
+}
+]
+}

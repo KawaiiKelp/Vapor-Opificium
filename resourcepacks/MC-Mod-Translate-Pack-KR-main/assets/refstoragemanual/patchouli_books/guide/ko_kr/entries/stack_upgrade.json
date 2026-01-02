@@ -1,0 +1,23 @@
+{
+"name" : "세트 업그레이드",
+"icon" : "refinedstorage:stack_upgrade",
+"category" : "refstoragemanual:processors_and_upgrades",
+"pages" : [
+{
+"type" : "text",
+"text" : "세트 업그레이드는 한 번에 전송할 수 있는 아이템의 양을 늘려줍니다. 업그레이드를 설치할 때마다 전송량이 증가합니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)아이템 전송량 증가$(li)더 큰 효과를 위해 중첩 가능$(li)입력기, 출력기, 설치기와 같은 기계에서 사용 가능$(li)전력 소비 증가"
+},
+{
+"type" : "text",
+"text" : "세트 업그레이드 사용 방법:$(li)호환되는 기계를 마우스 오른쪽 버튼으로 클릭$(li)업그레이드 슬롯에 업그레이드 삽입$(li)여러 업그레이드 설치 가능$(li)각 업그레이드는 전력 소비 증가"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:stack_upgrade"
+}
+]
+}

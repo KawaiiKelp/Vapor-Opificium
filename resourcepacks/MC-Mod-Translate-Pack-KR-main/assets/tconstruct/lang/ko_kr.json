@@ -1,0 +1,268 @@
+{
+    "block.tconstruct.meat_soup_fluid": "고기 수프",
+    "fluid.tconstruct.meat_soup": "고기 수프",
+    "fluid.tconstruct.flowing_meat_soup": "흐르는 고기 수프",
+    "item.tconstruct.meat_soup_bucket": "고기 수프 양동이",
+    "item.tconstruct.meat_soup": "고기 수프",
+
+    "item.tconstruct.cheese_ingot": "치즈",
+    "block.tconstruct.cheese_block": "치즈 블록",
+    "item.tconstruct.cheese.tooltip": "먹었을 때 무작위 효과를 제거합니다",
+
+    "item.tconstruct.ichor_slime_bottle": "이코르 병",
+
+    "item.tconstruct.slime_helmet.material.tconstruct.venombone":     "스트레이 슬라임머리",
+
+    "item.tconstruct.ender_staff": "엔더슬라임 지팡이",
+
+    "item.tconstruct.melting_pan": "프라이팬",
+    "item.tconstruct.battlesign": "전투표지판",
+    "item.tconstruct.war_pick": "전투 곡괭이",
+
+    "item.tconstruct.crossbow.description": "쇠뇌는 가벼운 원거리 무기로, 화살과 폭죽을 빠르게 발사할 수 있습니다.",
+    "item.tconstruct.longbow.description": "장궁은 넓은 범위의 원거리 무기로, 먼 거리에서 정밀하게 화살을 발사할 수 있습니다.",
+
+    "item.tconstruct.travelers_shield.description": "여행자의 방패는 방어 잠재력이 제한적인 가벼운 방패이지만, 방어하는 동안 빠른 움직임을 자랑합니다.",
+    "item.tconstruct.plate_shield.description": "판금 방패는 방어력이 매우 뛰어난 실드로, 방어 시 속도는 떨어지지만 방어 능력은 뛰어납니다.",
+
+    "item.tconstruct.adze_head_cast": "삽 머리 황금 금형",
+    "item.tconstruct.tough_binding_cast": "두꺼운 줄 황금 금형",
+    "item.tconstruct.helmet_plating_cast": "투구 판 황금 금형",
+    "item.tconstruct.chestplate_plating_cast": "흉갑 판 황금 금형",
+    "item.tconstruct.leggings_plating_cast": "레깅스 판 황금 금형",
+    "item.tconstruct.boots_plating_cast": "부츠 판 황금 금형",
+    "item.tconstruct.maille_cast": "사슬갑옷 황금 금형",
+
+    "item.tconstruct.adze_head_sand_cast": "삽 머리 모래 금형",
+    "item.tconstruct.tough_binding_sand_cast": "두꺼운 줄 모래 금형",
+    "item.tconstruct.helmet_plating_sand_cast": "투구 판 모래 금형",
+    "item.tconstruct.chestplate_plating_sand_cast": "흉갑 판 모래 금형",
+    "item.tconstruct.leggings_plating_sand_cast": "레깅스 판 모래 금형",
+    "item.tconstruct.boots_plating_sand_cast": "부츠 판 모래 금형",
+    "item.tconstruct.maille_sand_cast": "사슬갑옷 모래 금형",
+
+    "item.tconstruct.adze_head_red_sand_cast": "삽 머리 붉은 모래 금형",
+    "item.tconstruct.tough_binding_red_sand_cast": "두꺼운 줄 붉은 모래 금형",
+    "item.tconstruct.helmet_plating_red_sand_cast": "투구 판 붉은 모래 금형",
+    "item.tconstruct.chestplate_plating_red_sand_cast": "흉갑 판 붉은 모래 금형",
+    "item.tconstruct.leggings_plating_red_sand_cast": "레깅스 판 붉은 모래 금형",
+    "item.tconstruct.boots_plating_red_sand_cast": "부츠 판 붉은 모래 금형",
+    "item.tconstruct.maille_red_sand_cast": "사슬갑옷 붉은 모래 금형",
+
+    "item.tconstruct.dummy_tool_part.tooltip": "금형을 만드는 데 사용합니다. 도구를 만들 때 사용할 수 없습니다.",
+
+    "item.tconstruct.tough_binding": "두꺼운 줄",
+    "item.tconstruct.adze_head": "삽 머리",
+    "item.tconstruct.helmet_plating": "투구 판",
+    "item.tconstruct.chestplate_plating": "흉갑 판",
+    "item.tconstruct.leggings_plating": "레깅스 판",
+    "item.tconstruct.boots_plating": "부츠 판",
+    "item.tconstruct.helmet_plating_dummy": "돌 투구 판",
+    "item.tconstruct.chestplate_plating_dummy": "돌 흉갑 판",
+    "item.tconstruct.leggings_plating_dummy": "돌 레깅스 판",
+    "item.tconstruct.boots_plating_dummy": "돌 부츠 판",
+    "item.tconstruct.maille": "사슬갑옷",
+    "item.tconstruct.shield_core": "방패 코어",
+
+    "block.tconstruct.soul_glass.tooltip": "고체 블록처럼 작동하지만, 통과하여 걸을 수 있습니다",
+    "block.tconstruct.soul_glass_pane.tooltip": "고체 블록처럼 작동하지만, 통과하여 걸을 수 있습니다",
+
+    "block.tconstruct.ender_slime_sapling": "엔더껍질 주아",
+
+    "block.tconstruct.enderbark_planks":        "엔더껍질 판자",
+    "block.tconstruct.enderbark_planks_slab":   "엔더껍질 반 블록",
+    "block.tconstruct.enderbark_planks_stairs": "엔더껍질 계단",
+    "block.tconstruct.enderbark_log":           "엔더껍질 원목",
+    "block.tconstruct.stripped_enderbark_log":  "껍질 벗긴 엔더껍질 원목",
+    "block.tconstruct.enderbark_wood":          "엔더껍질 나무",
+    "block.tconstruct.stripped_enderbark_wood": "껍질 벗긴 엔더껍질 나무",
+  
+    "block.tconstruct.enderbark_roots": "엔더껍질 뿌리",
+    "block.tconstruct.earth_enderbark_roots": "끈적한 엔더껍질 뿌리",
+    "block.tconstruct.sky_enderbark_roots": "끈적한 엔더껍질 뿌리",
+    "block.tconstruct.ichor_enderbark_roots": "끈적한 엔더껍질 뿌리",
+    "block.tconstruct.ender_enderbark_roots": "끈적한 엔더껍질 뿌리",
+  
+    "block.tconstruct.enderbark_fence":          "엔더껍질 울타리",
+    "block.tconstruct.enderbark_fence_gate":     "엔더껍질 울타리 문",
+    "block.tconstruct.enderbark_door":           "엔더껍질 문",
+    "block.tconstruct.enderbark_trapdoor":       "엔더껍질 다락문",
+    "block.tconstruct.enderbark_pressure_plate": "엔더껍질 압력판",
+    "block.tconstruct.enderbark_button":         "엔더껍질 버튼",
+    "block.tconstruct.enderbark_sign":           "엔더껍질 표지판",
+    "block.tconstruct.enderbark_wall_sign":      "엔더껍질 표지판",
+    "block.tconstruct.enderbark_hanging_sign":   "엔더껍질 매다는 표지판",
+    "block.tconstruct.enderbark_wall_hanging_sign": "엔더껍질 매다는 표지판",   
+
+    "item.tconstruct.obsidian_reinforcement": "흑요석 강화판",
+    "item.tconstruct.obsidian_reinforcement.tooltip": "갑옷의 폭발 보호가 증가합니다.",
+
+    "block.tconstruct.greenheart_hanging_sign":   "대지심장나무 매다는 표지판",
+    "block.tconstruct.greenheart_wall_hanging_sign": "대지심장나무 매다는 표지판",
+    "block.tconstruct.skyroot_hanging_sign":   "하늘뿌리나무 매다는 표지판",
+    "block.tconstruct.skyroot_wall_hanging_sign": "하늘뿌리나무 매다는 표지판",
+    "block.tconstruct.bloodshroom_hanging_sign":   "핏빛 균 매다는 표지판",
+    "block.tconstruct.bloodshroom_wall_hanging_sign": "핏빛 균 매다는 표지판",
+	
+	"block.tconstruct.blazewood_fence": "블레이즈나무 울타리",
+	"item.tconstruct.venombone": "맹독 뼈",
+
+    "material.tconstruct.chorus.armor": "레벨당 25% 확률로 공격자를 무작위로 순간이동시킵니다.",
+
+    "material.tconstruct.bamboo.armor": "방패 사용 시 이동 속도 페널티가 10% 감소합니다.",
+
+    "material.tconstruct.venombone": "맹독 뼈",
+    "material.tconstruct.venombone.flavor": "적의 재앙이 되세요",
+    "material.tconstruct.venombone.encyclopedia": "독에 중독되면 근접 공격 피해가 독 레벨에 0.5만큼 증가합니다.",
+    "material.tconstruct.venombone.ranged": "독에 중독되면 0.05만큼 속도가 증가합니다. 독 레벨당 0.1씩 증가합니다.",
+    "material.tconstruct.venombone.skull_flavor": "뼛속까지 오싹해진다",
+    "material.tconstruct.venombone.skull_encyclopedia": "투사체는 대상의 이동 속도를 늦춥니다. 우유를 마신 후 근접 공격을 하면 속도가 느려지고 레벨이 더 강해집니다.",
+
+    "material.tconstruct.iron.ranged": "화살을 발사하면 근처 아이템이 사용자에게 끌려옵니다.",
+    "material.tconstruct.iron.armor": "레벨당 투사체로 인한 피해를 10% 감소시키며, 최대 레벨에 따라 넉백 저항이 5% 증가합니다.",
+
+    "material.tconstruct.copper.armor": "더 낮은 깊이에서 추가 보호를 제공합니다. 64 이하 64블록마다 +5% 증가합니다.",
+
+    "material.tconstruct.seared_stone.armor": "레벨당 화염으로 인한 피해를 10% 감소시키고 화염 지속 시간을 줄입니다.",
+    
+    "material.tconstruct.scorched_stone.armor": "레벨당 화염 면역 몹의 피해를 5% 감소시키며 화염 지속 시간을 줄입니다.",
+
+    "material.tconstruct.gold.armor": "레벨당 마법 피해를 10% 줄이고, 부정적인 포션 효과 지속 시간을 감소시킵니다. 또한, 피글린이 우호적으로 변합니다.",
+
+    "material.tconstruct.amethyst_bronze.armor": "레벨당 공격 속도가 2.5% 증가하지만 넉백 각도가 32, 16, 8, 또는 4 방향으로 제한됩니다.",
+
+    "material.tconstruct.nahuatl.armor": "레벨당 25% 확률로 최대 5의 지속 피해를 입힙니다.",
+
+    "material.tconstruct.obsidian.armor": "레벨당 폭발로 인한 피해를 10% 감소시키고, 폭발 넉백을 줄입니다.",
+
+    "material.tconstruct.pig_iron.armor": "레벨당 15% 확률로 방어구를 먹어 배고픔을 1 회복하고, 포만감을 0.6만큼 제공합니다.",
+
+    "material.tconstruct.cobalt.armor": "레벨당 근접 공격 피해를 10% 감소시키고, 최대 레벨에서 아이템을 사용할 때 이동 속도가 5% 증가합니다.",
+
+    "material.tconstruct.hepatizon.armor": "최근에 피해를 입었다면 레벨당 모든 공격으로 인한 피해를 5% 감소시킵니다.",
+
+    "material.tconstruct.manyullyn.armor": "피해를 입으면 근접 공격 피해가 일시적으로 1 증가하며, 모든 방어구의 총 레벨에 따라 최대치가 정해집니다.",
+
+    "material.tconstruct.blazewood": "블레이즈나무",
+    "material.tconstruct.blazewood.flavor": "불꽃은 불꽃을 보호한다",
+    "material.tconstruct.blazewood.encyclopedia": "화염 시간 1초당 비화염 피해에 대한 보호가 0.5% 증가하며, 용암 15초 기준 최대 +7.5%까지 증가합니다. 화염 저항 효과로 보너스가 감소합니다.",
+
+    "material.tconstruct.ancient_hide.armor": "추가 방어 슬롯을 제공합니다.",
+
+    
+    "stat.tconstruct.binding": "조임쇠",
+    "stat.tconstruct.plating": "판",
+    "stat.tconstruct.plating_armor": "방어구 판",
+    "stat.tconstruct.plating_helmet": "투구 판",
+    "stat.tconstruct.plating_chestplate": "흉갑 판",
+    "stat.tconstruct.plating_leggings": "레깅스 판",
+    "stat.tconstruct.plating_boots": "부츠 판",
+    "stat.tconstruct.plating_shield": "방패 판",
+    "stat.tconstruct.shield_core": "방패 코어",
+    "stat.tconstruct.maille": "사슬갑옷",
+
+    "modifier.tconstruct.antitoxin": "항독소",
+    "modifier.tconstruct.antitoxin.flavor": "위험 강도가 높습니다!",
+    "modifier.tconstruct.antitoxin.description": "도구가 중독되면 더 많은 피해를 입히고 더 빨리 발사합니다",
+    "modifier.tconstruct.antitoxin.attack_damage": "맹독 피해",
+    "modifier.tconstruct.antitoxin.draw_speed": "맹독 발사 속도",
+
+    "modifier.tconstruct.pierce": "관통",
+    "modifier.tconstruct.pierce.flavor": "선인장이 되어라!",
+    "modifier.tconstruct.pierce.description": "공격 시 대상의 방어력의 일부를 무시합니다!",
+
+    "modifier.tconstruct.unburdened": "가벼움",
+    "modifier.tconstruct.unburdened.flavor": "사용이 편리합니다",
+    "modifier.tconstruct.unburdened.description": "이 아이템을 사용할 때 이동 속도가 덜 저하됩니다.",
+
+    "modifier.tconstruct.enderclearance": "엔더정리",
+    "modifier.tconstruct.enderclearance.flavor": "엔더에서의 할인",
+    "modifier.tconstruct.enderclearance.description": "공격자를 순간이동시킬 확률이 있습니다.",
+
+    "modifier.tconstruct.recurrent_protection": "반복 보호",
+    "modifier.tconstruct.recurrent_protection.flavor": "두 번은 안 속아!",
+    "modifier.tconstruct.recurrent_protection.description": "피해를 입으면 일시적으로 보호력이 증가합니다.",
+    "modifier.tconstruct.recurrent_protection.resistance": "반복 저항",
+
+    "modifier.tconstruct.kinetic": "운동 에너지",
+    "modifier.tconstruct.kinetic.flavor": "고통 없인 얻는 것도 없다!",
+    "modifier.tconstruct.kinetic.description": "전투 중 피해를 받을 때마다 점점 더 많은 피해를 가합니다.",
+    "modifier.tconstruct.kinetic.attack_damage": "운동 피해",
+
+    "modifier.tconstruct.flame_barrier": "화염 장벽",
+    "modifier.tconstruct.flame_barrier.flavor": "열 차단!",
+    "modifier.tconstruct.flame_barrier.description": "불에 타는 동안 보호력을 증가시킵니다.",
+    "modifier.tconstruct.flame_barrier.resistance": "장벽 저항",
+
+    "modifier.tconstruct.fortified": "강화",
+    "modifier.tconstruct.fortified.flavor": "운 좋은 강화!",
+    "modifier.tconstruct.fortified.description": "고대 재료로 인해 추가 방어 슬롯이 생깁니다.",
+
+    "modifier.tconstruct.crystalstrike": "크리스탈 스트라이크",
+    "modifier.tconstruct.crystalstrike.flavor": "크리스탈의 속도는 대가를 요구합니다.",
+    "modifier.tconstruct.crystalstrike.description": "공격 속도가 증가하지만 넉백 각도가 제한됩니다.",
+
+    "modifier.tconstruct.scorch_protection": "화염 보호",
+    "modifier.tconstruct.scorch_protection.flavor": "주조소가 되어라!",
+    "modifier.tconstruct.scorch_protection.description": "화염 면역 몹으로부터 피해를 줄이고 화염 시간을 감소시킵니다.",
+    "modifier.tconstruct.scorch_protection.resistance": "화염 저항",
+
+    "modifier.tconstruct.depth_protection": "심층 보호",
+    "modifier.tconstruct.depth_protection.flavor": "드워프의 갑옷!",
+    "modifier.tconstruct.depth_protection.description": "광물을 더 깊이 캘수록 방어력이 증가하지만, 너무 높은 곳에서는 효과가 감소합니다.",
+    "modifier.tconstruct.depth_protection.resistance": "심층 저항",
+
+    "modifier.tconstruct.flinging": "던지기",
+    "modifier.tconstruct.flinging.flavor": "지구를 떠나는",
+    "modifier.tconstruct.flinging.description": "충전하고, 낮게 조준한 후, 목표 블록에서 멀리 던져버리세요!\n자신의 생명이 소중하다면 튕겨 나가는 효과를 사용하세요.",
+
+    "modifier.tconstruct.springing": "튀기기",
+    "modifier.tconstruct.springing.flavor": "하늘로 도약하는",
+    "modifier.tconstruct.springing.description": "충전하고, 높게 조준한 후, 공중으로 다시 발사하세요!",
+
+    "modifier.tconstruct.bonking": "때리기",
+    "modifier.tconstruct.bonking.flavor": "액체를 부딪히는",
+    "modifier.tconstruct.bonking.description": "충전하고, 적을 조준하여 때려 보내세요!",
+
+    "modifier.tconstruct.warping": "왜곡",
+    "modifier.tconstruct.warping.flavor": "엔더를 운반하는",
+    "modifier.tconstruct.warping.description": "충전하고, 벽을 조준한 후, 반대편으로 순간이동하세요!",
+
+    "modifier.tconstruct.spitting": "침 뱉기",
+    "modifier.tconstruct.spitting.flavor": "더 나은 라마가 되어라",
+    "modifier.tconstruct.spitting.description": "도구를 충전하여 탱크에서 액체 발사체를 발사하고, 대상에게 효과를 적용할 수 있습니다. 활 통계에 영향을 받습니다.",
+
+    "modifier.tconstruct.boundless": "무한",
+    "modifier.tconstruct.boundless.flavor": "한계를 넘어서",
+    "modifier.tconstruct.boundless.description": "어떤 것으로부터든 최대 보호 비율을 증가시킵니다.",
+
+    "modifier.tconstruct.swift_sneak": "신속한 잠행",
+    "modifier.tconstruct.swift_sneak.flavor": "웅크리지만 더 빠르게!",
+    "modifier.tconstruct.swift_sneak.description": "앉은 상태에서 이동 속도를 증가시킵니다.",
+
+    "modifier.tconstruct.trim": "갑옷 장식",
+    "modifier.tconstruct.trim.formatted": "%s (%s)",
+    "modifier.tconstruct.trim.flavor": "복잡한 디테일!",
+    "modifier.tconstruct.trim.description": "비싼 패턴을 사용하여 방어구에 추가 장식을 합니다.",
+
+    "modifier.tconstruct.smelting": "제련",
+    "modifier.tconstruct.smelting.flavor": "맛있는 바삭한 베이컨",
+    "modifier.tconstruct.smelting.description": "도구를 사용하면 내부의 아이템이 요리됩니다! 상호작용하면서 앉으면 도구에 아이템을 채울 수 있습니다.",
+
+    "pattern.tconstruct.adze_head": "삽 머리",
+    "pattern.tconstruct.tough_binding": "두꺼운 줄",
+    "pattern.tconstruct.maille": "사슬갑옷",
+    "pattern.tconstruct.shield_core": "방패 코어",
+    "pattern.tconstruct.plating": "판",
+    "pattern.tconstruct.helmet_plating": "투구 판",
+    "pattern.tconstruct.chestplate_plating": "흉갑 판",
+    "pattern.tconstruct.leggings_plating": "레깅스 판",
+    "pattern.tconstruct.boots_plating": "부츠 판",
+	
+	"effect.tconstruct.pierce": "관통당함",
+	"effect.tconstruct.momentum_harvest": "가속도",
+	"effect.tconstruct.momentum_armor": "반복적",
+	"effect.tconstruct.insatiable_melee": "갈망",
+	"effect.tconstruct.insatiable_ranged": "갈망",
+	"effect.tconstruct.insatiable_armor": "운동성"
+}

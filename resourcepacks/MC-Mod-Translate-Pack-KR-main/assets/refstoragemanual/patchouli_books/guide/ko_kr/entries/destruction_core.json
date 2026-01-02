@@ -1,0 +1,23 @@
+{
+"name": "파괴 코어",
+"category": "refstoragemanual:processors_and_upgrades",
+"icon": "refinedstorage:destruction_core",
+"pages": [
+{
+"type": "text",
+"text": "파괴 코어는 세상에서 블록과 아이템을 부수거나 수집하는 장치에 사용되는 특수 구성 요소입니다. 블록 부수기 및 수집과 관련된 자동화에 필수적입니다."
+},
+{
+"type": "text",
+"text": "특징:$(li)파괴기 장치에서 사용$(li)블록 파괴 자동화 활성화$(li)자동 채굴에 필요$(li)고급 수집 시스템의 일부"
+},
+{
+"type": "text",
+"text": "사용법:$(li)자동화를 위한 파괴기 제작$(li)자동 블록 파괴 활성화$(li)자동 수확 시스템의 일부$(li)채굴 자동화에 사용"
+},
+{
+"type": "crafting",
+"recipe": "refinedstorage:destruction_core"
+}
+]
+}

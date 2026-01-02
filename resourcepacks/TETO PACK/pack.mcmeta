@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Resource Pack for Kasane Teto san",
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      66
+    ]
+  }
+}

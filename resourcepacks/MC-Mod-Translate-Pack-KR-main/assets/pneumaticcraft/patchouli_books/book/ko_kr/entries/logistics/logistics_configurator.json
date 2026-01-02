@@ -1,0 +1,22 @@
+{
+  "name": "물류 설정기",
+  "icon": "pneumaticcraft:logistics_configurator",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)물류 설정기/$의 주된 목적은 $(l:logistics/overview)물류 시스템/$ 구성을 돕는 것입니다.$(p)$(l:logistics/frames)물류 프레임/$을 $(thing)우클릭/$하면 다양한 필터를 구성할 수 있습니다.$(p)$(thing)웅크리고 우클릭/$하면 부착된 인벤토리에서 프레임을 제거합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:logistics_configurator",
+      "text": "$(item)물류 설정기/$는 $(l:semiblocks/transfer_gadget)전송 장치/$나 $(l:semiblocks/crop_support)작물 지지대/$와 같은 다른 부착형 장치를 제거($(thing)웅크리고 우클릭/$)하는 데에도 사용할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "물류 설정기 제작",
+      "recipe": "pneumaticcraft:logistics_configurator"
+    }
+  ]
+}

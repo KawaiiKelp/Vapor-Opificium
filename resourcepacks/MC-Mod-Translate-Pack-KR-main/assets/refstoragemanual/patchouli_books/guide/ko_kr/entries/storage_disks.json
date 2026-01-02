@@ -1,0 +1,35 @@
+{
+"name" : "저장 디스크",
+"icon" : "refinedstorage:64k_storage_disk",
+"category" : "refstoragemanual:disks_and_drives",
+"pages" : [
+{
+"type" : "text",
+"text" : "저장 디스크는 $(l:disk_drive)디스크 드라이브$()에 삽입하여 네트워크에 저장 용량을 제공하는 휴대용 저장 장치입니다. 이러한 디스크는 모든 Refined Storage 시스템의 필수 구성 요소로, 다양한 요구 사항을 충족하는 다양한 저장 계층을 제공합니다. 저장 블록과 마찬가지로, 월드에 드롭되어도 사라지지 않습니다."
+},
+{
+"type" : "text",
+"text" : "저장 디스크는 Shift 키를 누른 채 마우스 오른쪽 버튼을 클릭하면 제작이 해제됩니다. $(br)$(li)해당 저장 부품$(li)저장공간 하우징$(br2)디스크 드라이브에 삽입하면 네트워크에서 디스크의 저장 용량에 접근할 수 있습니다. 하나의 드라이브에 여러 개의 디스크를 사용하여 저장 용량을 확장할 수 있습니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:1k_storage_disk",
+"text" : "1k 저장 디스크 - 아이템 1,000개를 저장할 수 있습니다. 1k 저장 부품과 저장공간 하우징을 결합합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:4k_storage_disk",
+"text" : "4k 저장 디스크 - 아이템 4,000개를 저장할 수 있습니다. 4k 저장 부품과 저장공간 하우징을 결합합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:16k_storage_disk",
+"text" : "16k 저장 디스크 - 아이템 16,000개를 저장할 수 있습니다. 16k 저장 부품과 저장공간 하우징을 결합합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:64k_storage_disk",
+"text" : "64k 저장 디스크 - 아이템 64,000개를 저장할 수 있습니다. 64k 저장 부품과 저장공간 하우징을 결합합니다."
+}
+]
+}

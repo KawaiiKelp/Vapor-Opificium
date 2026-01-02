@@ -1,0 +1,16 @@
+{
+"name" : "처리되지 않은 강화 프로세서",
+"icon" : "refinedstorage:raw_improved_processor",
+"category" : "refstoragemanual:processors_and_upgrades",
+"pages" : [
+{
+"type" : "text",
+"text" : "처리되지 않은 강화 프로세서는 처리되지 않은 부품으로, 용광로에서 제련하여 강화 프로세서를 만들어야 합니다. 이 중간 조립품은 실리콘, 레드스톤, 금을 결합하여 구성되었으며, 제대로 제련하면 중간 등급의 Refined Storage에 필요한 향상된 컴퓨팅 성능을 제공합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:raw_improved_processor",
+"text" : "처리되지 않은 강화 프로세서 제작 레시피."
+}
+]
+}

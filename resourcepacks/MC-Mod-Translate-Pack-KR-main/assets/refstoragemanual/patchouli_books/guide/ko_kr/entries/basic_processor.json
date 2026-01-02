@@ -1,0 +1,23 @@
+{
+"name" : "기본 프로세서",
+"icon" : "refinedstorage:basic_processor",
+"category" : "refstoragemanual:processors_and_upgrades",
+"pages" : [
+{
+"type" : "text",
+"text" : "기본 프로세서는 기본적인 Refined Storage 장치를 제작하는 데 사용되는 보급형 프로세서입니다. 이는 더욱 발전된 프로세서와 구성 요소의 기반입니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)기본 장치 제작에 사용$(li)초기 게임 자동화에 필요$(li)저장소 및 네트워크 구성 요소에 사용$(li)향상된 프로세서로 업그레이드 가능"
+},
+{
+"type" : "text",
+"text" : "기본 프로세서 제작 방법:$(li)먼저 기본 프로세서를 제작합니다$(li)기본 프로세서를 용광로에서 제련합니다$(li)프로세서 결합과 결합합니다$(li)기본 자원이 필요합니다"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:basic_processor"
+}
+]
+}

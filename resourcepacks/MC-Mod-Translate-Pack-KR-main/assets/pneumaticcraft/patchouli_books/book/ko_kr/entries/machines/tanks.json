@@ -1,0 +1,39 @@
+{
+  "name": "탱크",
+  "icon": "pneumaticcraft:small_tank",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "네 가지 유체 저장 탱크가 있으며, 이름은 창의적이게도 $(item)소형 탱크/$, $(item)중형 탱크/$, $(item)대형 탱크/$, $(item)대왕 탱크/$입니다. $(l:machines/liquid_hopper)액체 호퍼/$도 유체 저장에 적합하지만, 이 탱크들은 더 밀도 높은 저장과 유용한 스태킹 기능을 제공하며, 유체를 자동으로 전송하지 않습니다($(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$가 추가되면 유체를 밀어낼 수는 있음)."
+    },
+    {
+      "type": "text",
+      "title": "쌓기",
+      "text": "네 가지 유형의 탱크 모두 서로 수직으로 $(thing)쌓을/$ 수 있으며 일종의 멀티블록을 형성할 수 있습니다. 이렇게 하려면 $(l:tools/pneumatic_wrench)렌치/$로 탱크를 우클릭하세요. 위쪽 절반을 렌치로 클릭하면 위의 탱크와 결합을 시도하고, 아래쪽 절반은 아래의 탱크와 결합을 시도합니다.$(p)탱크가 쌓이면 $(ttcolor)$(t:유체의 밀도가 0보다 작으면 아래가 아니라 위로 이동합니다)더 높은 탱크/$의 유체는 공간이 있다고 가정할 때 자동으로 더 낮은 탱크로 흐릅니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/small_tanks.png"
+      ],
+      "border": "true",
+      "text": "세 개 쌓인 소형 탱크"
+    },
+    {
+      "type": "text",
+      "text": "여기에는 몇 가지 제한 사항이 있습니다:$(li)두 탱크를 결합하려면 둘 다 같은 유체(또는 유체 없음)를 포함해야 하거나 탱크 중 하나가 비어 있어야 합니다$(li)유체는 위로 이동하지 $(italic)않습니다/$. 따라서 최상의 결과를 얻으려면 유체를 스택의 맨 위 탱크로 펌핑하고 맨 아래 탱크에서 펌핑해야 합니다$(li)탱크 GUI는 우클릭한 탱크의 유체 양만 표시합니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:small_tank",
+      "recipe2": "pneumaticcraft:medium_tank"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:large_tank",
+      "recipe2": "pneumaticcraft:huge_tank"
+    }
+  ]
+}

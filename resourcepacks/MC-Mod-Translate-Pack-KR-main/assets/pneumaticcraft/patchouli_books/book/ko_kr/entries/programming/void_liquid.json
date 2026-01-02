@@ -1,0 +1,19 @@
+{
+  "name": "유체 무효화 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/void_fluid_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:programming/void_item)아이템 무효화 위젯/$과 마찬가지로, 이것은 드론 탱크의 유체를 즉시 영구적으로 파괴합니다 - 조심하세요! $(l:programming/liquid_filter)유체 필터/$와 함께 사용하는 것이 매우 강력히 권장됩니다. 필터가 있으면 필터에서 허용하는 유체만 무효화됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/void_fluid_piece.png"
+      ],
+      "text": "$(italic)다 말랐어/$"
+    }
+  ]
+}

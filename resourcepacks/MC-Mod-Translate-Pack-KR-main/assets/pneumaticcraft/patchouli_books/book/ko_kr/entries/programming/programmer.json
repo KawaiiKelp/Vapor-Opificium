@@ -1,0 +1,84 @@
+{
+  "name": "프로그래머",
+  "icon": "pneumaticcraft:programmer",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)프로그래머/$는 시각적 프로그래밍 시스템을 사용하여 $(l:tools/drone)드론/$을 프로그래밍하는 데 사용되는 기계입니다. 프로그래밍 GUI에서 $(l:programming/puzzle_pieces)퍼즐 조각/$을 조립하여 프로그램을 만듭니다. $(thing)프로그래머/$는 작동에 $(l:base_concepts/pressure)압력/$이 필요하지 않습니다. $(thing)프로그래밍/$ 카테고리의 나머지 부분에는 드론 프로그램을 작성하는 방법에 대한 훨씬 더 많은 정보가 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "프로그래머 조합법",
+      "recipe": "pneumaticcraft:programmer"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/programmer_gui.png"
+      ],
+      "text": "$(italic)프로그래머 GUI: 각 섹션에 대한 정보는 다음 페이지를 참조하십시오./$"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)1. 메인 프로그래밍 영역/$$(p)이 영역은 실제 프로그램이 구축되는 곳입니다. 위젯은 $(thing)위젯 트레이(2번 영역)/$에서 이곳으로 드래그되어 프로그램이 되도록 '스냅' 방식으로 조립됩니다.$(p)마우스 휠이나 오른쪽 스크롤 막대를 사용하여 프로그래밍 영역을 확대/축소할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)2. 위젯 트레이/$$(p)이 영역에는 프로그램을 구성하는 데 사용할 위젯이 있습니다. 표시되는 것보다 더 많은 위젯이 포함되어 있습니다. 트레이 아래의 화살표 버튼으로 페이지를 순환하거나 $(thing)Space/$ 또는 $(thing)Tab/$ 키로 트레이를 확장하여 모든 위젯을 표시할 수 있습니다.$(p)확장되면 트레이 상단에 위젯 검색을 위한 필터 문자열을 입력할 수 있는 텍스트 필드도 표시됩니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)3. 드론 슬롯/$$(p)프로그래밍할 $(l:tools/drone)드론/$ (또는 $(l:components/network_components)네트워크 저장소/API/$)을 여기에 놓습니다. 드론을 프로그래밍할 준비가 되면 $(thing)⟶/$ 버튼을 눌러 프로그램을 작성합니다. 원할 경우 왼쪽 텍스트 필드를 사용하여 드론 이름을 지정할 수 있습니다. 성공하면 소리 피드백이 들립니다.$(p)또한 $(thing)⟵/$ 버튼을 사용하여 드론 (또는 네트워크 저장소/API)에서 프로그램을 가져올 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)4. 난이도 선택/$$(p)이 라디오 버튼은 트레이에서 사용할 수 있는 프로그래밍 위젯을 제어합니다. 또한 $(l:programming/coordinate_operator)변수/$와 같은 일부 고급 기능을 활성화/비활성화합니다.$(p)$(bold)5. 플레이어 인벤토리/$$(p)플레이어 자신의 인벤토리입니다. $(l:tools/gps_tool)GPS 도구/$ 또는 $(l:tools/gps_area_tool)GPS 영역 도구/$를 가지고 있는 경우, $(l:programming/area)영역/$ 또는 $(l:programming/coordinate)좌표/$ 위젯을 클릭하여 설정을 위젯으로 전송할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)6. 탐색 및 표시 옵션/$$(p)이 버튼을 사용하여 다음 작업을 수행할 수 있습니다. $(li)프로그램의 $(l:programming/start)시작/$ 위젯으로 이동$(li)마지막으로 배치한 위젯으로 이동$(li)각 위젯의 추가 정보 표시 전환$(li)$(l:programming/jump)점프/$ 위젯과 $(l:programming/label)레이블/$ 위젯 사이의 연결선 표시 전환"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)7. 기타 버튼/$$(p)GUI의 왼쪽 가장자리를 따라 있는 버튼은 (순서대로) 다음을 허용합니다. $(li)최대 20개 작업의 $(thing)실행 취소/$$ (Undo)$(li)이전 실행 취소 작업의 $(thing)다시 실행/$$ (Redo)$(li)프로그램을 JSON 파일로 $(l:https://pastebin.com)pastebin.com/$에 $(thing)가져오기 또는 내보내기/$$ (Pastebin 로그인 선택 사항)$(li)전체 프로그램을 $(thing)삭제/$$ (취소 가능)$(li)프로그램을 $(thing)상대/$$ 좌표로 $(thing)변환/$$ (자세한 내용은 $(l:programming/programmer#convert_relative)이 페이지/$ 참조)"
+    },
+    {
+      "type": "text",
+      "anchor": "ids",
+      "title": "프로그램 위젯 ID",
+      "text": "$(thing)F3+H/$를 사용하여 확장된 툴팁 정보를 토글하면, 각 프로그래밍 위젯의 툴팁 끝에 내부 위젯 ID도 포함되어 있음을 알 수 있습니다. 이는 $(l:machines/drone_interface)드론 인터페이스/$로 드론 프로그래밍을 할 때 주로 유용합니다. 드론 인터페이스의 $(thing)setAction()/$ Lua 메서드는 이 ID( $(thing)pneumaticcraft:/$ 접두사는 선택 사항)를 매개변수로 사용합니다."
+    },
+    {
+      "type": "text",
+      "title": "프로그램 공유",
+      "text": "다른 플레이어와 프로그램을 공유하고 싶다면 다음과 같은 몇 가지 옵션이 있습니다. $(li)$(thing)Pastebin/$ 버튼을 사용하여 프로그램을 $(l:https://pastebin.com)pastebin.com/$에 내보낼 수 있습니다.$(li)$(thing)Pastebin/$ GUI는 복사 및 붙여넣기를 위해 프로그램을 클립보드에 작성하는 것도 허용합니다.$(li)프로그램을 $(l:tools/drone)드론/$ 또는 $(l:components/network_components)네트워크 저장소/네트워크 API/$에 저장하고 해당 아이템을 서버의 다른 플레이어에게 줄 수 있습니다."
+    },
+    {
+      "type": "text",
+      "anchor": "convert_relative",
+      "title": "상대 좌표로 변환",
+      "text": "자동 농장을 실행하는 프로그램을 설계했고 이를 공유하고 싶다고 가정해 봅시다. 다른 세계의 사람들은 농장이 다른 좌표에 있을 것이므로, 그들은 모든 $(l:programming/area)영역/$ 위젯을 변경해야 할 것입니다. 정말 귀찮은 일입니다.$(p)$(thing)상대 좌표로 변환/$ 버튼을 사용하면 이 작업이 더 쉬워집니다. 또한 프로그램 변환에 필요한 작업을 나타내는 툴팁을 제공합니다."
+    },
+    {
+      "type": "text",
+      "anchor": "convert_relative",
+      "title": "상대 좌표로 변환 (계속)",
+      "text": "고정된 $(l:programming/coordinate_operator)좌표 연산자/$ 위젯 하나와 $(thing)기준 위치/$ (예: 입력 상자의 위치)가 포함된 $(l:programming/coordinate)좌표/$ 위젯이 필요합니다. 그런 다음 프로그램에서 사용된 모든 절대 위치(영역 또는 좌표)를 해당 기준 위치에 대한 상대 좌표로 변환합니다.$(p)이제 프로그램 사용자는 단 하나의 좌표만 조정하면 프로그램을 사용할 수 있습니다!"
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "anchor": "jei",
+      "title": "JEI 연동",
+      "text": "JEI가 설치되어 있으면 프로그래머 GUI가 열려 있는 동안 JEI 조합법 디스플레이를 열 경우 '+' (아이템 이동) 버튼이 표시됩니다. 이 버튼을 클릭하면 조합법의 각 입력 아이템에 대한 $(l:programming/item_filter)아이템 필터/$ 위젯이 추가됩니다. 프로그래밍 영역에 아이템 필터가 연결되지 않은 $(l:programming/crafting)조합/$ 위젯이 있는 경우, 조합법을 빠르고 쉽게 설정할 수 있도록 조합 위젯에 아이템 필터가 추가됩니다. 그렇지 않은 경우, 프로그래밍 영역의 왼쪽 상단에 한 줄로 추가됩니다."
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "title": "JEI 연동 (계속)",
+      "text": "기본적으로 고유한 아이템 유형당 하나의 아이템 필터만 추가됩니다 (예: $(item)돌 반 블록/$ 조합법의 경우 $(item)돌/$ 필터는 3개가 아닌 1개만 생성됩니다). 위젯은 마우스 중간 버튼을 클릭하고 드래그하여 복사할 수 있다는 것을 기억하십시오. 조합법의 중복을 포함하여 모든 아이템에 대한 아이템 필터를 추가하려면 JEI에서 '+' 버튼을 클릭할 때 Shift 키를 누르십시오."
+    }
+  ]
+}

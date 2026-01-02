@@ -1,0 +1,45 @@
+{
+  "name": "경비 드론",
+  "icon": "pneumaticcraft:guard_drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_chamber",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)경비 드론/$은 인벤토리 블록에 맞대어 배치해야 하는 특수 비프로그래밍 유형의 $(l:tools/drone)드론/$입니다. 무기로 사용할 아이템 하나를 가져와 범위 내의 몹을 공격합니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "자동 충전",
+      "item": "pneumaticcraft:charging_station",
+      "text": "모든 유형의 드론과 마찬가지로 이 드론도 작동하려면 $(l:base_concepts/pressure)압력/$이 필요하며, 공기가 부족하면 자동으로 $(l:tools/drone#charging)발사기 업그레이드가 있는 충전소/$를 찾아갑니다."
+    },
+    {
+      "type": "text",
+      "title": "범위",
+      "text": "$(thing)경비 드론/$은 배치 위치에서 수평으로 16블록, 위로 8블록, 아래로 5블록 이내의 적대적인 몹을 목표로 삼습니다.$(p)수직 범위가 더 작은 이유는 깊은 지하 동굴에 있는 몹을 감지하고 순간이동하여 공기를 낭비하고 드론이 어디로 갔는지 궁금해하게 만드는 것을 최소화하기 위함입니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "무기",
+      "item": "minecraft:netherite_sword",
+      "text": "$(thing)경비 드론/$은 인벤토리에 무엇이 있는지 신경 쓰지 않으므로 유용한 근접 무기를 넣어두도록 주의하세요. 무기가 부서졌는데 인벤토리에 교체품이 없으면 드론은 맨손으로 계속 싸울 것이며, 이는 매우 비효율적입니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "원거리 전투",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "드론은 대안으로 $(l:base_concepts/upgrades#minigun)미니건 업그레이드/$를 장착할 수 있으며, 이 경우 인벤토리에 대신 $(l:tools/minigun_ammo)미니건 탄약/$을 추가해야 합니다."
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:guard_drone",
+      "offset": -0.3
+    },
+    {
+      "type": "crafting",
+      "text": "경비 드론 제작",
+      "recipe": "pneumaticcraft:guard_drone"
+    }
+  ]
+}

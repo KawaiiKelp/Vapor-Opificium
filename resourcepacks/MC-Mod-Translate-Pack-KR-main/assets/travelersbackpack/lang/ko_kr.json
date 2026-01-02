@@ -1,0 +1,13 @@
+{
+   "screen.travelersbackpack.unsortable": "선택 모드로 전환\n§7슬롯을 선택하여 정렬의 영향을 받지 않게 할 수 있습니다\n§7슬롯을 선택하려면 마우스 왼쪽 버튼을 클릭하세요\n§7슬롯 선택을 취소하려면 마우스 오른쪽 버튼을 클릭하세요",
+   "screen.travelersbackpack.memory": "선택 모드로 전환\n§7아이템이 있는 슬롯 선택하여 예약할 수 있습니다\n§7슬롯을 선택하려면 마우스 왼쪽 버튼을 클릭하세요\n§7슬롯 선택을 취소하려면 마우스 오른쪽 버튼을 클릭하세요",
+   "screen.travelersbackpack.crafting": "제작대",
+   "screen.travelersbackpack.crafting_to_backpack": "쉬프트 클릭 시 배낭으로 이동",
+   "screen.travelersbackpack.crafting_to_player": "쉬프트 클릭 시 플레이어의 인벤토리로 이동",
+   "item.travelersbackpack.inventory_tooltip": "인벤토리를 보려면 <Ctrl>을 누르세요",
+   "item.travelersbackpack.crafting_upgrade": "제작대 업그레이드",
+   "item.travelersbackpack.blank_upgrade_tooltip": "기본 설정으로 재설정하려면 배치된 배낭을 Shift 클릭하세요\n탱크의 과도한 액체를 제거하고 배낭 주변에 아이템과 업그레이드를 분산시킵니다",
+   "item.travelersbackpack.tier_upgrade_tooltip": "대장장이 작업대에서 가죽을 템플릿으로 사용하고 %s 등급 여행자 배낭과 결합하여 업그레이드를 적용하세요",
+   "item.travelersbackpack.crafting_upgrade_tooltip": "배낭용 크래프팅 그리드를 제공합니다\n대장장이 작업대에서 가죽을 템플릿으로 사용하고 %s 등급 여행자 배낭과 결합하여 업그레이드를 적용하세요",
+   "item.travelersbackpack.upgrade_disabled": "§4구성 옵션으로 인해 업그레이드가 비활성화되었습니다"
+ }

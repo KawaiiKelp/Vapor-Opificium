@@ -1,0 +1,21 @@
+{
+  "name": "스마트 상자 업그레이드 키트",
+  "icon": "pneumaticcraft:smart_chest_kit",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)스마트 상자 업그레이드 키트/$는 나무 상자나 $(l:machines/reinforced_chest)보강된 상자/$를 제자리에서 상자의 아이템을 유지한 채 $(l:machines/smart_chest)스마트 상자/$로 업그레이드할 수 있는 편리한 도구입니다. 유효한 상자에 업그레이드 키트를 대고 $(thing)웅크리고 우클릭/$하여 업그레이드하세요."
+    },
+    {
+      "type": "text",
+      "text": "$(p)참고: $(item)보강된 상자/$에 사용하면 보강된 상자를 아이템으로 돌려받습니다. $(item)나무 상자/$에 사용하면 그 상자를 아이템으로 돌려받습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "스마트 상자 업그레이드 키트 제작.$(p)스마트 상자는 완전히 비어 있고 설정되지 않은 상태여야 합니다.",
+      "recipe": "pneumaticcraft:smart_chest_kit"
+    }
+  ]
+}

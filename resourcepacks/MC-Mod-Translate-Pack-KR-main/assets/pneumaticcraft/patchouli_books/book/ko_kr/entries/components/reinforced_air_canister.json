@@ -1,0 +1,21 @@
+{
+  "name": "강화된 공기 저장용기",
+  "icon": "pneumaticcraft:reinforced_air_canister",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "동생격인 $(l:components/air_canister)공기 저장용기/$와 마찬가지로 $(thing)강화된 공기 저장용기/$는 공기를 담고 $(l:machines/charging_station)충전소/$에서 충전 및 방전할 수 있습니다. 하지만 6000mL로 용량이 증가했으며 20 bar까지 충전할 수 있습니다(폭발하지 않음)."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)강화된 공기 저장용기/$의 흥미로운 용도는 상자와 같은 인벤토리 및 $(l:tubes/charging_module)충전 모듈/$이 있는 $(l:tubes/pressure_tubes)압력 튜브/$와 함께 대용량 공기 저장 장치로 사용하는 것입니다. $(l:machines/aerial_interface)공중 인터페이스/$와 (바닐라) $(thing)엔더 상자/$를 사용하면 더욱 흥미로워질 수 있습니다..."
+    },
+    {
+      "type": "crafting",
+      "text": "강화된 공기 저장용기 제작",
+      "recipe": "pneumaticcraft:reinforced_air_canister"
+    }
+  ]
+}

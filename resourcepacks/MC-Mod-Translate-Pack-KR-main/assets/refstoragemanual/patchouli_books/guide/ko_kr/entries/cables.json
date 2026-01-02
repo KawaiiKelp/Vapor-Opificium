@@ -1,0 +1,17 @@
+{
+"name" : "케이블",
+"icon" : "refinedstorage:cable",
+"category" : "refstoragemanual:networking",
+"pages" : [
+{
+"type" : "text",
+"text" : "케이블은 Refined Storage 네트워크에서 장치를 컨트롤러에 연결하는 데 필수적입니다. 장치를 서로 인접하게 배치하면 직접 연결할 수 있지만, 케이블은 네트워크 설계에 유연성을 제공하여 더 먼 거리와 장애물을 피해 연결을 확장할 수 있습니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:cable",
+"text" : "제작 레시피."
+}
+
+]
+}

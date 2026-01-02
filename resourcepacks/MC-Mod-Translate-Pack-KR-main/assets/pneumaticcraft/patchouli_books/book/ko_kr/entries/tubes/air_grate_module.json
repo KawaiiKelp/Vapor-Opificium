@@ -1,0 +1,36 @@
+{
+  "name": "공기 격자 모듈",
+  "icon": "pneumaticcraft:air_grate_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 모듈은 엔티티를 모듈로 끌어당기거나 밀어내는 데 사용됩니다. $(l:base_concepts/pressure)양압/$일 때 튜브는 엔티티를 날려 보내고, $(thing)부압/$일 때 엔티티를 자신 쪽으로 빨아들입니다. 부압은 $(l:machines/vacuum_pump)진공 펌프/$로 얻을 수 있습니다. 아이템 엔티티가 충분히 가까워지면 화로와 같은 측면 인벤토리를 존중하여 인접한 인벤토리에 자동으로 삽입됩니다."
+    },
+    {
+      "type": "text",
+      "text": "모듈의 범위는 다음 공식으로 표현할 수 있습니다:$(p)양압일 때:$(p)  $(#272)범위 = 4 x 압력 (bar)/$$(p)부압일 때:$(p)  $(#272)범위 = -16 x 압력 (bar)/$$(p)예: 2 bar에서는 4x2=8블록에서 밀어냅니다. -0.5 bar에서는 -16x-0.5=8블록에서 끌어당깁니다."
+    },
+    {
+      "type": "text",
+      "text": "공기 격자는 향하고 있는 방향의 입방체 영역에 있는 엔티티에만 영향을 미칩니다. 또한 모듈은 엔티티와 시야가 확보되어 있어야 합니다.$(p)모듈을 우클릭하면 몇 초 동안 영향을 받는 범위를 표시할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "방열판 냉각",
+      "anchor": "active_cooling",
+      "text": "공기 격자 모듈은 $(l:machines/heat_sink)방열판/$을 능동적으로 냉각하는 데에도 사용할 수 있습니다. 방열판이 냉각되는 범위는 공기 격자 앞의 3x3x3 큐브입니다. 이 범위는 모듈을 배치할 때 시각화됩니다.$(p)공기 격자는 범위가 3블록 이상(즉, 0.75 bar)일 때만 방열판을 냉각합니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "$(l:tubes/module_expansion_card)모듈 확장 카드/$를 적용하면 모듈에 영향을 받는 엔티티를 제어할 수 있습니다.$(p)예를 들어, 특정 플레이어만 영향을 받거나, 크리퍼만, 또는 아이템만 영향을 받도록 설정할 수 있습니다. 업그레이드된 모듈을 우클릭하여 $(l:base_concepts/entity_filter)엔티티 필터/$를 정의할 수 있는 GUI를 열어 수행할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "공기 격자 모듈 제작",
+      "recipe": "pneumaticcraft:air_grate_module"
+    }
+  ]
+}

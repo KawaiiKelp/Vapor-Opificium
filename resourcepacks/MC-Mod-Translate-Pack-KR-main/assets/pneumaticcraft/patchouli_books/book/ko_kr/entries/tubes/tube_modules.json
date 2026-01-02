@@ -1,0 +1,34 @@
+{
+  "name": "튜브 모듈",
+  "icon": "minecraft:book",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)튜브 모듈/$은 $(l:tubes/pressure_tubes)압력 튜브/$의 측면이나 튜브와 $(thing)인라인/$으로 부착할 수 있는 구성 요소입니다.$(p)부착된 모듈은 $(l:tools/pneumatic_wrench)공압 렌치/$로 $(thing)웅크리고 우클릭/$하여 제거할 수 있습니다."
+    },
+    {
+      "anchor": "inline",
+      "type": "text",
+      "title": "인라인 모듈",
+      "text": "$(thing)인라인 모듈/$은 다음과 같은 점이 조금 특별합니다:$(li)압력 튜브는 인라인 모듈을 하나만 가질 수 있습니다.$(li)인라인 모듈이 있는 압력 튜브에는 다른 모듈을 가질 수 없습니다.$(li)인라인 모듈이 있는 압력 튜브는 두 면(인라인 모듈의 양쪽 끝)에만 연결할 수 있습니다.$(li)인라인 모듈은 압력 튜브의 열린 끝에만 배치할 수 $(italic)있습니다/$."
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:tubes/safety_module",
+        "pneumaticcraft:tubes/pressure_gauge_module",
+        "pneumaticcraft:tubes/flow_detector_module",
+        "pneumaticcraft:tubes/air_grate_module",
+        "pneumaticcraft:tubes/regulator_module",
+        "pneumaticcraft:tubes/charging_module",
+        "pneumaticcraft:tubes/logistics_module",
+        "pneumaticcraft:tubes/redstone_module",
+        "pneumaticcraft:tubes/thermostat_module",
+        "pneumaticcraft:tubes/vacuum_module"
+      ]
+    }
+  ]
+}

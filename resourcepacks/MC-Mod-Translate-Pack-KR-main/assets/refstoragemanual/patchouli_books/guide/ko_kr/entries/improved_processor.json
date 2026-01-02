@@ -1,0 +1,23 @@
+{
+"name" : "강화 프로세서",
+"icon" : "refinedstorage:improved_processor",
+"category" : "refstoragemanual:processors_and_upgrades",
+"pages" : [
+{
+"type" : "text",
+"text" : "강화 프로세서는 중간 단계의 Refined Storage 장치를 제작하는 데 사용되는 중간 계층 프로세서입니다. 기본 프로세서보다 성능이 뛰어나지만 고급 프로세서보다 저렴합니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)중간 장치 제작법에 사용$(li)기본 프로세서보다 효율적$(li)자동화 및 프로세싱 구성 요소에 사용$(li)비용과 성능의 균형"
+},
+{
+"type" : "text",
+"text" : "강화 프로세서 제작 방법:$(li)먼저 처리되지 않은 강화 프로세서를 제작합니다.$(li)처리되지 않은 강화 프로세서를 용광로에서 제련합니다.$(li)프로세서 바인딩과 결합합니다.$(li)적당한 자원이 필요합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:improved_processor"
+}
+]
+}

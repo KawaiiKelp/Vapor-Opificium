@@ -1,0 +1,7 @@
+{
+  "name": "세계 상호작용 위젯",
+  "description": "어떤 방식으로든 세상과 상호작용하는 위젯들입니다.",
+  "icon": "pneumaticcraft:textures/progwidgets/dig_piece.png",
+  "parent": "pneumaticcraft:programming",
+  "sortnum": 2
+}

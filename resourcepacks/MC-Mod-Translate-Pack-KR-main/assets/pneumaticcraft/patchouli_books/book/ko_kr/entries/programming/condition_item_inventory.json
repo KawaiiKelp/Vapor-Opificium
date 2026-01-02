@@ -1,0 +1,19 @@
+{
+  "name": "조건: 아이템 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_item_inventory_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)$(thing)조건: 아이템/$ 위젯은 인벤토리에 특정 양의 아이템이 있는지 확인합니다. 일치하는 모든 아이템(연결된 $(l:programming/item_filter)아이템 필터/$로 지정, 필터를 생략하면 모든 아이템 계산)을 셉니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_item_inventory_piece.png"
+      ],
+      "text": "$(italic)조건: 아이템 위젯/$"
+    }
+  ]
+}

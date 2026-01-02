@@ -1,0 +1,17 @@
+{
+  "name": "모듈 확장 카드",
+  "icon": "pneumaticcraft:module_expansion_card",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)모듈 확장 카드/$는 $(l:tubes/tube_modules)튜브 모듈/$에 부착하여 기능을 다양한 방식으로 향상시킬 수 있는 플러그형 회로 기판입니다. 튜브 모듈에 카드를 $(thing)우클릭/$하여 적용하세요.$(p)모듈이 어떻게 향상되는지에 대한 자세한 내용은 개별 튜브 모듈 페이지를 참조하세요."
+    },
+    {
+      "type": "crafting",
+      "text": "모듈 확장 카드 제작",
+      "recipe": "pneumaticcraft:module_expansion_card"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "태그 작업대",
+  "icon": "pneumaticcraft:tag_workbench",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:logistics_frame",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)태그 작업대/$는 $(item)태그 필터/$를 생산하는 데 사용되며, 이는 $(l:https://minecraft.gamepedia.com/Tag)아이템 태그/$로 아이템을 필터링하는 데 사용됩니다. 예: 필터링 시 모든 원목을 동일한 아이템으로 취급합니다. 태그 필터는 $(l:logistics/frames)물류 프레임/$ 필터뿐만 아니라 드론이 사용하는 $(l:programming/item_filter)아이템 필터/$ 프로그래밍 위젯에도 배치할 수 있으며, 태그 필터 목록의 아이템 태그가 있는 모든 아이템과 일치합니다."
+    },
+    {
+      "type": "text",
+      "title": "사용법",
+      "text": "작업대를 우클릭하여 GUI를 여세요.$(li)맨 왼쪽 슬롯에 아무 아이템이나 넣으세요. 아이템 태그가 있으면 아이템 바로 아래 왼쪽 목록에 표시됩니다.$(li)태그를 더블 클릭(또는 '>' 버튼 클릭)하여 하나 이상 선택하면 오른쪽 목록에 추가됩니다.$(li)가운데 슬롯에 종이를 추가하세요."
+    },
+    {
+      "type": "text",
+      "text": "$(li)깃펜과 책 버튼을 클릭하여 선택한 태그를 쓰세요. 종이 한 장이 사용되고 오른쪽 슬롯에 $(item)태그 필터/$가 생성됩니다.$(p)종이 슬롯은 이전에 작성된 태그 필터도 받습니다. 기존 태그 필터의 태그를 편집하려는 경우 유용할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "태그 작업대 제작",
+      "recipe": "pneumaticcraft:tag_workbench"
+    }
+  ]
+}

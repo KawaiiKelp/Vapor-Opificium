@@ -1,0 +1,17 @@
+{
+  "name": "기계공 주민",
+  "icon": "minecraft:emerald",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "흥미로운 $(pncr) 부품을 취급하는 $(thing)주민/$에 대한 소문을 들었습니다. 듣자하니 $(l:manufacturing/pressure_chamber)압력 챔버/$ 사고에 휘말렸다던가요? 어쨌든, 요즘 그는 마을에 있는 자신의 집에서 지내는 것을 선호합니다. 정 안되면, $(l:machines/charging_station)충전소/$가 직업 없는 주민들을 유혹할 수도 있습니다..."
+    },
+    {
+      "type": "entity",
+      "name": "기계공",
+      "entity": "minecraft:villager{VillagerData:{profession:'pneumaticcraft:mechanic'}}",
+      "text": "$(italic)$(l:tools/amadron_tablet)아마드론/$을 별로 안 좋아합니다/$."
+    }
+  ]
+}

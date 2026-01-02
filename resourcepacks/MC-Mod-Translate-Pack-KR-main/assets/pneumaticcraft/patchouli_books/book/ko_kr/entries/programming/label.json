@@ -1,0 +1,23 @@
+{
+  "name": "레이블 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/label_piece.png",
+  "category": "pneumaticcraft:widget_flow",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 순전히 $(l:programming/flow_control)프로그램 흐름/$에 초점을 맞춥니다. 레이블은 $(l:programming/jump)점프/$ 및 $(l:programming/conditions)조건/$ 위젯이 점프할 수 있는 프로그램의 지점을 정의합니다. 이름을 지정하려면 이 위젯에 $(l:programming/text)텍스트/$ 위젯을 부착해야 합니다. 그러면 해당 이름의 $(thing)텍스트/$ 위젯을 사용하는 모든 점프/조건이 이 레이블로 점프합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(thing)레이블/$ 위젯은 프로그램 흐름에서 $(italic)분기/$를 만들거나($(l:programming/conditions)조건/$을 사용할 때), 명확성을 위해 프로그램 섹션을 서로 옆에 배치하여 정리하는 데 사용할 수 있습니다. 유용한 팁은 $(l:programming/programmer)프로그래머/$ GUI의 왼쪽 하단에 있는 $(bold)흐름 표시/$ 체크박스를 선택하는 것입니다. 그러면 같은 이름의 $(thing)점프/조건/레이블/$ 위젯을 연결하는 선이 표시됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/label_piece.png"
+      ],
+      "text": "$(italic)레이블 위젯/$"
+    }
+  ]
+}

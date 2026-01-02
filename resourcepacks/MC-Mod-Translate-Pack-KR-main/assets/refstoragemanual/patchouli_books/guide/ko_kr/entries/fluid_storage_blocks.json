@@ -1,0 +1,35 @@
+{
+"name" : "액체 저장공간",
+"icon" : "refinedstorage:4096k_fluid_storage_block",
+"category" : "refstoragemanual:fluid_storage",
+"pages" : [
+{
+"type" : "text",
+"text" : "액체 저장공간은 Refined Storage 네트워크의 액체를 위한 전용 저장소를 제공합니다. 아이템과 마찬가지로, 이 블록은 월드에 배치할 수 있으며 파괴해도 내용물이 유지됩니다. 액체 처리 구성 요소와 완벽하게 통합되며, 떨어뜨려도 사라지지 않습니다."
+},
+{
+"type" : "text",
+"text" : "다음 기능이 포함됩니다.$(br)$(li)구성 가능한 우선순위 설정$(li)액체 허용/차단 목록 옵션$(li)NBT 필터링 지원$(li)다중 작동 모드$(br2)$(l:fluid_grid)액체 그리드$()를 사용하여 저장된 액체에 접근하거나 $(l:fluid_interface)액체 인터페이스$()와 같은 액체 처리 구성 요소를 통해 액체를 관리합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:64k_fluid_storage_block",
+"text" : "64k 액체 저장공간 - 64,000mB의 액체 저장"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:256k_fluid_storage_block",
+"text" : "256k 액체 저장공간 - 256,000mB의 액체 저장"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:1024k_fluid_storage_block",
+"text" : "1024k 액체 저장공간 - 1,024,000mB의 액체 저장"
+},
+{
+"type" : "crafting",
+"recipe": "refinedstorage:4096k_fluid_storage_block",
+"text": "4096k 액체 저장공간 - 4,096,000mB의 액체 저장"
+}
+]
+}

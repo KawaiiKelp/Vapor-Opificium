@@ -1,0 +1,38 @@
+{
+    "name": "기초 재료",
+    "icon": "pneumaticcraft:ingot_iron_compressed",
+    "category": "pneumaticcraft:base_concepts",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(pncr)는 땅속에 추가 광물을 생성하지 않습니다. 시작하려면 $(item)철 주괴/$만 있으면 되며, 이를 모드 전반의 많은 조합법에 사용되는 $(item)압축된 철 주괴/$로 변환하게 됩니다.$(p)이렇게 하려면 $(item)철 주괴/$를 땅에 던지고 근처에서 폭발을 일으키세요. $(item)TNT/$면 충분하지만, 다른 폭발도 작동합니다."
+        },
+        {
+            "type": "image",
+            "images": [
+                "pneumaticcraft:textures/patchouli/compressed_iron.png"
+            ],
+            "text": "$(italic)      물러서세요/$"
+        },
+        {
+            "type": "spotlight",
+            "anchor": "compressed_iron_ingot",
+            "item": "pneumaticcraft:ingot_iron_compressed",
+            "text": "경고: 폭발의 부작용으로 주괴의 약 20%를 잃게 됩니다. 이를 방지하려면 $(l:manufacturing/pressure_chamber)압력 챔버/$에서 $(item)압축된 철 주괴/$를 제작할 수도 있습니다. 하지만 $(thing)압력 챔버/$ 자체를 제작하려면 $(item)압축된 철 주괴/$가 필요하므로, 초기의 약간의 손실은 피할 수 없습니다."
+        },
+        {
+            "type": "pneumaticcraft:pressure_chamber",
+            "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_ingot"
+        },
+        {
+            "type": "crafting",
+            "anchor": "compressed_iron_block",
+            "recipe": "pneumaticcraft:compressed_iron_block_from_ingot",
+            "text": "$(item)압축된 철 블록/$은 훌륭한 $(l:base_concepts/heat)열 전도체/$이며 열 생성 기계에 $(l:machines/heat_sink)방열판/$을 부착할 더 많은 면을 제공하는 데 사용할 수 있습니다. 하지만 $(l:machines/heat_pipe)열 파이프/$도 참조하세요."
+        },
+        {
+            "type": "pneumaticcraft:pressure_chamber",
+            "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_block"
+        }
+    ]
+}

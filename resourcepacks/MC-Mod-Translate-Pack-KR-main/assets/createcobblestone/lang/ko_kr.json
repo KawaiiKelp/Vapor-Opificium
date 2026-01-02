@@ -1,0 +1,8 @@
+{
+  "itemGroup.create_cobblestone": "Create Cobblestone",
+
+  "block.createcobblestone.mechanical_generator": "돌 생성기",
+
+  "block.createcobblestone.generators.hovertext.itemprefix": "생성: ",
+  "block.createcobblestone.generators.hovertext.no_item": "생성기 유형을 설정하려면 돌을 들고 생성기를 클릭하세요"
+}

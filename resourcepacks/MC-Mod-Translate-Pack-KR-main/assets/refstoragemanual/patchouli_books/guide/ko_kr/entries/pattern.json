@@ -1,0 +1,17 @@
+{
+"name" : "패턴",
+"icon" : "refinedstorage:pattern",
+"category" : "refstoragemanual:auto_crafting",
+"pages" : [
+{
+"type" : "text",
+"text" : "패턴은 Refined Storage 네트워크 내에서 $(l:autocrafting)자동 제작$()을 설정하는 데 필수적입니다. 패턴은 $(l:pattern_grid)패턴 그리드$()에서 제작 및 프로세싱 레시피를 인코딩하는 데 사용되며, 제작기는 이 레시피를 실행하여 아이템 생산을 자동화합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:pattern",
+"text" : "패턴 제작 레시피."
+}
+
+]
+}

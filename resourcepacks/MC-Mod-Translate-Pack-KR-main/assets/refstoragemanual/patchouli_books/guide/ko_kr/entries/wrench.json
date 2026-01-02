@@ -1,0 +1,16 @@
+{
+"name" : "렌치",
+"icon" : "refinedstorage:wrench",
+"category" : "refstoragemanual:tools_and_utilities",
+"pages" : [
+{
+"type" : "text",
+"text" : "렌치는 Refined Storage 시스템 내에서 블록을 회전하는 데 주로 사용되는 다용도 도구입니다. 또한 특정 블록을 부수지 않고 분해하는 데 사용할 수 있어 저장소 네트워크의 위치를 ​​쉽게 변경하고 재구성할 수 있습니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:wrench",
+"text" : "렌치 제작 레시피."
+}
+]
+}

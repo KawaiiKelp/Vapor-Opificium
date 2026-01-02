@@ -1,0 +1,98 @@
+{
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:item/bundle_filled"
+		}
+	}
+	id: "0CDA8F054659B11C"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "vapor_opificium_mk_8"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 32, item: "minecraft:torch" }
+		{ count: 16, item: "farmersdelight:chicken_sandwich" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gtceu:iron_mining_hammer"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						AoEColumn: 1
+						AoELayer: 0
+						AoERow: 1
+						MaxAoEColumn: 1
+						MaxAoELayer: 0
+						MaxAoERow: 1
+						TorchPlacing: 1b
+					}
+					GT.Tool: {
+						AttackDamage: 3.5f
+						AttackSpeed: -3.2f
+						DefaultEnchantments: [ ]
+						HarvestLevel: 2
+						MaxDamage: 767
+						ToolSpeed: 4.8f
+					}
+					HideFlags: 2
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tconstruct:vein_hammer"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:seared_stone"
+						"tconstruct:seared_stone"
+						"tconstruct:seared_stone"
+						"tconstruct:seared_stone"
+					]
+					tic_modifiers: [
+						{
+							level: 4
+							name: "tconstruct:searing"
+						}
+						{
+							level: 2
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_multipliers: {
+						"tconstruct:attack_damage": 1.25f
+						"tconstruct:durability": 5.0f
+						"tconstruct:mining_speed": 0.3f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 7.2187495f
+						"tconstruct:attack_speed": 0.85f
+						"tconstruct:durability": 956.25f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 2.1450002f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+		}
+	]
+	title: "Vapor Opificium™ 초보자 지원 키트 Mk. 8"
+}

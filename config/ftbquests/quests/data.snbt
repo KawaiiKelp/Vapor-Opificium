@@ -1,0 +1,32 @@
+{
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: "circle"
+	default_reward_team: false
+	detection_delay: 20
+	disable_gui: false
+	drop_book_on_death: false
+	drop_loot_crates: false
+	emergency_items_cooldown: 300
+	grid_scale: 0.5d
+	hide_excluded_quests: false
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "avaritia:item/infinity_catalyst"
+		}
+	}
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
+	pause_game: false
+	progression_mode: "flexible"
+	show_lock_icons: false
+	title: "[\"\",{\"color\":\"#73B9FF\",\"text\":\"V\"},{\"color\":\"#6CB3FC\",\"text\":\"a\"},{\"color\":\"#65ADF8\",\"text\":\"p\"},{\"color\":\"#5DA6F5\",\"text\":\"o\"},{\"color\":\"#56A0F1\",\"text\":\"r \"},{\"color\":\"#4F9AEE\",\"text\":\"O\"},{\"color\":\"#4894EA\",\"text\":\"p\"},{\"color\":\"#418EE7\",\"text\":\"i\"},{\"color\":\"#3987E4\",\"text\":\"f\"},{\"color\":\"#3281E0\",\"text\":\"i\"},{\"color\":\"#2B7BDD\",\"text\":\"c\"},{\"color\":\"#2475D9\",\"text\":\"i\"},{\"color\":\"#1C6ED6\",\"text\":\"u\"},{\"color\":\"#0E62CF\",\"text\":\"m\"}]"
+	version: 13
+}

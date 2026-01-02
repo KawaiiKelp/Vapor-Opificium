@@ -1,0 +1,26 @@
+{
+  "name": "자외선 노출 상자",
+  "icon": "pneumaticcraft:uv_light_box",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pcb_blueprint",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)자외선 노출 상자/$는 특정 위치(PCB 위에 놓인 $(l:components/pcb_blueprint)청사진/$에 의해 결정됨)에서 $(l:components/pcb)PCB/$를 자외선에 노출시킬 수 있는 기계입니다.$(p)노출 과정은 최대 10분이 걸립니다. 기계에 $(l:base_concepts/upgrades#speed)속도 업그레이드/$를 추가하면 더 적게 걸립니다."
+    },
+    {
+      "type": "text",
+      "text": "10분이 지나면 $(item)PCB/$가 $(l:manufacturing/etching_acid)식각 산/$에서 100% 성공적으로 식각될 확률을 갖게 됩니다. 하지만 PCB를 더 짧은 시간 동안 노출시킬 수도 있으며, 그러면 PCB가 성공적으로 식각될 확률이 낮아집니다.$(p)노출 진행은 전체 진행률이 낮을 때 더 빠르고 끝으로 갈수록 느려집니다."
+    },
+    {
+      "type": "text",
+      "title": "임계값 자동화",
+      "text": "GUI 슬라이더를 통해 완료 임계값을 수동으로 조정할 수 있지만, 레드스톤 신호를 통해서도 설정할 수 있습니다. 레드스톤 모드를 $(thing)임계값 보간/$으로 설정하세요. 이 모드에서 임계값은 25% + 신호 레벨당 5%로 고정됩니다(단, 신호 0은 기계를 비활성화하므로 실제로는 30%-100%).$(p)한 번에 많은 노출 상자의 임계값을 설정하려는 경우 편리할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "자외선 노출 상자 제작",
+      "recipe": "pneumaticcraft:uv_light_box"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+"name" : "중계기",
+"icon" : "refinedstorage:relay",
+"category" : "refstoragemanual:networking",
+"pages" : [
+{
+"type" : "text",
+"text" : "중계기는 $(l:cable)케이블$()와 유사한 기능을 하지만, 레드스톤 신호를 기반으로 연결된 장치의 전원 상태를 제어할 수 있는 기능이 추가되었습니다. 이를 통해 필요에 따라 장치를 활성화하거나 비활성화하여 네트워크를 더욱 효과적으로 제어할 수 있습니다. 중계기는 Refined Storage 시스템 내에서 전력 흐름을 관리하는 데 필수적인 구성 요소입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:relay",
+"text" : "중계기 제작 레시피."
+}
+]
+}

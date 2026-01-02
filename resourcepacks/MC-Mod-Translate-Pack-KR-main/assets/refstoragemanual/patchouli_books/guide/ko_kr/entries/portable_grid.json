@@ -1,0 +1,23 @@
+{
+"name" : "휴대용 그리드",
+"icon" : "refinedstorage:portable_grid",
+"category" : "refstoragemanual:tools_and_utilities",
+"pages" : [
+{
+"type" : "text",
+"text" : "휴대용 그리드는 어디서든 스토리지 네트워크에 접속할 수 있는 휴대용 그리드 버전입니다. 작동하려면 네트워크 카드가 필요합니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)저장소 네트워크에 대한 휴대용 액세스$(li)일반 그리드의 모든 기능$(li)네트워크 카드 필요$(li)무선 송신기 범위 내에서 작동$(li)이동 중에도 사용 가능"
+},
+{
+"type" : "text",
+"text" : "휴대용 그리드를 사용하려면:$(li)네트워크 카드를 삽입하세요$(li)무선 송신기 범위 내에서 사용$(li)마우스 오른쪽 버튼을 클릭하여 인터페이스를 여세요$(li)일반 그리드처럼 사용$(li)이동 중에도 사용 가능"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:portable_grid"
+}
+]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "업그레이드 매트릭스",
+  "icon": "pneumaticcraft:upgrade_matrix",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)업그레이드 매트릭스/$는 $(l:base_concepts/upgrades)업그레이드/$ 제작 시 $(item)청금석/$ 대신 사용할 수 있습니다. 업그레이드 매트릭스를 사용하면 청금석 사용량이 크게 줄어들어, 청금석이 제한적이고 제작할 업그레이드가 많은 경우 큰 도움이 될 수 있습니다."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/upgrade_matrix"
+    }
+  ]
+}

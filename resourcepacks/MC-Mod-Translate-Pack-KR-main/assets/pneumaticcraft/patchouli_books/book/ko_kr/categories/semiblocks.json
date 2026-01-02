@@ -1,0 +1,6 @@
+{
+  "name": "세미 블록/소형 장치",
+  "description": "$(thing)세미 블록/$은 블록과는 약간 다르지만 블록처럼 배치 가능하며 실제 블록과 동일한 공간에 존재할 수 있는 흥미로운 아이템입니다. $(p)기술적으로 세미 블록에 해당하는 $(l:logistics/frames)물류 프레임/$도 참조하세요.",
+  "icon": "pneumaticcraft:transfer_gadget",
+  "sortnum": 7
+}

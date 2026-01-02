@@ -1,0 +1,49 @@
+{
+  "name": "열 압축기",
+  "icon": "pneumaticcraft:thermal_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)열 압축기/$는 반대편(수평) 면의 $(l:base_concepts/heat)온도/$ 차이를 이용하여 $(l:base_concepts/pressure)압축 공기/$를 생산하는 간단한 압축기입니다. 온도 구배가 클수록 더 많은 공기가 생산됩니다.$(p)참고: $(l:machines/vortex_tube)와류 튜브/$만으로 이 압축기를 작동시키려 하면 안 됩니다. 순 압력 손실이 발생합니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/thermal_compressor.png"
+      ],
+      "border": "true",
+      "text": "$(italic)용암과 단단한 얼음을 사용하여 온도 구배를 제공하는 열 압축기/$"
+    },
+    {
+      "type": "text",
+      "text": "$(item)열 압축기/$의 남북 면과 동서 면은 서로 열적으로 연결되어 있지만, 남북과 동서 간의 교차 연결은 없으므로 하나의 압축기에 두 개의 독립적인 온도 구배를 가질 수 있습니다.$(p)열은 연결부를 통해 평형을 이루므로 유용한 온도 차이를 유지하려면 약간의 노력이 필요합니다."
+    },
+    {
+      "type": "text",
+      "title": "응용",
+      "text": "$(item)열 압축기/$가 유용할 수 있는 세 가지 주요 상황이 있습니다:$(li)$(item)와류 튜브/$의 $(italic)한쪽/$ 면에서 발생하는 폐열(또는 냉기!)을 활용할 때. 일반적으로 와류 튜브의 뜨거운 쪽이나 차가운 쪽 중 하나만 사용하고 다른 쪽은 $(l:machines/heat_sink)방열판/$을 통해 배출합니다. 하지만 $(item)열 압축기/$는 이 폐열이나 냉기의 일부를 공기 압력으로 회수할 기회를 제공합니다."
+    },
+    {
+      "type": "text",
+      "title": "응용 (계속)",
+      "text": "$(li)$(l:compressors/advanced_air_compressor)고급 공기 압축기/$와 같은 고급 압축기의 폐열을 활용할 때. 일반적으로 이 열을 하나 이상의 $(l:tools/heat_sink)방열판/$을 사용하여 대기로 버리지만, 열 압축기를 사용하면 이 폐열의 일부를 압력으로 회수할 수도 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "응용 (계속)",
+      "text": "$(li)$(l:base_concepts/heat_sources)용암이나 다른 모드의 블록/$과 같이 자연적으로 뜨겁거나 차가운 물질을 대량으로 얻을 수 있는 수단이 있다면, 이를 사용하여 압력을 생성할 수 있습니다. 열원과 사용된 열원의 배치 및 제거를 자동화할 수 있어야 할 것입니다. $(l:tools/drone)드론/$이나 다른 많은 모드 솔루션이 이를 수행할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "레드스톤 제어",
+      "text": "이 압축기는 $(#f00)레드스톤 신호/$로 제어할 수 있습니다. 비활성화되면 압력 생성이 중단되고 남북 및 동서 면 간의 열저항이 크게 증가합니다(약간의 열은 여전히 누출되지만, 압축기가 작동 중일 때보다는 훨씬 적음). 이는 튜브 네트워크가 완전히 가압되었을 때처럼 압력이 필요하지 않을 때 에너지를 열 차이로 저장하는 데 유용할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)열 압축기/$ 제작",
+      "recipe": "pneumaticcraft:thermal_compressor"
+    }
+  ]
+}

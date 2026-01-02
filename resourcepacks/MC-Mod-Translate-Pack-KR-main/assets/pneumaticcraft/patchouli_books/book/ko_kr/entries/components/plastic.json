@@ -1,0 +1,69 @@
+{
+  "name": "플라스틱",
+  "icon": "pneumaticcraft:plastic_bucket",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)플라스틱/$은 $(pncr)의 중요한 제작 부품입니다.$(p)$(item)녹은 플라스틱/$은 $(l:manufacturing/thermopneumatic_processing_plant)열공압식 열처리 공장/$에서 $(l:manufacturing/refinery)LPG/$와 $(item)석탄/$ 또는 $(l:renewables/biodiesel)바이오디젤/$과 $(item)목탄/$으로 만들어집니다."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/plastic_from_lpg"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/plastic_from_biodiesel"
+    },
+    {
+      "type": "spotlight",
+      "title": "플라스틱 시트",
+      "item": "pneumaticcraft:plastic",
+      "flag": "pneumaticcraft:inWorldPlasticSolidification",
+      "text": "$(item)녹은 플라스틱/$은 월드에 붓기만 하면 굳힐 수 있습니다. 0.5초 정도 지나면 $(item)플라스틱 시트/$로 변합니다. 이는 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$가 있는 $(l:machines/liquid_hopper)액체 호퍼/$와 $(l:machines/omnidirectional_hopper)전방향 호퍼/$로 매우 쉽게 자동화할 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "플라스틱 시트",
+      "item": "pneumaticcraft:plastic",
+      "flag": "!pneumaticcraft:inWorldPlasticSolidification",
+      "text": "$(item)플라스틱 시트/$는 $(item)녹은 플라스틱/$이 든 양동이나 $(l:machines/tanks)탱크/$를 $(l:semiblocks/heat_frame)열 프레임/$이 부착된 인벤토리에 넣고, 열 프레임을 이상적으로는 -80C 이하로(차가울수록 좋음) 냉각시켜 생산합니다. 양동이나 탱크에서 $(item)녹은 플라스틱/$이 소비되며, 소비된 녹은 플라스틱 1000mB당 두 번째 $(item)플라스틱 시트/$를 얻을 확률이 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "수확량 향상",
+      "flag": "pneumaticcraft:inWorldPlasticSolidification",
+      "text": "$(item)플라스틱 시트/$를 굳히는 다른 방법은 $(item)녹은 플라스틱/$이 든 양동이나 $(l:machines/tanks)탱크/$를 $(l:semiblocks/heat_frame)열 프레임/$이 부착된 인벤토리에 넣고, 열 프레임을 이상적으로는 -80C 이하로(차가울수록 좋음) 냉각시키는 것입니다. 양동이나 탱크에서 $(item)녹은 플라스틱/$이 소비되며, 소비된 녹은 플라스틱 1000mB당 두 번째 $(item)플라스틱 시트/$를 얻을 확률이 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "탱크에 대한 참고 사항",
+      "text": "$(pncr) 유체 탱크에는 인벤토리 슬롯이 있고 $(thing)열 프레임/$을 배치할 수 있지만, 녹은 플라스틱으로 가득 찬 탱크에 열 프레임을 부착하는 것만으로는 작동하지 않습니다. 유체 탱크는 열 프레임이 부착된 인벤토리(상자 등) 안에 아이템 형태로 있어야 합니다."
+    },
+    {
+      "type": "spotlight",
+      "title": "플라스틱 건설용 벽돌™",
+      "item": "pneumaticcraft:plastic_brick_red",
+      "text": "이 벽돌들은 $(item)플라스틱 시트/$와 아무 염료로 만들어지며 건축에 적합합니다.$(p)맨발로 밟지 마세요. 말도 안 되게 아프니까요!$(p)$(italic)다른 주요 건설용 벽돌 브랜드와 호환됩니다./$"
+    },
+    {
+      "type": "spotlight",
+      "title": "부드러운 플라스틱 건설용 벽돌™",
+      "item": "pneumaticcraft:smooth_plastic_brick_red",
+      "text": "$(item)플라스틱 건설용 벽돌/$의 부드러운 버전도 건축에 적합합니다.$(p)이 벽돌들은 걷는 속도를 높여주기 때문에 훌륭한 바닥재가 되기도 합니다!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:plastic_brick_red",
+      "recipe2": "pneumaticcraft:smooth_plastic_brick_red",
+      "text": "다른 색상의 조합법은 짐작하실 수 있을 겁니다"
+    },
+    {
+      "type": "smelting",
+      "recipe": "pneumaticcraft:plastic_sheet_from_brick",
+      "recipe2": "pneumaticcraft:plastic_sheet_from_smooth_brick",
+      "text": "벽돌을 제련하여 다시 플라스틱 시트로 되돌릴 수 있습니다"
+    }
+  ]
+}

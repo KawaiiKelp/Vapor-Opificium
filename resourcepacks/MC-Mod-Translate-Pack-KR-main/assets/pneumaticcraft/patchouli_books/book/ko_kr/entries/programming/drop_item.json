@@ -1,0 +1,23 @@
+{
+  "name": "아이템 버리기 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/item_drop_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:tools/drone)드론/$이 연결된 $(l:programming/area)영역/$에서 인벤토리의 아이템을 떨어뜨리게 합니다. $(thing)아이템 버리기/$ 위젯을 $(thing)우클릭/$하여 영역 내 위치당 떨어뜨릴 아이템 수를 지정할 수 있습니다. 또한 $(thing)무작위/$ 및 $(thing)직선/$ 모드를 전환할 수 있는데, 이는 각각 약간의 무작위 오프셋으로 아이템을 떨어뜨리거나(바닐라 $(item)공급기/$처럼), 아이템을 똑바로 아래로 떨어뜨리는 것을 의미합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(l:programming/item_filter)아이템 필터/$를 연결할 수도 있습니다. 필터가 있으면 필터에서 허용하는 아이템만 떨어집니다.$(p)이 위젯은 드론의 인벤토리에 해당 아이템이 남아 있지 않거나 드론이 영역의 모든 위치를 방문했을 때 실행이 완료됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_drop_piece.png"
+      ],
+      "text": "$(italic)아이템 버리기 위젯/$"
+    }
+  ]
+}

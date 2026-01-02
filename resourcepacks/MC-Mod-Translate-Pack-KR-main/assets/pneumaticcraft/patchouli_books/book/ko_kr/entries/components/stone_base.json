@@ -1,0 +1,17 @@
+{
+  "name": "돌 받침",
+  "icon": "pneumaticcraft:stone_base",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "다른 장치를 위한 제작 부품입니다. 그 자체로는 아무런 용도가 없습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "돌 받침 제작",
+      "recipe": "pneumaticcraft:stone_base"
+    }
+  ]
+}

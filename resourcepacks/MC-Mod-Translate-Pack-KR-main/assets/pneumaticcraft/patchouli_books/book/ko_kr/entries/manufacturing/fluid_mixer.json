@@ -1,0 +1,17 @@
+{
+  "name": "유체 믹서",
+  "icon": "pneumaticcraft:fluid_mixer",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)유체 믹서/$는 $(l:base_concepts/pressure)압력/$을 사용하여 두 유체를 결합하여 결과 유체 및/또는 아이템을 만듭니다. 주된 용도는 $(l:renewables/biodiesel)바이오디젤/$ 생산입니다.$(p)유체 믹서는 더 많은 압력이 제공되면 더 빨리 작동합니다(하지만 공기도 더 빨리 사용합니다)."
+    },
+    {
+      "type": "crafting",
+      "text": "유체 믹서 제작",
+      "recipe": "pneumaticcraft:fluid_mixer"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "공압 부츠",
+  "icon": "pneumaticcraft:pneumatic_boots",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)공압 부츠/$는 네 가지 $(thing)공압 방어구/$ 부위 중 하나입니다.$(p)부츠는 적당한 공기 비용(무효화된 낙하 피해에 비례)으로 내장된 낙하 보호 기능을 제공합니다.$(p)또한 1블록 스텝 어시스트를 무료로(공기 비용 없음) 얻습니다. 이는 자동 점프가 아닌 스텝 어시스트이며, 켜고 끌 수 있는 기능입니다."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_boots",
+      "text": "공압 부츠 제작"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jet_boots_upgrade_1",
+      "text": "압력이 얼마나 남았는지 외에는 아무 걱정 없이 하늘을 날고 싶었다면, $(l:base_concepts/upgrades#jet_boots_1)제트 부츠 업그레이드/$가 적합합니다. 5단계의 제트 부츠 업그레이드가 있어 점진적으로 더 빠른 비행과 더 많은 공기 사용량을 제공합니다."
+    },
+    {
+      "type": "text",
+      "title": "제트 부츠 (계속)",
+      "text": "업그레이드가 활성화된 상태에서 $(k:pneumaticcraft.boots.jet_boots) 키를 누르고 있으면 바라보는 방향으로 추진됩니다.$(p)$(thing)제트 부츠/$는 공기를 $(bold)많이/$ 소모하므로, 부츠(및 $(l:base_concepts/upgrades#charging)충전 업그레이드/$가 있는 $(l:armor/pneumatic_chestplate)흉갑/$)에 여러 개의 $(l:base_concepts/upgrades#volume)용량 업그레이드/$를 추가하는 것이 강력히 권장됩니다.$(p)가능하면 $(l:machines/aerial_interface)공중 인터페이스/$ 사용과 기지에 좋은 충전 인프라를 갖추는 것도 좋습니다."
+    },
+    {
+      "type": "text",
+      "title": "제트 부츠 (계속)",
+      "text": "$(l:base_concepts/upgrades#jet_boots_3)제트 부츠 업그레이드: 3단계/$ 이상에서는 $(thing)건축가 모드/$를 사용할 수 있습니다. 이는 더 창의적인 스타일의(하지만 느린) 비행 제어와 향상된 공중 채굴 속도를 제공합니다.$(p)이 기능은 방어구 GUI를 통해 켜고 끌 수 있습니다(단축키 지정 가능)."
+    },
+    {
+      "type": "text",
+      "title": "제트 부츠 (계속)",
+      "text": "$(l:base_concepts/upgrades#jet_boots_4)제트 부츠 업그레이드: 4단계/$ 이상에서는 $(thing)비행 안정기/$를 사용할 수 있습니다. 추진 키를 놓으면 즉시 정지합니다(이동 속도에 비례한 공기 비용 발생).$(p)건축가 모드와 마찬가지로 방어구 GUI를 통해 켜고 끌 수 있습니다(단축키 지정 가능)."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text":  "부츠에 최대 4개의 $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$를 추가하면 $(bold)공압 발차기/$를 사용할 수 있는 능력을 얻습니다. 이는 적당한 공기 비용으로 엔티티(살아있는 엔티티뿐만 아니라!)에게 적당한 피해와 강력한 밀치기 효과를 줍니다.$(p)$(thing)$(k:pneumaticcraft.boots.kick)/$ 키를 눌러 발차기를 하세요."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:flippers_upgrade",
+      "text":  "$(l:base_concepts/upgrades#flippers)오리발 업그레이드/$를 설치하면 수영 속도가 적당히 향상됩니다. 추가 공기 비용이 없으므로 물속에서는 제트 부츠보다 훨씬 저렴한 대안입니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stomp_upgrade",
+      "text":  "$(l:base_concepts/upgrades#stomp)낙하 충격 업그레이드/$가 설치되고 활성화되면 적들에게 파멸을 내릴 수 있습니다. 피해를 입을 만큼 빠르게 땅에 떨어지면(부츠가 그 피해를 흡수하더라도), 도착 속도에 비례하여 주변 몹들이 부상을 입습니다. 이렇게 부상을 입은 몹마다 약간의 공기를 소모합니다."
+    }
+  ]
+}

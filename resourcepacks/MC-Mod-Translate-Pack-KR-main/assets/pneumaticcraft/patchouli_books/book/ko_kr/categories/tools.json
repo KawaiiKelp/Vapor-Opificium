@@ -1,0 +1,6 @@
+{
+  "name": "도구",
+  "description": "이것들은 유용한 목적을 수행하는 다양한 휴대용 도구 및 무기류입니다.",
+  "icon": "pneumaticcraft:pneumatic_wrench[pneumaticcraft:air=30000]",
+  "sortnum": 6
+}

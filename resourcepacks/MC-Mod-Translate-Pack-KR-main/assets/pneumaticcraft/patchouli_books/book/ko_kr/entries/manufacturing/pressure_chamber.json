@@ -1,0 +1,67 @@
+{
+  "name": "압력 챔버",
+  "icon": "pneumaticcraft:pressure_chamber_wall",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)압력 챔버/$는 다양한 재료를 다른 재료로 압축하는 데 사용되는 멀티블록 구조입니다. 대용량 공기 저장 능력 덕분에 유용한 \"배터리\" 역할도 할 수 있습니다.$(p)멀티블록 건설에는 다음 규칙이 적용됩니다:$(li)전체 멀티블록은 속이 빈 3x3x3, 4x4x4 또는 5x5x5 구조여야 합니다."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)모서리/$와 $(thing)꼭짓점/$은 $(item)압력 챔버 벽면/$ 또는 $(item)압력 챔버 유리/$여야 합니다.$(li)$(thing)면/$은 $(item)압력 챔버 벽면/$, $(item)압력 챔버 유리/$, $(item)압력 챔버 밸브/$ 또는 $(l:manufacturing/pressure_chamber#interface)압력 챔버 인터페이스/$여야 합니다.$(li)최소 하나의 $(item)압력 챔버 밸브/$가 필요합니다.$(li)최소 두 개의 $(item)압력 챔버 인터페이스/$가 권장됩니다(하나는 안쪽을 향하고, 하나는 바깥쪽을 향해야 함)."
+    },
+    {
+      "type": "multiblock",
+      "name": "압력 챔버",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_3",
+      "text": "1개의 $(item)밸브/$와 2개의 $(item)인터페이스/$가 있는 가능한 3x3x3 압력 챔버"
+    },
+    {
+      "type": "multiblock",
+      "name": "압력 챔버",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_4",
+      "text": "2개의 $(item)밸브/$와 2개의 $(item)인터페이스/$가 있는 가능한 4x4x4 압력 챔버"
+    },
+    {
+      "type": "multiblock",
+      "name": "압력 챔버",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_5",
+      "text": "4개의 $(item)밸브/$와 4개의 $(item)인터페이스/$가 있는 가능한 5x5x5 압력 챔버"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "interface",
+      "item": "pneumaticcraft:pressure_chamber_interface",
+      "text": "$(item)압력 챔버 인터페이스/$는 $(thing)압력 챔버/$에 아이템을 삽입하고 추출하는 것을 자동화하는 데 사용됩니다. 아이템은 $(item)호퍼/$ 또는 다른 모드 파이프 시스템을 통해 파이프로 $(italic)들어가야/$ 합니다. 최소 두 개의 인터페이스가 있어야 합니다. 하나는 'I'가 밖을 향하는 것($(thing)입력 인터페이스/$), 하나는 'O'가 밖을 향하는 것($(thing)출력 인터페이스/$)입니다."
+    },
+    {
+      "type": "text",
+      "text": "입력 모드 인터페이스는 압력 챔버 레시피의 재료인 아이템만 받습니다. 출력 모드 인터페이스는 (기본적으로) 제작된 아이템만 내보내지만, 필요한 경우 $(italic)모든/$ 아이템을 내보낼 수 있도록 GUI에 버튼이 있습니다.$(p)$(italic)이 동작은 1.12.2 시절 이후 변경되었으며 이제 훨씬 더 사용자 친화적입니다./$"
+    },
+    {
+      "type": "text",
+      "text": "출력 모드 $(item)인터페이스/$는 인접한 인벤토리로 자동 배출합니다. 여기에는 다른 모드의 파이프가 인터페이스에 인벤토리처럼 보이는지 여부에 따라 포함될 수도 있고 아닐 수도 있습니다.$(p)전송되는 아이템당 1000mL의 $(l:base_concepts/pressure)공기/$가 소모됩니다. 즉, 한 묶음을 전송하려면 $(item)인터페이스/$에 64000mL(기본 3x3x3 챔버의 경우 4 bar)가 필요합니다. 인터페이스가 '멈춘' 것 같으면 더 많은 압력이 쌓이기를 기다리는 것일 뿐입니다."
+    },
+    {
+      "type": "text",
+      "text": "$(bold)팁/$$(li)$(item)철/$을 압축할 때, $(item)철 블록/$을 압축하면 아이템을 챔버 안팎으로 이동시키는 데 공기의 1/9만 사용합니다.$(li)큰 챔버를 빨리 가압해야 하는 경우, 추가 밸브가 도움이 될 수 있습니다(필요한 공기를 생산할 충분한 압축기가 있다고 가정할 때)."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_wall",
+      "recipe2": "pneumaticcraft:pressure_chamber_glass"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_interface",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve_x1"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_valve_x4",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "조건: 빛 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_light_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이것은 $(l:programming/conditions)조건/$ 위젯입니다.$(p)$(thing)조건: 빛/$ 위젯을 사용하면 연결된 $(l:programming/area)영역/$ 위젯에 있는 블록(들)의 광도 레벨이 구성된 빛 임계값과 일치하는지 (원격으로) 확인할 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_light_piece.png"
+      ],
+      "text": "$(italic)조건: 빛 위젯/$"
+    }
+  ]
+}

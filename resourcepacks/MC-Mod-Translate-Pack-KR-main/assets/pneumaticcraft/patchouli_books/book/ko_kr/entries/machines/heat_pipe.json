@@ -1,0 +1,25 @@
+{
+  "name": "열 파이프",
+  "icon": "pneumaticcraft:heat_pipe",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)열 파이프/$는 인접한 공기나 유체 블록과 열적으로 연결되지 않고 블록 간에 열을 전달할 수 있는 압축된 철의 단열 코어입니다. 열을 전달하기 위해 $(thing)압축된 철 블록/$을 사용하는 것보다 더 작고(그리고 저렴한) 대안입니다.$(p)$(l:tools/camo_applicator)위장 도포 도구/$로 열 파이프를 숨길 수 있습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/heat_sinks.png"
+      ],
+      "border": "true",
+      "text": "$(italic)할 일: 열 파이프 이미지/$"
+    },
+    {
+      "type": "crafting",
+      "text": "열 파이프 제작",
+      "recipe": "pneumaticcraft:heat_pipe"
+    }
+  ]
+}

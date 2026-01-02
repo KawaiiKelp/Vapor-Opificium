@@ -1,0 +1,16 @@
+{
+"name" : "보안 카드",
+"icon" : "refinedstorage:security_card",
+"category" : "refstoragemanual:tools_and_utilities",
+"pages" : [
+{
+"type" : "text",
+"text" : "보안 카드는 Refined Storage 네트워크 접근 권한을 관리하는 핵심 구성 요소입니다. $(l:sec_manager)보안 관리자$()와 함께 사용되어 사용자 권한을 설정하여 권한이 있는 플레이어만 저장소 시스템과 상호 작용할 수 있도록 합니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:security_card",
+"text" : "보안 카드 제작 레시피."
+}
+]
+}

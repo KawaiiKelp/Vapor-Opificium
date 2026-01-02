@@ -1,0 +1,17 @@
+{
+"name" : "디스크 드라이브",
+"icon" : "refinedstorage:disk_drive",
+"category" : "refstoragemanual:disks_and_drives",
+"pages" : [
+{
+"type" : "text",
+"text" : "디스크 드라이브는 Refined Storage 네트워크의 핵심 구성 요소로, $(l:storage_disks)storage disks$() 및 $(l:fluid_storage_disks)fluid storage disks$()의 기본 저장 장치 역할을 합니다. 저장된 아이템과 유체를 효율적으로 정리하고 검색할 수 있도록 해주므로 모든 저장 장치 설정에 필수적인 요소입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:disk_drive",
+"text" : "디스크 드라이브 제작 레시피."
+}
+
+]
+}

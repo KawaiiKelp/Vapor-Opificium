@@ -1,0 +1,16 @@
+{
+  "name": "태양광 웨이퍼",
+  "icon": "pneumaticcraft:solar_wafer",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:assembly_controller",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)태양광 웨이퍼/$는 $(l:components/solar_cell)태양 전지/$의 중간 제작 부품입니다."
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/solar_wafer"
+    }
+  ]
+}

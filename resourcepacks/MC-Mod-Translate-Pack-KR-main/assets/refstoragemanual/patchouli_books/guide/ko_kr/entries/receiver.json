@@ -1,0 +1,16 @@
+{
+"name" : "네트워크 수신기",
+"icon" : "refinedstorage:network_receiver",
+"category" : "refstoragemanual:networking",
+"pages" : [
+{
+"type" : "text",
+"text" : "네트워크 수신기는 Refined Storage 네트워크를 원거리로 확장하는 데 필수적인 구성 요소입니다. $(l:transmitter)네트워크 송신기$()로부터 신호를 수신하여 원격 스토리지 시스템의 원활한 통합을 지원합니다. 최적의 성능을 위해 네트워크 수신기가 청크로딩되었는지 확인하세요. 자세한 내용은 $(l:distance)여기$()를 참조하세요."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:network_receiver",
+"text" : "네트워크 수신기 제작 레시피."
+}
+]
+}

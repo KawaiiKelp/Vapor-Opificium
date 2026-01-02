@@ -1,0 +1,7 @@
+{
+  "name": "기타 위젯",
+  "description": "다른 범주에 속하지 않는 모든 위젯들입니다.",
+  "icon": "pneumaticcraft:textures/progwidgets/comment_piece.png",
+  "parent": "pneumaticcraft:programming",
+  "sortnum": 4
+}

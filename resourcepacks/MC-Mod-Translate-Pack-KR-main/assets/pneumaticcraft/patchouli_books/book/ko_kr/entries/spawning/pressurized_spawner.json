@@ -1,0 +1,21 @@
+{
+  "name": "가압식 생성기",
+  "icon": "pneumaticcraft:pressurized_spawner",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)가압식 생성기/$는 $(l:base_concepts/pressure)압력/$을 사용하여 몹을 생성하는 강력한 장치입니다. 밝기 수준이나 플레이어 근접 여부에 신경 쓰지 않으며, 레드스톤으로 활성화/비활성화할 수 있습니다.$(p)가압식 생성기를 사용하려면 포획된 몹 정수가 들어 있는 $(l:spawning/spawner_core)생성기 코어/$와 최소 10 bar의 압력이 필요합니다."
+    },
+    {
+      "type": "text",
+      "text": "코어에 여러 몹 정수가 포함되어 있으면 무작위 몹이 선택됩니다. 예를 들어 코어가 50% 좀비, 25% 크리퍼, 25% 비어 있다면, 생성 시도 시 좀비 50%, 크리퍼 25%, 아무것도 생성되지 않을 확률이 25%입니다.$(p)아무것도 생성되지 않아도 공기는 여전히 사용되므로 부분적으로 빈 코어는 효율적이지 않습니다(하지만 희귀 몹 확률이 50%인 코어가 없는 것보다는 낫겠죠...)."
+    },
+    {
+      "type": "crafting",
+      "text": "가압식 생성기 제작.",
+      "recipe": "pneumaticcraft:pressurized_spawner"
+    }
+  ]
+}

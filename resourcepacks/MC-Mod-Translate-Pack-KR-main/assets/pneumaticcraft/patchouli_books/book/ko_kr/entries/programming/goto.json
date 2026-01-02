@@ -1,0 +1,19 @@
+{
+  "name": "위치로 이동 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/goto_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)위치로 이동/$은 매우 간단합니다. $(l:tools/drone)드론/$은 지정된 $(l:programming/area)영역/$ 내에서 도달할 수 있는 가장 가까운 위치로 이동합니다.$(p)이 위젯은 $(ttcolor)$(t:위젯을 즉시 '완료'되도록 구성할 수 있습니다. 설정 GUI를 보려면 우클릭하세요)드론이 영역에 도착했을 때/$, 또는 이 영역에 도달할 수 없을 때 완료됩니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/goto_piece.png"
+      ],
+      "text": "$(italic)위치로 이동 위젯/$"
+    }
+  ]
+}

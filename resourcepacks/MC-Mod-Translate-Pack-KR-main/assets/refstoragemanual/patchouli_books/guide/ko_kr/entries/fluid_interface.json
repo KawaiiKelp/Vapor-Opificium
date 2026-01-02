@@ -1,0 +1,16 @@
+{
+"name" : "액체 인터페이스",
+"icon" : "refinedstorage:fluid_interface",
+"category" : "refstoragemanual:fluid_storage",
+"pages" : [
+{
+"type" : "text",
+"text" : "액체 인터페이스는 Refined Storage 네트워크와 외부 액체 시스템을 연결하는 다리 역할을 합니다. 두 개의 내부 탱크(입력용 하나, 출력용 하나)를 갖추고 있어 네트워크 내외부로 액체를 원활하게 전송할 수 있습니다. 따라서 저장소 설정 내에서 액체 물류를 관리하는 데 필수적인 구성 요소입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:fluid_interface",
+"text" : "제작 레시피."
+}
+]
+}

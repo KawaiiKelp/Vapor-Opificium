@@ -1,0 +1,6 @@
+{
+  "name": "몹 생성",
+  "description": "일부 기계와 장치로 몬스터를 제어된 방식으로 생성합니다.",
+  "icon": "pneumaticcraft:pressurized_spawner",
+  "sortnum": 12
+}

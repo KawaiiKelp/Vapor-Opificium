@@ -1,0 +1,21 @@
+{
+  "name": "위장 도포 도구",
+  "icon": "pneumaticcraft:camo_applicator[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)위장 도포 도구/$는 특정 $(pncr) 블록을 위장하는 데 사용할 수 있습니다:$(li)$(l:tubes/pressure_tubes)압력 튜브/$$(li)$(l:machines/pneumatic_door)공압 문 기반/$$(li)$(l:machines/elevators)엘리베이터 기반 & 호출기/$$(li)$(l:machines/charging_station)충전소/$$(li)$(l:machines/heat_pipe)열 파이프/$$(p)아무 고체 블록이나 $(thing)우클릭/$하여 도구에 외형을 복사하거나, $(thing)웅크리고 우클릭/$하여 복사된 블록을 지우세요."
+    },
+    {
+      "type": "text",
+      "text": "그런 다음 위장 가능한 블록(위 참조)을 $(thing)우클릭/$하여 위장을 적용하거나 제거하세요.$(p)위장으로 적용하려면 인벤토리에 실제 블록이 있어야 하며, 사용됩니다(하지만 위장을 제거하면 돌려받습니다).$(p)곡괭이나 기타 적절한 도구로 위장된 블록을 부수어 위장을 해제할 수도 있습니다. 위장이 대신 부서져 나옵니다."
+    },
+    {
+      "type": "crafting",
+      "text": "위장 도포 도구 제작",
+      "recipe": "pneumaticcraft:camo_applicator"
+    }
+  ]
+}

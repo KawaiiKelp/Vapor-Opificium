@@ -1,0 +1,62 @@
+{
+  "blocks": [
+    {
+      "key": "name",
+      "value": "Advanced Processor",
+      "original_value": "Advanced Processor",
+      "full_block": null,
+      "is_special": false,
+      "skipped": false,
+      "had_bracket_quotes": false,
+      "had_quotes": false,
+      "translated_value": "고급 프로세서"
+    },
+    {
+      "key": "icon",
+      "value": "refinedstorage:advanced_processor",
+      "original_value": "refinedstorage:advanced_processor",
+      "full_block": null,
+      "is_special": false,
+      "skipped": true
+    },
+    {
+      "key": "category",
+      "value": "refstoragemanual:processors_and_upgrades",
+      "original_value": "refstoragemanual:processors_and_upgrades",
+      "full_block": null,
+      "is_special": false,
+      "skipped": true
+    },
+    {
+      "key": "pages",
+      "value": "[{\"type\": \"text\", \"text\": \"The Advanced Processor is a high-tier processor used to craft the most advanced Refined Storage devices. It is more efficient and powerful than the Basic and Improved Processors.\"}, {\"type\": \"text\", \"text\": \"Features:$(li)Used in advanced device recipes$(li)More efficient than lower tier processors$(li)Required for high-end automation$(li)Used in wireless and autocrafting components\"}, {\"type\": \"text\", \"text\": \"To craft the Advanced Processor:$(li)First craft a Raw Advanced Processor$(li)Smelt the Raw Advanced Processor in a furnace$(li)Combine with Processor Binding$(li)Requires more resources than lower tiers\"}, {\"type\": \"crafting\", \"recipe\": \"refinedstorage:advanced_processor\"}]",
+      "original_value": [
+        {
+          "type": "text",
+          "text": "The Advanced Processor is a high-tier processor used to craft the most advanced Refined Storage devices. It is more efficient and powerful than the Basic and Improved Processors."
+        },
+        {
+          "type": "text",
+          "text": "Features:$(li)Used in advanced device recipes$(li)More efficient than lower tier processors$(li)Required for high-end automation$(li)Used in wireless and autocrafting components"
+        },
+        {
+          "type": "text",
+          "text": "To craft the Advanced Processor:$(li)First craft a Raw Advanced Processor$(li)Smelt the Raw Advanced Processor in a furnace$(li)Combine with Processor Binding$(li)Requires more resources than lower tiers"
+        },
+        {
+          "type": "crafting",
+          "recipe": "refinedstorage:advanced_processor"
+        }
+      ],
+      "full_block": null,
+      "is_special": false,
+      "skipped": false,
+      "had_bracket_quotes": false,
+      "had_quotes": false,
+      "translated_value": "[{\"type\": \"text\", \"text\": \"고급 프로세서는 가장 진보된 Refined Storage 장치를 제작하는 데 사용되는 고급 티어 프로세서입니다. 기본 및 개선된 프로세서보다 효율적이고 강력합니다.\"}, {\"type\": \"text\", \"text\": \"특징:$(li)고급 장치 레시피에 사용됨$(li)하위 티어 프로세서보다 효율적임$(li)고급 자동화에 필요함$(li)무선 및 자동 제작 구성 요소에 사용됨\"}, {\"type\": \"text\", \"text\": \"고급 프로세서 제작 방법:$(li)먼저 가공되지 않은 고급 프로세서 제작$(li)용광로에서 가공되지 않은 고급 프로세어 제련$(li)프로세서 바인딩과 결합$(li)하위 티어보다 더 많은 자원 필요\"}, {\"type\": \"crafting\", \"recipe\": \"refinedstorage:advanced_processor\"}]"
+    }
+  ],
+  "current_chunk_index": 1,
+  "complete": true,
+  "failed_chunks": []
+}

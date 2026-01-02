@@ -1,0 +1,43 @@
+{
+  "name": "효모 배양제",
+  "icon": "pneumaticcraft:yeast_culture_bucket",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:tp_plant",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)효모 배양제/$는 $(l:renewables/ethanol)에탄올/$과 $(l:renewables/sourdough)사워도우/$ 생산에 필요하며 두 가지 방법으로 생산할 수 있습니다:"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:red_mushroom",
+      "title": "방법 1",
+      "text": "이것은 처음에 사용할 수 있는 유일한 방법입니다. $(l:manufacturing/thermopneumatic_processing_plant)열공압식 열처리 공장/$을 $(thing)물/$로 채우고 버섯을 추가하세요. 이 방법은 약간 느리지만(그리고 버섯 공급이 원활해야 함), 초기 효모 배양제 재고를 쉽게 생산할 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "방법 1 (계속)",
+      "text": "이 과정은 온도에 민감합니다. 열공압식 열처리 공장의 온도를 30°C에서 60°C 사이로 유지해야 합니다. 따뜻한 바이옴에서는 매우 쉽지만 더 추운 지역에서는 약간의 노력이 필요할 수 있습니다. 한 가지 유의할 점은 더 깊이 파고들수록 주변 온도가 상승하는 경향이 있으므로, 더 낮은 Y 레벨에서 가공 작업을 한다면 온대 바이옴도 적합할 수 있습니다."
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/yeast_culture"
+    },
+    {
+      "type": "text",
+      "flag": "!pneumaticcraft:inWorldYeastCrafting",
+      "title": "중요 참고 사항",
+      "text": "$(italic)다음 페이지에 설명된 월드 내 효모 제작은 이 인스턴스의 구성에서 비활성화되었습니다./$"
+    },
+    {
+      "type": "text",
+      "title": "방법 2",
+      "text": "$(thing)효모 배양제/$는 살아있는 유기체이므로 스스로 복제할 수 있습니다. 이렇게 하려면 배양제 한 양동이를 월드의 웅덩이에 붓고 웅덩이에 $(thing)설탕/$을 던져 넣으세요.$(p)이제 배양제 옆 칸에 $(thing)물/$ 한 양동이를 부으세요. 1~2초 후에 물이 더 많은 배양제로 변하는 것을 볼 수 있습니다."
+    },
+    {
+      "type": "text",
+      "title": "방법 2 (계속)",
+      "text": "배양제는 설탕이 추가될 때가 아니라 물이 배치될 때 퍼진다는 점에 유의하는 것이 중요합니다.$(p)이 방법은 약간의 생각과 설계만 있으면 게임 초반에도 자동화할 수 있습니다(힌트: $(l:base_concepts/upgrades#dispenser)발사기 업그레이드/$가 있는 $(l:machines/omnidirectional_hopper)전방향/$ 및 $(l:machines/liquid_hopper)액체/$ 호퍼가 매우 도움이 될 수 있습니다)."
+    }
+  ]
+}

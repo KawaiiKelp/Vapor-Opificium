@@ -1,0 +1,17 @@
+{
+  "name": "작물 지지대",
+  "icon": "pneumaticcraft:crop_support",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)작물/$이 있는 경작지에 배치하면 작물의 성장 속도가 향상됩니다. $(item)작물 지지대/$가 성장을 가속할 때 $(thing)초록색 입자/$가 방출됩니다.$(p)$(item)작물 지지대/$를 제거하려면 아래의 블록을 부수거나 $(l:tools/logistics_configurator)물류 설정기/$ 또는 다른 $(item)작물 지지대/$로 해당 블록을 $(thing)웅크리고 우클릭/$하십시오."
+    },
+    {
+      "type": "crafting",
+      "text": "작물 지지대 제작",
+      "recipe": "pneumaticcraft:crop_support"
+    }
+  ]
+}

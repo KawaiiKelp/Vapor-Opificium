@@ -1,0 +1,16 @@
+{
+"name" : "기계 케이싱",
+"icon" : "refinedstorage:machine_casing",
+"category" : "refstoragemanual:basics",
+"pages" : [
+{
+"type" : "text",
+"text" : "기계 케이싱은 정제된 저장 시스템의 기본 구성 요소로, 다양한 장치를 제작하는 데 필요한 구성 요소입니다. 저장 네트워크의 핵심 인프라를 구축하고 고급 기계의 프레임워크를 제공하는 데 필수적입니다."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:machine_casing",
+"text" : "기계 케이싱 제작 레시피."
+}
+]
+}

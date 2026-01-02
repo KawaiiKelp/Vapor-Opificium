@@ -1,0 +1,17 @@
+{
+  "name": "플럭스 압축기",
+  "icon": "pneumaticcraft:flux_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)플럭스 압축기/$는 $(thing)포지 에너지/$( $(thing)Redstone Flux/$ 및 기타 다양한 모드의 에너지 시스템과 호환됨)를 $(l:base_concepts/pressure)압축 공기/$로 변환합니다. 기본적으로 40 FE/틱을 소모하지만, $(l:base_concepts/upgrades#speed)속도 업그레이드/$로 업그레이드할 수 있습니다.$(p)플럭스 압축기의 용량은 100,000 FE이며 사용하는 속도의 두 배로 FE를 받습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)플럭스 압축기/$ 제작$(p)이 발전기는 $(l:base_concepts/heat)냉각/$되어야 합니다. 온도가 올라가면 효율이 떨어져 결국 공기가 전혀 생성되지 않기 때문입니다.",
+      "recipe": "pneumaticcraft:flux_compressor"
+    }
+  ]
+}

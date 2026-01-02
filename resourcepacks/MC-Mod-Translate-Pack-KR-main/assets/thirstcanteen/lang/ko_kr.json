@@ -1,0 +1,10 @@
+{
+  "itemGroup.thirstcanteen": "ThirstCanteen",
+  "item.thirstcanteen.dragon_bottle": "드래곤 병",
+  "item.thirstcanteen.dragon_bottle_full": "드래곤 물병",
+  "item.thirstcanteen.military_bottle": "군용 수통",
+  "item.thirstcanteen.military_bottle_full": "물이 담긴 군용 수통",
+  "item.thirstcanteen.leather_canteen": "가죽 수통",
+  "item.thirstcanteen.leather_canteen_full": "물이 담긴 가죽 수통",
+  "tooltips.drinkable": "물: %1$s/%2$s"
+}

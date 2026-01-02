@@ -1,0 +1,6 @@
+{
+    "name": "유체 저장",
+    "description": "Refined Storage에서 유체 저장 디스크, 유체 인터페이스 및 유체 취급에 대해 알아보세요.",
+    "icon": "minecraft:bucket",
+    "sortnum": 5
+} 

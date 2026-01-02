@@ -1,0 +1,19 @@
+{
+  "name": "주석 위젯",
+  "icon": "pneumaticcraft:textures/progwidgets/comment_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "이 위젯은 프로그램에 $(thing)주석/$을 추가할 수 있게 해주며 기능적인 효과는 없습니다. 사용하는 데 $(l:programming/puzzle_pieces)퍼즐 조각/$ 비용이 들지 않습니다."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/comment_piece.png"
+      ],
+      "text": "$(italic)주석 위젯/$"
+    }
+  ]
+}

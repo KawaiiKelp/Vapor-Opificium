@@ -1,0 +1,192 @@
+{
+    "teto.utau.ochame_kinou": {
+        "sounds": [
+            {
+                "name": "teto/utau/ochame_kinou",
+                "volume": 0.25
+            }
+
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.utau.ochame_kinou_full": {
+        "sounds": [
+            {
+                "name": "teto/utau/ochame_kinou_full",
+                "volume": 0.2
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.inst.ochame_kinou_inst": {
+        "sounds": [
+            {
+                "name": "teto/inst/ochame_kinou_inst",
+                "volume": 0.2
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.inst.ochame_kinou_full_inst": {
+        "sounds": [
+            {
+                "name": "teto/inst/ochame_kinou_full_inst",
+                "volume": 0.2
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.utau.kasane_territory": {
+        "sounds": [
+            {
+                "name": "teto/utau/kasane_territory",
+                "volume": 0.25
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.utau.igaku": {
+        "sounds": [
+            {
+                "name": "teto/utau/igaku",
+                "volume": 0.25
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.utau.hito_mania": {
+        "sounds": [
+            {
+                "name": "teto/utau/hito_mania",
+                "volume": 0.25
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.utau.soto_no_hito": {
+        "sounds": [
+            {
+                "name": "teto/utau/soto_no_hito",
+                "volume": 0.15
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.utau.teto": {
+        "sounds": [
+            {
+                "name": "teto/utau/teto",
+                "volume": 0.25
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.bunk_off": {
+        "sounds": [
+            {
+                "name": "teto/bunk_off",
+                "volume": 0.25
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.science": {
+        "sounds": [
+            {
+                "name": "teto/synthv/science",
+                "volume": 0.15
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.liar_dancer": {
+        "sounds": [
+            {
+                "name": "teto/synthv/liar_dancer",
+                "volume": 0.15
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.outlaws": {
+        "sounds": [
+            {
+                "name": "teto/synthv/outlaws",
+                "volume": 0.125
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.override": {
+        "sounds": [
+            {
+                "name": "teto/synthv/override",
+                "volume": 0.2
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.tetoris": {
+        "sounds": [
+            {
+                "name": "teto/synthv/tetoris",
+                "volume": 0.2
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.ultra_trailer": {
+        "sounds": [
+            {
+                "name": "teto/synthv/ultra_trailer",
+                "volume": 0.175
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.tiny_me": {
+        "sounds": [
+            {
+                "name": "teto/synthv/tiny_me",
+                "volume": 0.175
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.irairashiteiru": {
+        "sounds": [
+            {
+                "name": "teto/synthv/irairashiteiru",
+                "volume": 0.33
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.synthv.feel_empty": {
+        "sounds": [
+            {
+                "name": "teto/synthv/feel_empty",
+                "volume": 0.175
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.obsolete_meat": {
+        "sounds": [
+            {
+                "name": "teto/obsolete_meat",
+                "volume": 0.15
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    },
+    "teto.mesmerizer": {
+        "sounds": [
+            {
+                "name": "teto/mesmerizer",
+                "volume": 0.125
+            }
+        ],
+        "subtitle": "음악이 재생됨"
+    }
+}

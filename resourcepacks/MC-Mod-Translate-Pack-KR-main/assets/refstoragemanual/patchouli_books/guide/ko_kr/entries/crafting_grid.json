@@ -1,0 +1,27 @@
+{
+"name" : "제작 그리드",
+"icon" : "refinedstorage:crafting_grid",
+"category" : "refstoragemanual:access_and_grids",
+"pages" : [
+{
+"type" : "text",
+"text" : "제작 그리드는 일반 그리드와 유사하지만 제작 인벤토리가 포함되어 있습니다. 저장소 네트워크의 재료를 사용하여 아이템을 제작할 수 있습니다."
+},
+{
+"type" : "text",
+"text" : "특징:$(li)일반 그리드의 모든 기능$(li)통합 제작 인벤토리$(li)JEI 레시피 전송 지원$(li)네트워크에서 자동 아이템 검색$(li)누락된 아이템 자동 제작을 시작하려면 Ctrl + 클릭"
+},
+{
+"type" : "text",
+"text" : "제작 그리드를 사용하려면:$(li)컨트롤러 범위 내에 배치$(li)케이블을 사용하여 네트워크에 연결$(li)마우스 오른쪽 버튼을 클릭하여 인터페이스를 엽니다$(li)JEI를 사용하여 레시피를 전송합니다$(li)누락된 아이템을 Ctrl + 클릭해서 자동 제작을 시작합니다$(li)제작 그리드를 사용하여 아이템을 제작합니다"
+},
+{
+"type" : "text",
+"text" : "제작 그리드의 색상을 변경하는 방법은 두 가지가 있습니다$(li)제작 그리드에 염료 사용$(li)블록 결합 제작 레시피에 염료가 포함된 경우"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:crafting_grid"
+}
+]
+}

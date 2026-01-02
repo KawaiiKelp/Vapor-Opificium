@@ -1,0 +1,6 @@
+{
+  "name": "재생 가능 자원",
+  "description": "$(pncr)는 재생 가능 자원, 특히 바이오디젤을 생산하기 위한 일련의 공정을 보유하고 있습니다.",
+  "icon": "pneumaticcraft:biodiesel_bucket",
+  "sortnum": 11
+}

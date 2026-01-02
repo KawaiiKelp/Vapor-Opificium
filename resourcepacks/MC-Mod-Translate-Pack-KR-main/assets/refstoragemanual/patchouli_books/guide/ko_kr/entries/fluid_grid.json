@@ -1,0 +1,23 @@
+{
+"name" : "액체 그리드",
+"icon" : "refinedstorage:fluid_grid",
+"category" : "refstoragemanual:access_and_grids",
+"pages" : [
+{
+"type" : "text",
+"text" : "액체 그리드는 스토리지 네트워크의 액체를 보고 관리하기 위한 특수 인터페이스입니다. 네트워크에 저장된 모든 액체에 액세스할 수 있는 사용자 인터페이스를 제공합니다."
+},
+{
+"type" : "text",
+"text" : "기능:$(li)저장 네트워크에 있는 모든 액체 보기$(li)액체 검색 및 필터링$(li)이름, 수량 또는 ID별로 액체 정렬$(li)유사한 액체 함께 그룹화$(li)그리드 필터를 사용하여 사용자 지정 보기 만들기$(li)액체 양 및 저장 탱크 보기"
+},
+{
+"type" : "text",
+"text" : "액체 그리드를 사용하려면:$(li)컨트롤러 범위 내에 배치$(li)케이블을 사용하여 네트워크에 연결$(li)마우스 오른쪽 버튼을 클릭하여 인터페이스 열기$(li)검색 창을 사용하여 액체 찾기$(li)액체를 클릭하여 추출$(li)그리드 필터를 사용하여 보기 사용자 지정"
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:fluid_grid"
+}
+]
+}

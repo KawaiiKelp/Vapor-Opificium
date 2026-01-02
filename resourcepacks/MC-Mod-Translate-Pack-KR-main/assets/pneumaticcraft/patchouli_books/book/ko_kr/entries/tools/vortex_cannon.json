@@ -1,0 +1,22 @@
+{
+  "name": "와류 대포",
+  "icon": "pneumaticcraft:vortex_cannon[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)와류 대포/$는 $(thing)와류/$를 발사하는 무기입니다. 마찰이 많지 않고 대부분 안정적일 수 있는 방식으로 회전하는 공기입니다.$(p)이것을 사용하여 선택한 목표에 돌풍을 쏠 수 있습니다. 적을 물리치거나, 동물을 밀어내거나, 식물과 나뭇잎을 뽑거나, 엔티티의 털을 깎을 수 있습니다."
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:vortex_cannon",
+      "text": "$(item)와류 대포/$가 더 많이 가압될수록 목표에 더 많은 영향을 미치고 사거리가 더 커집니다.$(p)발사된 와류에 자신을 잡을 수 있으며, 이는 빠른 이동에 매우 유용할 수 있습니다. 하지만 조심하세요: 낙하 피해 보호를 제공하지 않습니다!"
+    },
+    {
+      "type": "crafting",
+      "text": "와류 대포 제작",
+      "recipe": "pneumaticcraft:vortex_cannon"
+    }
+  ]
+}

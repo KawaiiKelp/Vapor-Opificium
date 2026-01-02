@@ -1,0 +1,30 @@
+{
+  "name": "방열판",
+  "icon": "pneumaticcraft:heat_sink",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)방열판/$은 $(l:base_concepts/heat)열/$을 제거하는 데 사용되는 블록입니다.$(p)조심하세요, 60°C보다 뜨겁거나 -60°C보다 차가운 $(item)방열판/$은 만지면 다칩니다!$(p)$(item)방열판/$은 직접 연결된 블록의 열만 발산합니다. 많은 $(item)방열판/$을 연결하려면 $(l:machines/heat_pipe)열 파이프/$를 사용하여 더 많은 표면을 제공하세요."
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/heat_sinks.png"
+      ],
+      "border": "true",
+      "text": "$(italic)여러 방열판이 있는 $(l:compressors/advanced_liquid_compressor)고급 액체 압축기/$"
+    },
+    {
+      "type": "text",
+      "title": "능동 냉각",
+      "text": "$(item)방열판/$을 $(l:tubes/air_grate_module#active_cooling)공기 격자 모듈/$ 범위 내에 배치하여 효율성을 높일 수 있습니다. 모듈의 범위는 $(l:tubes/pressure_tubes)압력 튜브/$에 부착할 때 표시됩니다. 여러 공기 격자 모듈을 사용하여 냉각 효율을 중첩할 수 있습니다."
+    },
+    {
+      "type": "crafting",
+      "text": "방열판 제작",
+      "recipe": "pneumaticcraft:heat_sink"
+    }
+  ]
+}

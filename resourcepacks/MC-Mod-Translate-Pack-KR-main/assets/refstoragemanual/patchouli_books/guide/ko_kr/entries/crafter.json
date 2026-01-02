@@ -1,0 +1,21 @@
+{
+"name" : "제작기",
+"icon" : "refinedstorage:crafter",
+"category" : "refstoragemanual:auto_crafting",
+"pages" : [
+{
+"type" : "text",
+"text" : "제작기는 정제된 저장소 네트워크의 핵심 블록으로, 저장된 패턴을 사용하여 제작 작업을 실행합니다. 제작 효율을 높이기 위한 속도 업그레이드를 지원하며, 체인을 통해 용량을 확장할 수 있습니다. 따라서 복잡한 제작 작업을 자동화하는 데 필수적인 구성 요소입니다.$(br2)체인$(br)제작기는 서로 마주보도록 하여 체인을 구성할 수 있습니다. 이는 여러 제작기를 단일 기계에 연결할 때 유용합니다."
+},
+{
+"type" : "text",
+"text" : "기계를 마주 보는 첫 번째 제작기의 슬롯이 부족하면, 첫 번째 제작기 뒤에 다른 제작기를 배치하여 추가 패턴 슬롯을 확보할 수 있습니다.$(br2)자세한 내용은 $(l:autocrafting)this$()와 $(l:autoprocessing)this$()를 참조하세요."
+},
+{
+"type" : "crafting",
+"recipe" : "refinedstorage:crafter",
+"text" : "제작 레시피."
+}
+
+]
+}

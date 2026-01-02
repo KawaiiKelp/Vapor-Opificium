@@ -1,0 +1,21 @@
+{
+  "name": "공압 렌치",
+  "icon": "pneumaticcraft:pneumatic_wrench[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "공압 렌치는 $(pncr)의 $(thing)렌치/$ 아이템입니다. 다음을 포함한 다양한 작업에 사용할 수 있습니다:$(p)$(li)바닐라 및 모드 블록을 $(thing)우클릭/$하여 회전$(li)$(pncr) 기계를 $(thing)웅크리고 우클릭/$하여 기계에 저장된 업그레이드와 공기를 보존한 채 아이템으로 떨어뜨림."
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l:base_concepts/drones)드론/$을 $(thing)우클릭/$하여 분해하고 아이템으로 떨어뜨림.$(li)$(l:tubes/pressure_tubes)압력 튜브/$를 $(thing)우클릭/$하여 섹션을 닫거나 다시 열어 서로 격리함.$(p)$(item)공압 렌치/$는 사용하기 전에 $(l:machines/charging_station)충전소/$에서 가압해야 합니다."
+    },
+    {
+      "type": "crafting",
+      "text": "공압 렌치 제작",
+      "recipe": "pneumaticcraft:pneumatic_wrench"
+    }
+  ]
+}

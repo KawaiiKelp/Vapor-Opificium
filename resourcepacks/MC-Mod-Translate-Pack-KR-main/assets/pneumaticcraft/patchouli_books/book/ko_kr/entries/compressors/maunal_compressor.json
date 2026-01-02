@@ -1,0 +1,17 @@
+{
+  "name": "수동 압축기",
+  "icon": "pneumaticcraft:manual_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)수동 압축기/$는 육체노동과 배고픔으로 $(l:base_concepts/pressure)압축 공기/$를 생산하는 초반 압축기입니다. 압축기를 우클릭하고 있으면 공기를 펌핑하여 압축합니다. 압축기의 압력이 높을수록 더 이상 공기를 펌핑할 수 없을 때까지 펌핑당 시간이 길어집니다."
+    },
+    {
+      "type": "crafting",
+      "text": "$(item)수동 압축기/$ 제작",
+      "recipe": "pneumaticcraft:manual_compressor"
+    }
+  ]
+}

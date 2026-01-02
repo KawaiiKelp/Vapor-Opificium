@@ -1,0 +1,6 @@
+{
+  "name": "압축기",
+  "description": "압축기는 공기를 압축하여 $(l:base_concepts/pressure)압력/$을 생성하는 기계입니다. 이는 $(pncr)의 동력 발생 장치입니다.",
+  "icon": "pneumaticcraft:air_compressor",
+  "sortnum": 1
+}

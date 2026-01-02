@@ -1,0 +1,23 @@
+{
+"name": "섬세한 손길 업그레이드",
+"category": "refstoragemanual:processors_and_upgrades",
+"icon": "refinedstorage:silk_touch_upgrade",
+"pages": [
+{
+"type": "text",
+"text": "섬세한 손길 업그레이드는 파괴기에서 섬세한 손길 기능을 활성화하여 블록을 파괴하지 않고 채굴할 수 있도록 합니다."
+},
+{
+"type": "text",
+"text": "특징:$(li)섬세한 손길 채굴 활성화$(li)파괴기에서 작동$(li)블록 상태 보존$(li)전력 소비 증가"
+},
+{
+"type": "text",
+"text": "섬세한 손길 업그레이드 사용 방법:$(li)파괴기를 마우스 오른쪽 버튼으로 클릭$(li)업그레이드 슬롯에 업그레이드 삽입$(li)파괴기가 이제 섬세한 손길로 블록을 채굴합니다$(li)전력 소비 증가"
+},
+{
+"type": "crafting",
+"recipe": "refinedstorage:silk_touch_upgrade"
+}
+]
+}
