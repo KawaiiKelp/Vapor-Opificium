@@ -55,7 +55,7 @@
 				item: { Count: 8, id: "minecraft:dirt" }
 				type: "item"
 			}]
-			title: "이번엔 또 뭐예요?!"
+			title: "3번째 고난"
 			x: -6.0d
 			y: 0.0d
 		}
