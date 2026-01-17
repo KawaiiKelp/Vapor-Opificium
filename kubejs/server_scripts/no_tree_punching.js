@@ -1,43 +1,48 @@
 BlockEvents.broken(event => {
-    // KubeJS 6 스타일 구조 분해 할당
     const { player, block } = event
     const heldItem = player.mainHandItem
 
-    // 1. 크리에이티브 모드면 통과
+    // 1. 크리에이티브 패스
     if (player.isCreative()) return
 
-    // 2. 나무(Logs) 태그가 있는지 확인
+    // 2. 나무 확인
     if (!block.hasTag('minecraft:logs')) return
 
-    // 3. 도끼인지 확인 (바닐라 + 모드 도끼 통합 태그)
+    // 3. 도끼 확인
     let isAxe = heldItem.hasTag('minecraft:axes') || heldItem.hasTag('forge:tools/axes')
 
     // 4. 도끼가 아니면?
     if (!isAxe) {
-        // [수정됨] 니가 가져온 문법 적용 (Action Bar 출력)
+        // [수정됨] 토스트 알림 (Lang 키 적용)
         event.player.notify(Notification.make(toast => {
             toast.setItemIcon('minecraft:oak_log')
             toast.outlineColor = 0x2D1E16
             toast.backgroundColor = 0x261A1A
             toast.borderColor = 0x303030
-            toast.duration = 4000
+            toast.duration = 4000 // 4초
+            
+            // [핵심] 텍스트를 키(Key)로 대체
             toast.text = [
-                Component.of('§c⚠ 채굴 불가 ⚠\n').bold(),
-                Component.of('나무가 너무 단단합니다.\n').color('gray'),
-                Component.of('부싯돌 등급 이상의 도끼').color('gold').bold(),
-                Component.of("가 필요할 것 같습니다...").color('gray')
+                // 제목: 빨강 + 볼드 + 줄바꿈(\n)은 Lang 파일에서 처리하거나 여기서 배열로 나눔
+                Component.translate('notification.kubejs.tree_fail.title').red().bold().append('\n'),
+                
+                // 설명 1: 회색
+                Component.translate('notification.kubejs.tree_fail.desc_1').gray().append('\n'),
+                
+                // 아이템 강조: 금색 + 볼드
+                Component.translate('notification.kubejs.tree_fail.item').gold().bold().append('\n'),
+                
+                // 설명 2: 회색
+                Component.translate('notification.kubejs.tree_fail.desc_2').gray()
             ]
         }))
         
-        // (선택) 팅! 하는 소리 추가해서 피드백 주기
-        // 소리가 안 나면 내가 캐고 있는 건지 렉 걸린 건지 모르니까 넣는 게 좋음
+        // 사운드 (베이스 소리 퉁!)
         player.level.playSound(null, player.x, player.y, player.z, 'minecraft:block.note_block.bass', 'players', 1.0, 1.0)
 
-        // [★추가된 코드★] FTB Quests 연동: 스테이지 부여
-        // 플레이어에게 'tree_fail' 스테이지가 없으면 부여함
+        // FTB Quests 스테이지 부여
         if (!player.stages.has('tree_fail')) {
             player.stages.add('tree_fail')
-            // 스테이지가 부여되는 순간, FTB Quests가 이걸 감지하고 퀘스트를 '자동 완료' 시킴.
         }
 
         event.cancel() // 채굴 취소

@@ -1,0 +1,31 @@
+{
+  "item.kubejs.flint_shears": "부싯돌 가위",
+  
+  "item.kubejs.survivor_coin": "생존자의 동전",
+  "item.kubejs.farmer_coin": "농부의 동전",
+  "item.kubejs.cook_coin": "요리사의 동전",
+  "item.kubejs.miner_coin": "광부의 동전",
+  "item.kubejs.explorer_coin": "탐험가의 동전",
+  "item.kubejs.technician_coin": "기술자의 동전",
+  "item.kubejs.chemist_coin": "화학자의 동전",
+  "item.kubejs.energy_coin": "에너지 동전",
+
+  "item.kubejs.lunchbag": "가죽 도시락 봉투",
+  "item.kubejs.lunchbox": "청동 도시락통",
+  "item.kubejs.steel_lunchbox": "강철 도시락통",
+
+  "item.kubejs.tanned_leather": "무두질한 가죽",
+
+  "item.kubejs.coin.tooltip": "§7퀘스트 상점에서 물품과 교환할 수 있습니다.",
+
+  "notification.kubejs.tree_fail.title": "⚠ 채굴 불가 ⚠",
+  "notification.kubejs.tree_fail.desc_1": "나무가 너무 단단합니다.",
+  "notification.kubejs.tree_fail.item": "부싯돌 등급 이상의 도끼",
+  "notification.kubejs.tree_fail.desc_2": "가 필요할 것 같습니다...",
+  
+  "notification.kubejs.tool_ban.mining.title": "⚠ 채굴 불가 ⚠",
+  "notification.kubejs.tool_ban.mining.desc": "이 도구는 너무 조잡해서 사용할 수 없습니다.",
+  
+  "notification.kubejs.tool_ban.attack.title": "⚠ 공격 불가 ⚠",
+  "notification.kubejs.tool_ban.attack.desc": "이 무기는 사용할 수 없습니다."
+}

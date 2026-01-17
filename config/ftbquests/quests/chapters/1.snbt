@@ -13,7 +13,7 @@
 			description: [
 				"다시 만나게 되어 반갑습니다!"
 				""
-				"드디어 &2Terra Mechanica™&r과 &2Unitas Nihilium™&r을 모두 마치고, 평범한 세상으로 돌아왔습니다!"
+				"드디어 &2Terra Mechanica™&r과 &3Unitas Nihilium™&r을 모두 마치고, 평범한 세상으로 돌아왔습니다!"
 				""
 				"어때요? &a오버월드&r의 공기는 상쾌하지 않나요?"
 				"&7&o물론 여러분의 선택에 따라 공기가 더럽혀질 수도 있습니다. 아마도요.&r"
@@ -22,7 +22,7 @@
 				""
 				"&4다시 지옥을 맛볼 시간&r입니다. &7흙을 8개 정도 구하는 것&r으로 시작해 보죠."
 				""
-				"이 &7원목 2개와 부싯돌 2개&r는 &6제작대를 만드는 데 사용&r할 겁니다. &l절대 사용하지 마십시오.&r"
+				"밥 좀 드릴까요? 배고플 &l&o만두&r 하잖아요."
 			]
 			icon: {
 				Count: 1
@@ -32,20 +32,12 @@
 				}
 			}
 			id: "2EE923F7CC700F45"
-			rewards: [
-				{
-					count: 2
-					id: "6049D210E3D69DC3"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "329AFDC1BC6ECFD5"
-					item: "minecraft:flint"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "4DFCA8D48B22E409"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "그래도 갈증이나 그런 건 없네요"
@@ -55,7 +47,7 @@
 				item: { Count: 8, id: "minecraft:dirt" }
 				type: "item"
 			}]
-			title: "3번째 고난"
+			title: "Vapor Opificium에서의 첫날 밤"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -101,7 +93,7 @@
 				""
 				"[\"\",{\"keybind\":\"key.ftbchunks.map\",\"color\":\"aqua\"},\" 키를 눌러 FTB 청크 지도를 열 수 있습니다.\"]"
 				""
-				"[\"\",{\"keybind\":\"key.ftbchunks.claim_manager\",\"color\":\"aqua\"}, \" 키를 눌러 소유한 청크를 확인하고 추가/제거할 수 있습니다.\"]"
+				"[\"\",{\"keybind\":\"key.ftbchunks.claim_manager\",\"color\":\"aqua\"}, \" 키를 눌러 점유된 청크를 확인하고 추가/제거할 수 있습니다.\"]"
 				""
 				"[\"\",{\"keybind\":\"key.ftbchunks.add_waypoint\",\"color\":\"aqua\"}, \" 키를 눌러 경유지를 빠르게 생성할 수 있습니다.\"]"
 				""
@@ -135,7 +127,7 @@
 				type: "checkmark"
 			}]
 			title: "유용한 단축키들"
-			x: -6.0d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
@@ -159,7 +151,7 @@
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			subtitle: "부싯돌이 안 나온다고요? 정상입니다"
+			subtitle: "물론 바위로 자갈을 만드는 건 나중에나 가능하죠"
 			tasks: [
 				{
 					count: 9L
@@ -174,27 +166,23 @@
 					only_from_crafting: true
 					type: "item"
 				}
-				{
-					id: "2351055DB586E38D"
-					item: "minecraft:crafting_table"
-					type: "item"
-				}
 			]
-			title: "임시 도구를 위한 준비"
+			title: "바윗돌 깨뜨려 자갈돌"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7D7E53FD92B00E76"
-				"181E99CC5F4A208B"
-			]
+			dependencies: ["354EFDB631A14157"]
 			description: [
-				"&7부싯돌&r이 &c살짝 부족&r할 수도 있습니다! 그러니 &b삽&r을 먼저 만드세요."
+				"&a집&r은 지었나요? &6제작대&r는 있겠죠? 그럼 이제 &b도구&r를 만들어봅시다!"
+				""
+				"우리는 &6나무&r를 사용할 수 없으니 &7부싯돌&r을 사용할 것입니다! &7부싯돌&r로 &b도구&r를 만드세요!"
+				""
+				"&7부싯돌&r이 &c살짝 부족&r할 수도 있습니다! &b더 많은 부싯돌&r은 &e더 많은 대책&r을 세우기에 충분합니다. 충분히 캐길 바랍니다!"
 				""
 				"&b부싯돌 도구&r를 완성하셨다면 &7자갈&r을 조금 더 캐보세요."
 				""
-				"그리고 이 &7살짝 사용한 절구&r를 가져가세요. 이걸 왜 주는 지는 다음 퀘스트에서 알게 됩니다!"
+				"그리고 이 &7살짝 사용한 절구&r를 가져가세요. 이걸 왜 주는지는 나중에 알게 됩니다! &7&o소중히 보관하세요.&r"
 			]
 			icon: {
 				Count: 1
@@ -233,7 +221,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "나무 자갈 다 뒤졌다 ㅋㅋ"
+			subtitle: "드디어 나무를 구할 수 있어"
 			tasks: [
 				{
 					id: "1CF0B9A7687329B2"
@@ -300,71 +288,26 @@
 					}
 					type: "item"
 				}
-			]
-			title: "기초 도구 3종 세트"
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2BE8342EB862519A"]
-			description: [
-				"제가 드린 &7&o살짝 사용한 절구&r를 어떻게 쓰는지 알려드리겠습니다!"
-				""
-				"간단합니다. &7부싯돌&r이나 &7뼛가루&r같은 &n잘게 다져진 재료&r들을 만드는 데 사용합니다!"
-				""
-				"네, 맞습니다. 이제 &b자갈 1개로 부싯돌 1개&r를 만들 수 있습니다!"
-				""
-				"축하드립니다! &7부싯돌&r을 좀 더 갈아오세요."
-			]
-			icon: {
-				Count: 1
-				id: "gtceu:flint_mortar"
-				tag: {
-					Damage: 0
-					DisallowContainerItem: 0b
-					GT.Behaviours: { }
-					GT.Tool: {
-						DefaultEnchantments: [ ]
-						MaxDamage: 63
-					}
-					HideFlags: 2
-				}
-			}
-			id: "13A17134F290D4FE"
-			rewards: [{
-				id: "6DE3844EB0F0623A"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "내 인생도 갈아넣어야 할 판에 재료나 갈고 있다니"
-			tasks: [
 				{
-					id: "1492F69BF6774581"
+					id: "2C921BD6D720201A"
 					item: {
 						Count: 1
-						id: "gtceu:flint_mortar"
+						id: "gtceu:flint_hoe"
 						tag: {
-							Damage: 54
+							Damage: 0
+							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								AttackDamage: 0.0f
-								AttackSpeed: -2.4f
 								DefaultEnchantments: [ ]
-								HarvestLevel: 1
-								MaxDamage: 64
+								MaxDamage: 63
 							}
+							HideFlags: 2
 						}
 					}
 					type: "item"
 				}
-				{
-					count: 2L
-					id: "413657D00D81980C"
-					item: { Count: 2, id: "minecraft:flint" }
-					type: "item"
-				}
 			]
-			title: "빻아버리기"
+			title: "부싯돌 도구"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -386,7 +329,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "저 다쳤어요! 빨리 응급실 보내주세요! 아니 여기는 치과잖아!!!"
+			subtitle: "저 다쳤어요! 빨리 응급실 보내주세요! 의사가 파업했다구요? 이런..."
 			tasks: [{
 				id: "1298A8A88A96EEF6"
 				title: "확인"
@@ -397,7 +340,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2EE923F7CC700F45"]
 			description: [
 				"&dE&aM&bI&r를 배워봅시다!"
 				""
@@ -432,8 +374,8 @@
 				type: "checkmark"
 			}]
 			title: "&dE&aM&bI&r와 함께 하는 편리한 제작 생활"
-			x: -7.0d
-			y: 1.5d
+			x: -9.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2EE923F7CC700F45"]
@@ -441,7 +383,9 @@
 				"&c밤은 위험합니다! &r"
 				"더럽게 사악한 &2Vapor Opificium™&r의 개발자가 &e빛&r과 &1어둠&r을 명확히 나눠버렸네요!"
 				""
-				"빛이 &80&r이라면 &c아무 것도 보이지 않을 거예요!&r 당신의 주변을 꼭 &e밝게 유지&r하세요."
+				"빛이 &00&r이라면 &c아무 것도 보이지 않을 거예요!&r 당신의 주변을 꼭 &e밝게 유지&r하세요."
+				""
+				"&7동적 조명&r이 있기 때문에, &7횃불&r을 들면 &e주변이 밝아질 거예요!&r"
 				""
 				"여기, 제가 드리는 &7횃불&r을 좀 챙겨 가세요."
 			]
@@ -516,25 +460,41 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7D7E53FD92B00E76"]
+			dependency_requirement: "one_started"
 			description: [
 				"&c나무는 도구 없이 캘 수 없습니다.&r "
 				""
-				"생각해 보세요, &9맨손으로 나무를 부수는 게&r &o말이 된다고 생각하십니까?&r"
+				"&7맨손으로 나무를 부수면&r &c손이 아파요!&r &7도구&r를 만듭시다."
 				""
-				"&c당연히 말이 안 되죠!&r 그래서 &7도구&r가 없이는 &c나무를 캘 수 없습니다.&r"
+				"&e초반 시스템&r을 이렇게 만든 건 죄송합니다. &c심심한 사과&r를 드리며 &7소정의 선물&r을 드리겠습니다."
 				""
-				"대신 여러분이 &9도구를 만들 수 있도록&r &7막대기&r를 좀 지원해 드리겠습니다. 가서 &7삽&r과 &7도끼&r를 제작하세요!"
+				"대신 &7막대기&r는 &2잎&r을 부숴 얻을 수 있으니, 어서 &7도구&r를 제작하세요!"
 			]
-			icon: "minecraft:oak_log"
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/gui/breaking_log.png"
+				}
+			}
 			id: "181E99CC5F4A208B"
+			invisible: true
 			rewards: [{
-				count: 6
-				id: "3EA0C2B9692928B7"
-				item: "minecraft:stick"
-				type: "item"
+				command: "/give @s apple 1"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:item/apple"
+					}
+				}
+				id: "6F5F4A4310EEA4F6"
+				silent: true
+				title: "심심한 사과의 말씀"
+				type: "command"
 			}]
-			secret: true
 			subtitle: "하긴 누가 맨손으로 나무를 부숴요"
 			tasks: [{
 				icon: {
@@ -554,12 +514,39 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["13A17134F290D4FE"]
+			dependencies: ["10F1D1D0954A2E25"]
+			dependency_requirement: "one_completed"
+			description: [
+				"어찌저찌 &7양털 6개&r를 구했군요!"
+				""
+				"당신이 &b가위&r로 &e털을 깎았든&r &c양을 죽였든&r 일단 &7양털&r을 구했으니 다음으로 넘어갑시다."
+				""
+				"&2챕터&r의 &9마지막 목표&r는 &b침대&r입니다. &7&o알고 계실 거라 믿습니다.&r"
+				""
+				"이제 &b침대&r를 만들 차례입니다! &6내 집 마련의 꿈&r을 이룹시다!"
+				""
+				"&7동전&r 좀 가져가세요. 집은 지켜야죠!"
+				"이 &7끈&r도 챙기세요. &7양털&r을 자주 모으려면 양을 데리고 가는 게 나으니까요!"
+			]
+			icon: "minecraft:white_wool"
 			id: "2CE35B78DF8DB1AF"
-			subtitle: "양에게 뾰족한 것을 찔러본 적이 있나요?"
+			rewards: [
+				{
+					id: "0DC800CE9C05884F"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49844EE2295BBAC3"
+					item: "kubejs:farmer_coin"
+					type: "item"
+				}
+			]
+			subtitle: "양을 죽이지 않았군요!"
 			tasks: [{
 				count: 6L
-				id: "411A8B6786080369"
+				id: "6A83A76A647E6BD5"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -571,9 +558,301 @@
 				type: "item"
 			}]
 			title: "양털 구하기"
-			x: 2.0d
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D7E53FD92B00E76"
+				"181E99CC5F4A208B"
+			]
+			description: [
+				"나무 2개와 부싯돌 2개만 있으면 제작대를 만들 수 있습니다."
+				""
+				"이제 3x3 조합이 가능하네요!"
+			]
+			id: "354EFDB631A14157"
+			subtitle: "나는 이 제작대로 세계를 정복했다"
+			tasks: [{
+				id: "36A9613C317523D0"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "제작대를 손에 넣다"
+			x: -2.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2BE8342EB862519A"]
+			description: [
+				"&b자신을 방어하기 위한 수단&r 중 &a최고의 선택&r일지도 모릅니다!"
+				""
+				"우선 &o날카롭잖아요!&r 그럼 &l강력하지 않겠습니까?&r &e사냥할 시간입니다! 검을 높이 드세요!&r"
+			]
+			id: "70FCF4F7B6EBCC36"
+			subtitle: "길을 막는 것은 모두 베어버리겠다"
+			tasks: [{
+				id: "0575E509E60644C4"
+				item: {
+					Count: 1
+					id: "gtceu:flint_sword"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 4.0f
+							AttackSpeed: -2.4f
+							DefaultEnchantments: [ ]
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				match_nbt: false
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "사냥할 시간이다!"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BE8342EB862519A"]
+			description: [
+				"&a양이 아프지 않게&r &b털만 깎아줍시다!&r"
+				""
+				"마침 &7양&r도 &6털때매 더웠을 거예요.&r &o조심스럽게 미용을 해줍시다!&r"
+				""
+				"&7양털 6개&r를 구한 다음 &b퀘스트를 마저 진행하세요!&r"
+			]
+			id: "10F1D1D0954A2E25"
+			rewards: [{
+				command: "/effect give @s minecraft:regeneration 10 2"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/gui/good_sheep.png"
+					}
+				}
+				id: "7B1E67FD5263CC1C"
+				silent: true
+				title: "양이 착한 당신에게 주는 선물!"
+				type: "command"
+			}]
+			subtitle: "아픈 환자를 위한 수술을 집도하겠습니다"
+			tasks: [{
+				id: "3688EFBAE1B1B7BD"
+				item: {
+					Count: 1
+					id: "kubejs:flint_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "싹둑싹둑"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BE8342EB862519A"]
+			id: "6A760A8045D5440C"
+			subtitle: "이케아는 가구에 늘 나사를 하나씩 더 넣어준다죠?"
+			tasks: [{
+				id: "00CDDC14D1087014"
+				item: {
+					Count: 1
+					id: "gtceu:wood_mallet"
+					tag: {
+						Damage: 0
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							DefaultEnchantments: [ ]
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "가구 짓기 좋은 날"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BE8342EB862519A"]
+			description: [
+				"&e돌을 캘 시간&r입니다! 그 &8못생긴 흙집&r도 좀 꾸미고 &7화로&r도 만들어봅시다!"
+				""
+				"&c&l돌 도구는 못 만듭니다. 돌 도구로 업그레이드할 생각은 마세요.&r"
+			]
+			id: "423D449C5185D133"
+			rewards: [{
+				id: "70D0087EF30E2462"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			subtitle: "락 앤 스톤!"
+			tasks: [{
+				count: 64L
+				id: "2DBE0CFC5DB4D781"
+				item: { Count: 64, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "땅까지 파버리기"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EE923F7CC700F45"]
+			description: [
+				"여러분이 &2Terra Mechanica™&r, 또는 &3Unitas Nihilium™&r을 플레이해본 적 없나요? "
+				""
+				"그렇다면 &6청크 소유&r와 &a청크 로딩&r을 알려드리겠습니다!"
+				""
+				"[\"\",{\"keybind\":\"key.ftbchunks.claim_manager\",\"color\":\"aqua\"}, \" 키를 누르면 청크 소유 메뉴가 나옵니다.\"]"
+				""
+				"이 메뉴에서 &7왼쪽 클릭&r으로 &6청크를 점유&r할 수 있고, &7오른쪽 클릭&r으로 &c점유된 청크를 취소&r할 수 있습니다."
+				""
+				"그리고 &7Shift + 왼쪽 클릭&r과 &7오른쪽 클릭&r으로 &a점유된 청크를 강제로 불러올 수 있습니다!&r"
+				""
+				"나중에 &e공장을 24시간 연중무휴로 돌리기 위해&r 필요합니다!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "56D7FB31C3CE6E80"
+			shape: "rsquare"
+			subtitle: "이전 모드팩들을 안해보신 분들을 위해"
+			tasks: [{
+				id: "4698A765A12265DD"
+				title: "읽음"
+				type: "checkmark"
+			}]
+			title: "청크 로딩"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70FCF4F7B6EBCC36"]
+			description: [
+				"&o세상에!&r &c&o지금 동물을 학대하는 건가요?!&r"
+				""
+				"&4잔인하지만&r &e확실한 방법&r이긴 하네요."
+				""
+				"&7양털 6개&r를 구했다면 괜찮습니다. &e마저 진행&r하세요."
+				""
+				"보상으로 &7익힌 양고기 살점&r을 드립니다."
+				""
+				"&c이 살점을 한 입 한 입 뜯어가며, 스스로에게 양을 죽였다는 것에 대해 죄책감을 느끼세요!&r"
+				""
+				"...일단 진행은 할 수 있으니 진행합시다."
+				""
+				"&b침대&r를 만들 시간입니다. 가서 침대를 만듭시다."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/sheep.png"
+				}
+			}
+			id: "4C96166F478A46D8"
+			rewards: [{
+				count: 2
+				id: "12E362E56E2DA579"
+				item: "farmersdelight:cooked_mutton_chops"
+				title: "죄책감을 느끼세요"
+				type: "item"
+			}]
+			subtitle: "결국 저지르셨군요"
+			tasks: [
+				{
+					entity: "minecraft:sheep"
+					id: "691A1A649F0EFBDC"
+					title: "이 &o살인자!"
+					type: "kill"
+					value: 6L
+				}
+				{
+					count: 6L
+					id: "0342DDB2136F8054"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					title: "Any #minecraft:wool"
+					type: "item"
+				}
+			]
+			title: "양 6마리 잡기"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2CE35B78DF8DB1AF"
+				"6A760A8045D5440C"
+				"4C96166F478A46D8"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7침대&r를 만드셨군요! 축하합니다!"
+				""
+				"이제 &1첫 날 밤&r을 편안하게 보낼 수 있습니다."
+				""
+				"&6집&r은 모두 준비되었나요? &b따뜻한 음식&r과 &3편안한 이부자리&r는요?"
+				""
+				"좋아요. 준비가 되었다면, 이제 잘 시간입니다!"
+				""
+				"[\"잘 자요! \", {\"text\": \"다음 챕터\", \"color\": \"dark_green\", \"bold\": true, \"underlined\": true, \"hoverEvent\": {\"action\": \"show_text\", \"value\": [\"클릭 시 \", {\"text\": \"석기 시대! 챕터\", \"color\": \"dark_green\", \"underlined\": true}, \"로 이동합니다.\"]}, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"20B5035D5269E9D0\"}}, \"\\u00a7r에서 만나요!\"]"
+			]
+			icon: "minecraft:white_bed"
+			id: "36424B1BB0DD6592"
+			subtitle: "피곤했는데 마침 잘 됐네"
+			tasks: [{
+				id: "2E7FD69BF2E7F97E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "아늑한 침대"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["423D449C5185D133"]
+			id: "41210750586F374C"
+			subtitle: "으어ㅓㅓㅓㅓㅓ... 시원하다"
+			tasks: [{
+				id: "4C2F8C52F303BCD0"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "뜨끈뜨끈하네!"
+			x: 1.5d
+			y: 3.0d
+		}
 	]
-	title: "첫 번째 밤"
+	subtitle: ["여러분의 모험이 시작되는 첫 챕터입니다."]
+	title: "위대한 여정의 시작"
 }

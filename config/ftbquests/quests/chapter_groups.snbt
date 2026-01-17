@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "5DB5488AA589CA2B", title: "주요 목표" }
-		{ id: "1DE147901EAD75F4", title: "기타 목표" }
+		{ id: "5DB5488AA589CA2B", title: "진행" }
+		{ id: "1DE147901EAD75F4", title: "기타" }
 	]
 }

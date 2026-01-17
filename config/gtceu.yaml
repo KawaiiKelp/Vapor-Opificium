@@ -217,7 +217,7 @@ machines:
   # Whether multiblocks should ignore all cleanroom requirements.
   # This does nothing if enableCleanroom is false.
   # Default: false
-  cleanMultiblocks: false
+  cleanMultiblocks: true
 
   # Whether the miner should attempt to replace the block mined with a cobbled version of the ore
   # Default: true
@@ -655,7 +655,7 @@ compat:
 
   # Whether dimension markers should show the dimension tier value.
   # Default: false
-  showDimensionTier: false
+  showDimensionTier: true
 
   # Whether Create compatibility will be available.
   # Default: true

@@ -1,0 +1,16 @@
+{
+    "gui.integratedterminals.terminal_storage.to_craft": "제작할 아이템: %s",
+    "gui.integratedterminals.terminal_storage.scale": "그리드 크기",
+    "gui.integratedterminals.terminal_storage.scale.info": "저장소 그리드의 크기를 설정합니다",
+    "gui.integratedterminals.terminal_storage.scale.scalexy": "§a높이/너비 조정",
+    "gui.integratedterminals.terminal_storage.scale.scaley": "§a높이 조정",
+    "gui.integratedterminals.terminal_storage.scale.scalex": "§a너비 조정",
+    "gui.integratedterminals.terminal_storage.scale.small": "§a작음",
+    "gui.integratedterminals.terminal_storage.scale.medium": "§a중간",
+    "gui.integratedterminals.terminal_storage.scale.large": "§a큼",
+
+    "gui.integratedterminals.craftingplan.view.flat": "간략히 보기",
+    "gui.integratedterminals.craftingplan.view.tree": "트리 보기",
+
+    "info_book.integratedterminals.storage_terminal.usage.text10": "모든 터미널 설정(버튼, 검색 상자, 탭 등)은 플레이어 및 터미널별로 저장됩니다. 새로 설치된 터미널에 불러올 설정을 구성하려면, 터미널 GUI 우측 하단에 있는 모루 버튼을 누르면 됩니다."
+}

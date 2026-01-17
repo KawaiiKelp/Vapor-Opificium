@@ -1,0 +1,419 @@
+{
+    "general.integrateddynamics.energy_unit": "RF",
+
+    "gui.integrateddynamics.part_offsets": "부품 오프셋",
+    "gui.integrateddynamics.partoffset.offsets": "대상 위치에 대한 상대적 오프셋",
+    "gui.integrateddynamics.partoffset.offsets.max": "최대 오프셋: %s",
+    "gui.integrateddynamics.partoffset.offsets.max.howtoincrease": "부품 강화: 오프셋으로 제한 증가",
+    "gui.integrateddynamics.partoffset.slot.message.noint": "유효하지 않은 정수 좌표입니다",
+    "gui.integrateddynamics.partoffset.slot.message.outofrange": "오프셋이 허용 범위를 초과했습니다",
+    "gui.integrateddynamics.partoffset.x": "X 오프셋",
+    "gui.integrateddynamics.partoffset.y": "Y 오프셋",
+    "gui.integrateddynamics.partoffset.z": "Z 오프셋",
+    "gui.integrateddynamics.logicprogrammer.reset": "초기화",
+    "gui.integrateddynamics.logicprogrammer.info.create": "§l새§r 변수 카드 결속",
+    "gui.integrateddynamics.logicprogrammer.info.modify": "변수 카드 §l수정§r",
+    "gui.integrateddynamics.logicprogrammer.tooltip.writeslot.create": "변수 카드를 넣어 §l새§r 값에 결속",
+    "gui.integrateddynamics.logicprogrammer.tooltip.writeslot.modify": "변수 카드를 넣어 값 §l불러오기§r",
+    "gui.integrateddynamics.recipe.reusable": "재사용 가능",
+    "gui.integrateddynamics.operator.globalname": "전역 이름: %s",
+    "gui.integrateddynamics.operator.localname": "메서드 이름: %s",
+
+    "gui.integrateddynamics.diagnostics.table.actions": "작업",
+
+
+
+
+    "item.integrateddynamics.general.id": "§e§lID: §r%s",
+    "item.integrateddynamics.wrench.info": "허공에 Shift + 우클릭하여 모드 변경",
+    "item.integrateddynamics.wrench.mode": "§e모드: §r%s",
+    "item.integrateddynamics.wrench.mode.default": "기본",
+    "item.integrateddynamics.wrench.mode.default.info": "부품 제거 또는 블록 회전",
+    "item.integrateddynamics.wrench.mode.offset": "오프셋 저장",
+    "item.integrateddynamics.wrench.mode.offset.info": "위치에 Shift + 우클릭 후 부품에 우클릭하여 오프셋 연결",
+    "item.integrateddynamics.wrench.mode.offset.saved": "위치가 렌치에 저장됨: %s",
+    "item.integrateddynamics.wrench.mode.offset.success": "부품에 새 오프셋 위치가 설정되었습니다",
+    "item.integrateddynamics.wrench.mode.offset.incomplete": "이 렌치에 저장된 위치가 없습니다",
+    "item.integrateddynamics.wrench.mode.offset.fail": "오프셋을 설정할 수 없습니다. 강화를 사용하여 최대 오프셋을 늘리세요!",
+    "item.integrateddynamics.wrench.mode.offset.pos": "위치: %s",
+    "item.integrateddynamics.wrench.mode.offset_side": "오프셋 및 면 저장",
+    "item.integrateddynamics.wrench.mode.offset_side.info": "위치에 Shift + 우클릭 후 부품에 우클릭하여 오프셋 및 면 연결",
+    "item.integrateddynamics.wrench.mode.offset_side.saved": "위치 및 면이 렌치에 저장됨: %s - %s",
+    "item.integrateddynamics.wrench.mode.offset_side.success": "부품에 새 오프셋 위치 및 면이 설정되었습니다",
+    "item.integrateddynamics.wrench.mode.offset_side.side": "면: %s",
+    "item.integrateddynamics.enhancement_offset": "부품 강화: 오프셋",
+    "item.integrateddynamics.enhancement_offset.info": "우클릭하여 부품의 최대 오프셋 증가",
+    "item.integrateddynamics.enhancement_offset.tooltip": "오프셋 증가량: %s",
+    "item.integrateddynamics.enhancement_offset.increased": "부품 오프셋이 %s(으)로 증가했습니다",
+    "item.integrateddynamics.enhancement_offset.limit": "부품 오프셋이 이미 한계에 도달했습니다 (%s)",
+
+    "fluid_type.integrateddynamics.menril_resin": "멘릴 수지",
+    "fluid_type.integrateddynamics.liquid_chorus": "액체 코러스",
+
+
+    "advancement.integrateddynamics.menril_production.desc": "멘릴 원목을 멘릴 수지로 가공하고 건조하여 결정화된 멘릴을 얻으세요.",
+    "advancement.integrateddynamics.variable_input.desc": "변수 입력 변압기 제작",
+    "advancement.integrateddynamics.variable_output.desc": "변수 출력 변압기 제작",
+
+
+
+    "valuetype.integrateddynamics.any": "아무거나",
+    "valuetype.integrateddynamics.number": "숫자",
+    "valuetype.integrateddynamics.named": "명명됨",
+    "valuetype.integrateddynamics.uniquely_named": "고유하게 명명됨",
+    "operator.integrateddynamics.string.string_error": "오류",
+    "operator.integrateddynamics.string.string_error.info": "사용자 지정 오류 발생", 
+
+
+    "valuetype.integrateddynamics.boolean": "부울",
+    "valuetype.integrateddynamics.integer": "정수",
+    "valuetype.integrateddynamics.double": "실수",
+    "valuetype.integrateddynamics.long": "Long 정수",
+    "valuetype.integrateddynamics.string": "문자열",
+    "valuetype.integrateddynamics.operator": "연산자",
+    "valuetype.integrateddynamics.nbt": "NBT",
+
+    "valuetype.integrateddynamics.list": "목록",
+    "valuetype.integrateddynamics.block": "블록",
+    "valuetype.integrateddynamics.itemstack": "아이템",
+    "valuetype.integrateddynamics.entity": "엔티티",
+    "valuetype.integrateddynamics.fluidstack": "액체",
+    "valuetype.integrateddynamics.ingredients": "재료",
+    "valuetype.integrateddynamics.recipe": "제작법",
+
+
+    "parttype.integrateddynamics.tooltip.maxoffset": "최대 오프셋: %s",
+
+
+
+    "parttype.integrateddynamics.static_light_panel.info": "항상 켜져 있는 단순 조명 패널",
+    "parttype.integrateddynamics.dynamic_light_panel.info": "변수 값을 월드의 밝기 값으로 시각적으로 표시합니다",
+
+
+
+
+
+
+    "aspect.integrateddynamics.read.integer.audio.instrument.zombie": "좀비 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.zombie.info": "좀비 음표를 읽습니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.read.integer.audio.instrument.skeleton": "스켈레톤 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.skeleton.info": "스켈레톤 음표를 읽습니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.read.integer.audio.instrument.creeper": "크리퍼 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.creeper.info": "크리퍼 음표를 읽습니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.read.integer.audio.instrument.dragon": "드래곤 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.dragon.info": "드래곤 음표를 읽습니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.read.integer.audio.instrument.wither_skeleton": "위더 스켈레톤 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.wither_skeleton.info": "위더 스켈레톤 음표를 읽습니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.read.integer.audio.instrument.piglin": "피글린 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.piglin.info": "피글린 음표를 읽습니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.read.integer.audio.instrument.custom_head": "머리 음표",
+    "aspect.integrateddynamics.read.integer.audio.instrument.custom_head.info": "머리 음표를 읽습니다, 예상 범위 [0, 24]",
+
+
+    "aspect.integrateddynamics.write.integer.audio.instrument.zombie": "좀비 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.zombie.info": "좀비 음표를 출력합니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.write.integer.audio.instrument.skeleton": "스켈레톤 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.skeleton.info": "스켈레톤 음표를 출력합니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.write.integer.audio.instrument.creeper": "크리퍼 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.creeper.info": "크리퍼 음표를 출력합니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.write.integer.audio.instrument.dragon": "드래곤 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.dragon.info": "드래곤 음표를 출력합니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.write.integer.audio.instrument.wither_skeleton": "위더 스켈레톤 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.wither_skeleton.info": "위더 스켈레톤 음표를 출력합니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.write.integer.audio.instrument.piglin": "피글린 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.piglin.info": "피글린 음표를 출력합니다, 예상 범위 [0, 24]",
+    "aspect.integrateddynamics.write.integer.audio.instrument.custom_head": "머리 음표",
+    "aspect.integrateddynamics.write.integer.audio.instrument.custom_head.info": "머리 음표를 출력합니다, 예상 범위 [0, 24]",
+
+
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_angry_villager.info": "특정 속도로 화난 주민 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_damage_indicator.info": "특정 속도로 피해 표시 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_lava.info": "특정 속도로 흐르는 용암 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_landing_lava.info": "특정 속도로 떨어지는 용암 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_dripping_water.info": "특정 속도로 흐르는 물 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_elder_guardian.info": "특정 속도로 엘더 가디언 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_enchanted_hit.info": "특정 속도로 마법 타격 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_explosion.info": "특정 속도로 폭발 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_sonic_boom": "입자: 소닉 붐",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_sonic_boom.info": "특정 속도로 소닉 붐 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_fishing.info": "특정 속도로 낚시 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_sculk_soul": "입자: 스컬크 영혼",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_sculk_soul.info": "특정 속도로 스컬크 영혼 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_sculk_charge_pop": "입자: 스컬크 전하 터짐",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_sculk_charge_pop.info": "특정 속도로 스컬크 전하 터짐 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_happy_villager.info": "특정 속도로 행복한 주민 입자를 방출합니다.",
+    "aspect.integrateddynamics.write.double.effect.particle.minecraft_underwater.info": "특정 속도로 물속 입자를 방출합니다.",
+
+
+
+
+
+
+
+
+    "aspect.integrateddynamics.read.double.extradimensional.tps": "TPS",
+
+
+
+
+
+
+
+
+
+
+
+    "aspect.integrateddynamics.read.double.temperature.temperature.info": "대상의 현재 온도 (켈빈 단위)",
+    "aspect.integrateddynamics.read.double.temperature.maxtemperature.info": "대상의 최대 온도 (켈빈 단위)",
+    "aspect.integrateddynamics.read.double.temperature.mintemperature.info": "대상의 최소 온도 (켈빈 단위)",
+    "aspect.integrateddynamics.read.double.temperature.defaulttemperature.info": "대상의 기본 온도 (켈빈 단위)",
+    "aspect.integrateddynamics.read.boolean.fe.canextract.info": "대상에서 FE를 실제로 추출할 수 있는지 여부 (저장량 고려)",
+    "aspect.integrateddynamics.read.boolean.fe.caninsert.info": "대상에 FE를 실제로 주입할 수 있는지 여부 (저장량 및 용량 고려)",
+
+    "aspect.integrateddynamics.read.operator.network.variablebyid": "ID로 변수 값 가져오기",
+    "aspect.integrateddynamics.read.operator.network.variablebyid.info": "정수 식별자로 변수의 값을 반환하는 연산자",
+
+
+
+
+    "aspect.integrateddynamics.read.boolean.world.weather.raining.info": "월드에 비가 오는지 여부",
+
+
+    "aspect.integrateddynamics.read.double.world.tps": "TPS",
+
+
+
+
+
+
+
+
+
+
+    "operator.integrateddynamics.error.substring.to_greater_than_from": "부분 문자열 종료 위치는 시작 위치보다 커야 합니다.",
+    "operator.integrateddynamics.error.replace_regex.invalid_group": "대체 \"%s\"에 대한 정규식 대체의 그룹이 유효하지 않습니다: %s",
+    "operator.integrateddynamics.error.slice.to_greater_than_from": "슬라이스 종료 위치는 시작 위치보다 커야 합니다.",
+
+    "operator.integrateddynamics.logical.and": "And (그리고)",
+    "operator.integrateddynamics.logical.or": "Or (또는)",
+    "operator.integrateddynamics.logical.not": "Not (부정)",
+    "operator.integrateddynamics.logical.nand": "Nand",
+    "operator.integrateddynamics.logical.nor": "Nor",
+
+
+    "operator.integrateddynamics.integer": "정수",
+    "operator.integrateddynamics.integer.basename": "정수 %s",
+
+    "operator.integrateddynamics.relational.equals.info": "두 값이 같은지 테스트합니다. 두 유형은 같아야 합니다.",
+    "operator.integrateddynamics.relational.notequals.info": "두 값이 같지 않은지 테스트합니다. 두 유형은 같아야 합니다.",
+
+    "operator.integrateddynamics.binary.and": "And (비트)",
+    "operator.integrateddynamics.binary.or": "Or (비트)",
+    "operator.integrateddynamics.binary.xor": "Xor (비트)",
+
+    "operator.integrateddynamics.string": "문자열",
+    "operator.integrateddynamics.string.basename": "문자열 %s",
+
+    "operator.integrateddynamics.double": "실수",
+    "operator.integrateddynamics.double.basename": "실수 %s",
+    "operator.integrateddynamics.double.sqrt": "제곱근",
+    "operator.integrateddynamics.double.pow": "거듭제곱",
+
+    "operator.integrateddynamics.number": "숫자",
+    "operator.integrateddynamics.number.basename": "숫자 %s",
+    "operator.integrateddynamics.number.compact": "축약",
+    "operator.integrateddynamics.number.compact.info": "숫자의 더 짧고 덜 정밀한 표현을 표시",
+
+    "operator.integrateddynamics.list": "목록",
+    "operator.integrateddynamics.list.basename": "목록 %s",
+    "operator.integrateddynamics.list.concat.info": "두 목록을 서로 연결합니다.",
+    "operator.integrateddynamics.list.intersection": "교집합",
+    "operator.integrateddynamics.list.intersection.info": "두 목록에 모두 존재하는 항목의 목록을 반환합니다",
+    "operator.integrateddynamics.list.equals_set": "목록 동등 (집합)",
+    "operator.integrateddynamics.list.equals_set.info": "집합 의미론에 따라 두 목록이 같은지 확인합니다.",
+    "operator.integrateddynamics.list.equals_multiset": "목록 동등 (멀티셋)",
+    "operator.integrateddynamics.list.equals_multiset.info": "멀티셋 의미론에 따라 두 목록이 같은지 확인합니다.",
+
+    "operator.integrateddynamics.block.blockbyname.info": "고유 이름을 사용하여 해당 블록을 가져옵니다.",
+    "operator.integrateddynamics.block.blockpossibleproperties.info": "가능한 모든 블록 속성을 목록 값이 있는 NBT 복합 태그로 가져옵니다.",
+    "operator.integrateddynamics.block.tag": "블록 태그 이름",
+    "operator.integrateddynamics.block.tag.info": "주어진 블록의 태그 이름(문자열)",
+    "operator.integrateddynamics.string.blocktag": "블록 태그 값",
+    "operator.integrateddynamics.string.blocktag.info": "주어진 블록 태그 이름의 태그 값(블록)",
+
+    "operator.integrateddynamics.itemstack.isitemequalnonbt.info": "데이터 구성 요소를 무시하고 손상 값을 포함하여, 주어진 스택의 원본 아이템이 같은지 확인합니다.",
+    "operator.integrateddynamics.itemstack.israwitemequal.info": "NBT와 손상 값을 무시하고, 주어진 아이템의 원본 아이템이 같은지 확인합니다.",
+    "operator.integrateddynamics.itemstack.tag": "아이템 태그 이름",
+    "operator.integrateddynamics.string.tag": "아이템 태그 값",
+    "operator.integrateddynamics.string.tag.info": "주어진 아이템 태그 이름의 태그 값(아이템)",
+    "operator.integrateddynamics.itemstack.itembyname.info": "고유 이름을 사용하여 해당 아이템을 가져옵니다.",
+    "operator.integrateddynamics.itemstack.datakeys": "데이터 키",
+    "operator.integrateddynamics.itemstack.datakeys.info": "아이템 스택의 모든 데이터 구성 요소 키를 가져옵니다.",
+    "operator.integrateddynamics.itemstack.datavalue": "데이터 값",
+    "operator.integrateddynamics.itemstack.datavalue.info": "주어진 데이터 구성 요소 키의 값을 가져옵니다.",
+    "operator.integrateddynamics.itemstack.withdata": "데이터 추가",
+    "operator.integrateddynamics.itemstack.withdata.info": "주어진 데이터 구성 요소 키와 값을 주어진 아이템 스택에 추가합니다.",
+
+    "operator.integrateddynamics.entity.helditemoffhand.info": "주어진 엔티티가 왼손(다른 손)에 들고 있는 아이템.",
+    "operator.integrateddynamics.entity.canbreedwith.info": "주어진 엔티티가 주어진 아이템을 사용하여 번식할 수 있는지 여부.",
+
+    "operator.integrateddynamics.entity.entityitemtooltip": "엔티티 툴팁",
+    "operator.integrateddynamics.entity.entityitemtooltip.info": "주어진 플레이어 엔티티의 맥락에서 주어진 아이템의 툴팁을 문자열 목록으로 가져옵니다.",
+    "operator.integrateddynamics.itemstack.tooltip": "툴팁",
+    "operator.integrateddynamics.itemstack.tooltip.info": "문자열 목록으로 아이템의 툴팁을 가져옵니다.",
+
+
+    "operator.integrateddynamics.fluidstack.light_level": "밝기 레벨",
+    "operator.integrateddynamics.fluidstack.light_level.info": "액체에서 방출되는 밝기 레벨",
+    "operator.integrateddynamics.fluidstack.temperature": "온도",
+    "operator.integrateddynamics.fluidstack.temperature.info": "액체 온도",
+    "operator.integrateddynamics.fluidstack.lighter_than_air": "공기보다 가벼움",
+    "operator.integrateddynamics.fluidstack.lighter_than_air.info": "액체가 공기보다 가벼운지 여부",
+    "operator.integrateddynamics.fluidstack.sound_fluid_vaporize": "액체 증발 소리",
+    "operator.integrateddynamics.fluidstack.sound_fluid_vaporize.info": "해당 액체의 액체 증발 소리",
+    "operator.integrateddynamics.fluidstack.sound_bucket_empty": "양동이 비우기 소리",
+    "operator.integrateddynamics.fluidstack.sound_bucket_empty.info": "해당 액체의 양동이 비우기 소리",
+    "operator.integrateddynamics.fluidstack.sound_bucket_fill": "양동이 채우기 소리",
+    "operator.integrateddynamics.fluidstack.sound_bucket_fill.info": "해당 액체의 양동이 채우기 소리",
+    "operator.integrateddynamics.fluidstack.bucket": "양동이",
+    "operator.integrateddynamics.fluidstack.bucket.info": "해당 액체로 채워진 양동이",
+    "operator.integrateddynamics.fluidstack.datakeys": "데이터 키",
+    "operator.integrateddynamics.fluidstack.datakeys.info": "액체 스택의 모든 데이터 구성 요소 키를 가져옵니다.",
+    "operator.integrateddynamics.fluidstack.datavalue": "데이터 값",
+    "operator.integrateddynamics.fluidstack.datavalue.info": "주어진 데이터 구성 요소 키의 값을 가져옵니다.",
+    "operator.integrateddynamics.fluidstack.withdata": "데이터 추가",
+    "operator.integrateddynamics.fluidstack.withdata.info": "주어진 데이터 구성 요소 키와 값을 주어진 액체 스택에 추가합니다.",
+    "operator.integrateddynamics.fluidstack.tag": "액체 태그 이름",
+    "operator.integrateddynamics.fluidstack.tag.info": "주어진 액체의 태그 이름(문자열)",
+    "operator.integrateddynamics.string.fluidtag": "액체 태그 값",
+    "operator.integrateddynamics.string.fluidtag.info": "주어진 액체 태그 이름의 태그 값(액체)",
+    "operator.integrateddynamics.fluidstack.fluidbyname": "이름으로 액체 가져오기",
+    "operator.integrateddynamics.fluidstack.fluidbyname.info": "고유 이름을 사용하여 해당 액체를 가져옵니다.",
+
+    "operator.integrateddynamics.nbt": "NBT",
+    "operator.integrateddynamics.nbt.basename": "NBT %s",
+    "operator.integrateddynamics.nbt.compound_union.info": "주어진 NBT 복합 태그의 합집합입니다. 중첩된 태그는 재귀적으로 결합됩니다.",
+    "operator.integrateddynamics.nbt.compound_intersection.info": "주어진 NBT 복합 태그의 교집합입니다. 중첩된 태그는 재귀적으로 교차됩니다.",
+    "operator.integrateddynamics.nbt.compound_minus.info": "주어진 NBT 복합 태그의 차집합입니다. 중첩된 태그는 재귀적으로 차감됩니다.",
+    "operator.integrateddynamics.nbt.from_float.info": "주어진 Double 값에서 NBT Float 태그를 생성합니다",
+
+    "operator.integrateddynamics.operator.apply3.info": "주어진 연산자에 주어진 세 값을 적용합니다.",
+    "operator.integrateddynamics.operator.apply_n": "N 적용",
+    "operator.integrateddynamics.operator.apply_n.info": "주어진 연산자에 주어진 값 목록을 적용합니다.",
+    "operator.integrateddynamics.operator.apply0": "0 적용",
+    "operator.integrateddynamics.operator.apply0.info": "인수 없이 주어진 연산자를 적용합니다.",
+
+
+    "operator.integrateddynamics.recipe.with_output.info": "주어진 재료를 출력으로 하여 주어진 레시피의 사본을 가져옵니다",
+
+
+
+
+
+
+
+    "info_book.integrateddynamics.introduction.text3": "이 책의 목표는 두 가지입니다. 첫째, 이 모드의 가장 중요한 개념을 배우기 위한 &l튜토리얼&r이 제공됩니다. 둘째, 튜토리얼에 관심이 없는 플레이어를 위해 모든 요소와 메커니즘을 설명하는 상세한 &l설명서&r가 있습니다.",
+
+
+
+    "info_book.integrateddynamics.tutorials.menrilBasics.text2": "그 후, &l멘릴 원목&r을 가공하기 위해 &l착즙기&r와 &l건조대&r를 제작해야 합니다. &l착즙기&r에 나무 블록을 놓고 평평해질 때까지 점프하여 수행할 수 있습니다. 완료되면, &l멘릴 수지&r가 &l착즙기&r의 양쪽으로 나오려고 할 것입니다. 다음으로, &l착즙기&r 옆에 &l건조대&r를 놓아 방금 짜낸 &l멘릴 수지&r로 채우세요.",
+
+
+
+    "info_book.integrateddynamics.tutorials.aspects.text2": "월드의 &l논리 케이블&r에 &l레드스톤 리더&r를 부착하여 수행합니다. 리더가 &l레드스톤 횃불&r과 같이 레드스톤 값이 있는 대상을 향하고 있는지 확인하세요.",
+    "info_book.integrateddynamics.tutorials.aspects.text4": "다음으로, &l레드스톤 리더&r와 같은 네트워크에 &l디스플레이 패널&r을 놓고, 결속된 &l변수 카드&r를 넣어 값을 표시하세요.",
+
+    "info_book.integrateddynamics.tutorials.logicOperations.text5": "&l변수 카드&r에 값을 쓴 후, 나중에 &l논리 프로그래머&r에 다시 넣어 수정할 수 있습니다.",
+    "info_book.integrateddynamics.tutorials.logicOperations.text6": "&1Integrated Dynamics&0는 변수를 &o지연(lazy)&r 평가하므로, 이 &l덧셈&r &l변수 카드&r는 이러한 &6정수&0의 덧셈을 직접 포함하지 않고, 변수 참조에 따라 네트워크에서 값이 필요할 때만 덧셈이 수행됩니다. 이를 위해 네트워크는 참조된 &l변수 카드&r를 찾을 수 있어야 합니다. 이를 위해 &l변수 저장소&r를 제작하여 배치해야 합니다. 두 개의 &6정수&0 &l변수 카드&r를 이 저장소에 넣어 네트워크에서 사용할 수 있게 하세요.",
+    "info_book.integrateddynamics.tutorials.logicOperations.text7": "마지막으로, 이제 케이블을 &l변수 저장소&r에 연결하고, &l디스플레이 패널&r을 부착한 다음 &l덧셈&r &l변수 카드&r를 넣어 덧셈 결과를 표시할 수 있습니다.",
+    "info_book.integrateddynamics.tutorials.logicOperations.text8": "더 복잡한 자동화를 원할 때 &l논리 프로그래머&r와 &l변수 저장소&r는 가장 친한 친구가 될 것입니다.",
+
+
+    "info_book.integrateddynamics.tutorials.nbt": "NBT",
+    "info_book.integrateddynamics.tutorials.nbt.text4": "마지막 단계로, 이 &3Book&0 하위 태그에서 &3id&0 필드를 읽습니다. 하지만 마지막으로 읽은 하위 태그에서 시작하는 대신, 루트에서 시작하여 &lNBT 경로&r 표현식을 적용합니다. 이러한 표현식은 깊게 중첩된 &4NBT&0 값을 가져오는 데 유용합니다. 예를 들어, &3NBT&0 태그 &3{ root: { child1: { child2: ”some value” }}}&0에 &4”.root.child1.child2”&0 표현식을 적용하면 &3”some value”&0가 출력됩니다. &lNBT 경로&r의 더 고급 기능은 나중에 설명서의 고급 부분에서 설명합니다.",
+
+
+    "info_book.integrateddynamics.tutorials.advancedOperations.text5": "이 튜토리얼의 마지막 부분으로 동적 변수와 연산자를 결합해 보겠습니다. &l엔티티 리더&r를 네트워크에 연결하고, 대상 &7엔티티&0를 읽고, 대상 &7엔티티&0가 보고 있는 &7블록&0을 검색하여 &l디스플레이 패널&r에 그 &7블록&0을 시각화합니다.",
+
+    "info_book.integrateddynamics.tutorials.theValueOfOperators.text1": "&1Integrated Dynamics&0에서 &2연산자&0는 일급 시민입니다. 지금까지는 &l논리 프로그래머&r를 사용하여 수동으로만 사용했지만, 이 튜토리얼에서는 &l변수 카드&r에 &2연산자&0를 저장하고 동적으로 호출하여 더 동적으로 사용하는 방법을 살펴보겠습니다.",
+
+
+
+    "info_book.integrateddynamics.manual.introduction.text1": "이 책의 이 부분에는 모드의 모든 부분에 대한 자세한 설명이 포함되어 있습니다.",
+
+
+
+
+    "info_book.integrateddynamics.manual.prerequisites.squeezer.text1": "&l착즙기&r는 블록과 아이템 위에서 점프하여 부수거나 짜낼 수 있는 초반 기계입니다. 플레이어뿐만 아니라 모든 종류의 엔티티가 점프하거나 떨어져서 착즙 과정을 수행할 수 있습니다. 결과물 아이템은 인접한 인벤토리나 바닥으로 떨어집니다. 결과물 액체는 기계에 남아 있다가 대상 탱크가 있으면 양쪽 중 하나로 흐릅니다. 기계에는 레드스톤 펄스로 활성화하여 초기화할 수 있는 작은 서스펜션이 포함되어 있습니다. 특히, 이 기계는 &l멘릴 원목&r에서 수지를 짜내는 데 사용할 수 있습니다.",
+
+
+    "info_book.integrateddynamics.manual.networks.text2": "&l논리 케이블&r이 멋져 보일 수도 있지만, 어떤 경우에는 숨기고 싶을 수도 있습니다. 어떤 재료로든 위장할 수 있는 &l파사드&r를 사용하여 이를 수행할 수 있습니다. 또한, 이 케이블은 &lMC MultiPart&r와 호환되므로 더 복잡한 파사드 구조 안에 케이블을 숨길 수 있습니다.",
+
+
+
+    "info_book.integrateddynamics.manual.logic.value_types.boolean": "부울 (논리)",
+    "info_book.integrateddynamics.manual.logic.value_types.integer": "정수",
+    "info_book.integrateddynamics.manual.logic.value_types.double": "실수",
+    "info_book.integrateddynamics.manual.logic.value_types.long": "Long 정수",
+    "info_book.integrateddynamics.manual.logic.value_types.string": "문자열",
+    "info_book.integrateddynamics.manual.logic.value_types.list": "목록",
+    "info_book.integrateddynamics.manual.logic.value_types.list.text1": "특정 &l값 유형&r의 값을 포함하는 목록입니다. 특정 목록의 모든 요소는 동일한 값 유형의 값만 포함할 수 있습니다. 예: &8(0, 1, 2, 3)&0, &8(“a”, “b”, “c”)&0, &8(3.33, 1.14, 5, 6)&0",
+    "info_book.integrateddynamics.manual.logic.value_types.nbt": "NBT",
+    "info_book.integrateddynamics.manual.logic.value_types.recipe.text5": "&l논리 프로그래머&r 내부의 입력 슬롯을 Shift-클릭하면 이 입력 슬롯의 세부 속성을 구성할 수 있습니다. 예를 들어, NBT를 고려해야 하는지 여부, 이 아이템이 여러 레시피에서 재사용될 수 있는지 여부(예: 제작 작업 후 완전히 소비되지 않는 경우), 이 아이템에 대해 태그 기반 대체를 고려해야 하는지 여부를 나타낼 수 있습니다.",
+
+
+    "info_book.integrateddynamics.manual.logic.variables.variable_card.text2": "변수는 정적이거나 동적일 수 있습니다. 정적 변수는 한 번 정의되면 이후에 절대 변경되지 않습니다. 동적 변수는 &l연산자&r 또는 &l리더 속성&r에 의해 수행되는 일종의 &l논리 평가&r의 결과입니다. 동적 변수의 예로는 지속적으로 변하는 &lMinecraft&r 월드의 시간이 있습니다.",
+    "info_book.integrateddynamics.manual.logic.variables.variable_card.text3": "동적 변수는 &l디스플레이 패널&r에 값을 표시하거나 다른 동적 변수 평가의 일부로 요청되는 등 어떤 방식으로든 값이 요청될 때만 평가됩니다.",
+
+
+
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text1": "복잡한 &3NBT&0 태그로 작업할 때, 깊게 중첩된 NBT 값을 읽기 위해 복잡한 연산자 체인이 필요할 수 있습니다. 이 작업을 단순화하기 위해 &4문자열&0 기반 &lNBT 경로 표현식&r을 사용하여 &3NBT&0 태그 내의 경로를 결정할 수 있습니다.",
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text2": "가장 간단한 NBT 경로 표현식은 &4.fieldName&0 또는 &4[”fieldName”]&0과 같은 &l필드 선택자&r 체인으로 구성됩니다.",
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text3": "예를 들어, &3NBT&0 태그 &3{ root: { child1: { child2: ”some value” }}}&0에 &4”.root.child1.child2”&0 표현식을 적용하면 &3”some value”&0가 출력됩니다.",
+    "info_book.integrateddynamics.manual.logic.advanced.nbt_path.text5": "예를 들어, &3NBT&0 태그 &3{ a: { b1: { c: ”some value” }}}&0에 &4”.a[b1,b2]*”&0 표현식을 적용하면 &3”some value”&0가 출력됩니다.",
+
+
+    "info_book.integrateddynamics.manual.parts.introduction.text1": "부품은 &l논리 케이블&r의 각 면에 배치할 수 있습니다. 이 섹션에서는 &l값&r을 읽어 &l변수 카드&r로 사용할 수 있게 해주는 부품과 &l변수 카드&r 내의 &l값&r을 기반으로 작업을 수행하는 부품에 대해 설명합니다.",
+    "info_book.integrateddynamics.manual.parts.introduction.text2": "대부분의 부품에는 설정 가능한 설정이 있으며, 부품 GUI의 왼쪽 상단 버튼을 사용하여 액세스할 수 있습니다. 이를 통해 부품의 &l틱/작업&r, 즉 이 부품이 작업을 수행하는 틱 간격을 변경할 수 있습니다. 둘째, 부품의 &l우선순위&r를 변경할 수 있으며, 이는 동일한 틱 내에서 동일한 네트워크의 다른 부품과 비교하여 이 부품이 작동할 순서를 나타냅니다. 부품 A의 우선순위가 -1이고 부품 B의 우선순위가 1이면, 부품 B는 항상 부품 A보다 먼저 작업을 수행합니다. 부품의 우선순위가 같으면 상대적인 순서는 무작위입니다.",
+
+    "info_book.integrateddynamics.manual.parts.settings": "설정",
+    "info_book.integrateddynamics.manual.parts.settings.text1": "대부분의 부품에는 기본 부품 설정을 수정할 수 있는 &l설정&r 화면이 있습니다.",
+    "info_book.integrateddynamics.manual.parts.settings.text2": "대상 면은 이 부품이 상호 작용할 면입니다. 기본적으로 이 부품이 배치된 케이블의 반대쪽 면입니다.",
+    "info_book.integrateddynamics.manual.parts.settings.text3": "틱/작업을 통해 이 부품의 틱 빈도를 구성할 수 있습니다. 높을수록 작동 속도가 느려집니다.",
+    "info_book.integrateddynamics.manual.parts.settings.text4": "우선순위는 단일 네트워크 틱 내에서 이 부품이 실행되는 순서를 결정합니다.",
+    "info_book.integrateddynamics.manual.parts.settings.text5": "에너지 채널은 이 부품이 틱할 때 에너지를 소비해야 하는 채널을 나타냅니다. 이는 네트워크의 에너지 소비가 활성화된 경우에만 적용됩니다.",
+
+    "info_book.integrateddynamics.manual.parts.offsets": "오프셋",
+    "info_book.integrateddynamics.manual.parts.offsets.text1": "기본적으로 부품은 바로 인접한 위치를 대상으로 합니다. 그러나 &l부품 강화&r가 적용되면 부품의 &l오프셋&r 화면을 통해 대상 위치를 변경할 수 있습니다.",
+    "info_book.integrateddynamics.manual.parts.offsets.text2": "오프셋은 항상 부품의 대상 위치에 상대적이며 적용된 부품 강화 수에 의해 제한됩니다.",
+    "info_book.integrateddynamics.manual.parts.offsets.text3": "오프셋은 수동으로 설정하거나 &l렌치&r를 사용하여 시각적으로 설정할 수 있습니다. &l렌치&r를 오프셋 모드로 설정하면 Shift + 우클릭으로 위치를 저장할 수 있습니다. 이 위치는 해당 &l렌치&r로 부품을 우클릭하여 부품에 저장할 수 있습니다.",
+    "info_book.integrateddynamics.manual.parts.offsets.text4": "오프셋은 정적으로 정의될 수 있을 뿐만 아니라 &l변수 카드&r를 사용하여 &o동적&r일 수도 있습니다.",
+
+    "info_book.integrateddynamics.manual.parts.reader.introduction.text1": "동적 변수를 생성하는 가장 간단한 방법은 &l리더&r를 사용하는 것입니다. 월드에서 정보를 읽어 &l변수 카드&r 내에 저장하기 위해 다양한 유형의 리더가 존재합니다. 각 &l리더&r는 다양한 &l값 유형&r으로 다양한 것을 읽기 위한 하나 이상의 &l속성&r을 포함합니다.",
+
+
+
+
+
+
+
+    "info_book.integrateddynamics.manual.machines.delay": "지연기",
+    "info_book.integrateddynamics.manual.machines.delay.text2": "이를 위해 &l지연기&r를 사용하여 주어진 변수 값의 기록을 유지할 수 있습니다. 기록을 유지하려는 &l변수 카드&r를 상단 슬롯에 넣어 수행할 수 있습니다. 이제 기록에 해당하는 값 목록을 참조하는 &l변수 카드&r를 만들 수 있습니다. 지연기가 작동하려면 참조된(또는 다른) &l변수 카드&r가 상단 슬롯에 남아 있어야 합니다.",
+
+    "info_book.integrateddynamics.manual.machines.energy_battery.text2": "이 배터리는 &lRF&r 기반 및 &lTesla&r 전력을 모두 수용합니다.",
+
+
+    "info_book.integrateddynamics.manual.machines.mechanical_squeezer.text1": "&l착즙기&r 위에서 점프하는 것에 질릴 때가 올 것입니다. 그때까지 &l착즙기&r를 자동화하지 않았다면, &l기계식 착즙기&r를 만드는 것을 고려해 볼 때입니다. 수동 작업이 필요하지 않지만 작동하려면 에너지가 필요합니다. 또한 일반 &l착즙기&r보다 훨씬 빠르며 더 많은 것을 짜내어 더 높은 수확량을 얻을 수 있습니다.",
+
+
+    "info_book.integrateddynamics.manual.logic_programming.text2": "&l연산자&r는 하나 이상의 입력 값을 가질 수 있으며 하나의 출력 값을 가집니다. 대부분의 경우 입력과 출력은 특정 &l값 유형&r을 가지며, 그렇지 않으면 &l아무거나&r 값 유형을 갖습니다. 단일 입력과 하나의 출력 &l부울&r을 가진 &l연산자&r를 &l술어(Predicate)&r라고 합니다.",
+    "info_book.integrateddynamics.manual.logic_programming.text4": "&l변수 카드&r에 값을 쓰는 것 외에도 &l논리 프로그래머&r를 사용하여 기존 &l변수 카드&r를 수정할 수도 있습니다. 기존 &l변수 카드&r의 값은 왼쪽에 선택된 &l연산자&r 또는 &l값 유형&r이 없는지 확인한 상태에서(처음 &l논리 프로그래머&r를 열거나 현재 요소를 지울 때의 경우) 오른쪽 슬롯에 넣어 &l논리 프로그래머&r에 불러올 수 있습니다.",
+    "info_book.integrateddynamics.manual.logic_programming.text5": "&l논리 프로그래머&r를 사용하면 상단의 텍스트 상자를 사용하여 이름으로 &l연산자&r 목록을 검색할 수 있습니다. 또한 왼쪽 하단 슬롯에 해당 유형의 &l변수 카드&r를 넣어 입력 또는 출력 값 유형으로 필터링할 수도 있습니다.",
+    "info_book.integrateddynamics.manual.logic_programming.text6": "&l라벨러&r가 플레이어의 인벤토리에 있으면 출력 슬롯 옆의 'E' 버튼을 클릭하여 결과 &l변수 카드&r에 즉시 라벨을 지정할 수 있습니다.",
+    "info_book.integrateddynamics.manual.logic_programming.text7": "&l논리 프로그래머&r는 블록 형태와 아이템 형태로 모두 존재합니다. 제작 그리드에 넣어 서로 교환할 수 있습니다.",
+
+    "info_book.integrateddynamics.manual.diagnostics": "네트워크 진단",
+    "info_book.integrateddynamics.manual.diagnostics.text1": "운영자 권한이 있는 플레이어는 &l네트워크 진단&r 도구에 액세스하여 서버의 모든 네트워크에 대한 틱 시간을 검사할 수 있습니다.",
+    "info_book.integrateddynamics.manual.diagnostics.text2": "이 도구를 활성화하려면 &o\\integrateddynamics networkdiagnostics&r 명령을 실행하면 됩니다. 그러면 임시 로컬 웹 서버가 시작됩니다.",
+    "info_book.integrateddynamics.manual.diagnostics.text3": "명령 실행 후 표시된 링크를 클릭하면 웹 브라우저가 열리고 모든 네트워크와 해당 요소가 포함된 표가 표시됩니다. 행을 클릭하여 월드에서 강조 표시하거나 &l텔레포트&r 버튼을 클릭하여 플레이어를 해당 위치로 이동시킬 수 있습니다."
+}

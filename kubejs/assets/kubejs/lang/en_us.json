@@ -1,0 +1,31 @@
+{
+  "item.kubejs.flint_shears": "Flint Shears",
+
+  "item.kubejs.survivor_coin": "Survivor's Coin",
+  "item.kubejs.farmer_coin": "Farmer's Coin",
+  "item.kubejs.cook_coin": "Cook's Coin",
+  "item.kubejs.miner_coin": "Miner's Coin",
+  "item.kubejs.explorer_coin": "Explorer's Coin",
+  "item.kubejs.technician_coin": "Technician's Coin",
+  "item.kubejs.chemist_coin": "Chemist's Coin",
+  "item.kubejs.energy_coin": "Energy Coin",
+
+  "item.kubejs.lunchbag": "Leather Lunchbag",
+  "item.kubejs.lunchbox": "Bronze Lunchbox",
+  "item.kubejs.steel_lunchbox": "Steel Lunchbox",
+
+  "item.kubejs.tanned_leather": "Tanned Leather",
+
+  "item.kubejs.coin.tooltip": "§7Can be exchanged for items in the Quest Shop.",
+  
+  "notification.kubejs.tree_fail.title": "⚠ Unable to Mine ⚠",
+  "notification.kubejs.tree_fail.desc_1": "This tree is too hard.",
+  "notification.kubejs.tree_fail.item": "A Flint Axe or better",
+  "notification.kubejs.tree_fail.desc_2": "seems to be required...",
+  
+  "notification.kubejs.tool_ban.mining.title": "⚠ Unable to Mine ⚠",
+  "notification.kubejs.tool_ban.mining.desc": "This tool is too crude to use effectively.",
+  
+  "notification.kubejs.tool_ban.attack.title": "⚠ Unable to Attack ⚠",
+  "notification.kubejs.tool_ban.attack.desc": "This weapon is unusable."
+}

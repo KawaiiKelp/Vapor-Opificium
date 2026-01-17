@@ -15,7 +15,7 @@
 		Count: 1
 		id: "ftbquests:custom_icon"
 		tag: {
-			Icon: "avaritia:item/infinity_catalyst"
+			Icon: "gtceu:textures/gui/icon/bucket_mode/water_drop.png"
 		}
 	}
 	lock_message: ""

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05"
+	group: "5DB5488AA589CA2B"
+	icon: "gtceu:lp_steam_solid_boiler"
+	id: "20FA2B91A6075C7B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["&bGregTech™&r의 증기 기계를 다루기 시작하는 챕터입니다."]
+	title: "칙칙폭폭!"
+}
