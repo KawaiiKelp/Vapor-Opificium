@@ -324,7 +324,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "사탕수수가 존재할 가치가 사라졌군요"
+			subtitle: "와 파피루스!"
 			tasks: [
 				{
 					count: 64L
@@ -339,7 +339,7 @@
 					type: "item"
 				}
 			]
-			title: "책벌레가 되기 위해"
+			title: "고대의 방식"
 			x: -1.0d
 			y: 3.5d
 		}
@@ -358,8 +358,34 @@
 		}
 		{
 			dependencies: ["5A22A9DC85D41874"]
+			description: [
+				"&3부싯돌 도구&r는 &a초기 생존&r에 도움이 되지만, &c수리도 불가능하며 내구도도 적습니다.&r 게다가 그런 도구로 &d정예 몬스터&r들을 잡으려면 &c한 세월은 넘게 걸릴 겁니다.&r"
+				""
+				"&a더 좋고 유지보수가 용이한 도구&r를 만드려면 &6제작대&r보다 &e정교한 제작 기술&r이 필요합니다."
+				""
+				"&8나무&r를 깎아 &7팅커 작업대&r와 &7부품 작업대&r, &7틀 상자&r를 만들어보세요."
+			]
 			icon: "tconstruct:tinker_station"
 			id: "6CB4F390FF5726D9"
+			rewards: [
+				{
+					count: 2
+					id: "388C7BD744F0B790"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "05A086A41AECE2A0"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7EBD794C11474D26"
+					item: "kubejs:technician_coin"
+					type: "item"
+				}
+			]
 			subtitle: "나만의 도구 만들기 프로젝트"
 			tasks: [
 				{
@@ -384,55 +410,153 @@
 		}
 		{
 			dependencies: ["6CB4F390FF5726D9"]
-			id: "7AD66E028AF145E4"
-			tasks: [{
-				id: "5672CE451533A28F"
-				item: {
-					Count: 1
-					id: "tconstruct:longbow"
-					tag: {
-						Damage: 0
-						tic_broken: 0b
-						tic_materials: [
-							"tconstruct:wood"
-							"tconstruct:wood"
-							"tconstruct:wood"
-							"tconstruct:string"
-						]
-						tic_modifiers: [
-							{
-								level: 3
-								name: "tconstruct:cultivated"
-							}
-							{
-								level: 1
-								name: "tconstruct:stringy"
-							}
-						]
-						tic_multipliers: {
-							"tconstruct:durability": 1.5f
+			icon: {
+				Count: 1
+				id: "tconstruct:longbow"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:string"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:cultivated"
 						}
-						tic_persistent: { }
-						tic_stats: {
-							"tconstruct:durability": 360.0f
+						{
+							level: 1
+							name: "tconstruct:stringy"
 						}
-						tic_volatile_data: {
-							abilities: 1
-							upgrades: 2
-						}
+					]
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:durability": 360.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 2
 					}
 				}
-				type: "item"
-			}]
+			}
+			id: "7AD66E028AF145E4"
+			rewards: [
+				{
+					count: 10
+					id: "3E7B3E643B4BD6CD"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53DC99E16E884BE8"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0FD13CF21DB764A5"
+					item: "kubejs:technician_coin"
+					type: "item"
+				}
+			]
+			subtitle: "피유우우우우웅"
+			tasks: [
+				{
+					count: 4L
+					id: "60D937AB94B10DE4"
+					item: { Count: 5, id: "minecraft:string" }
+					type: "item"
+				}
+				{
+					id: "7636DC92B1D9F04D"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "6814A9BCDBEB40A6"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "42A3A5AE581778BE"
+					item: { Count: 3, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+				{
+					id: "0FB497B93EA762FF"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "523ADC065EB4EA2A"
+					item: {
+						Count: 1
+						id: "tconstruct:longbow"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:string"
+							]
+							tic_modifiers: [
+								{
+									level: 3
+									name: "tconstruct:cultivated"
+								}
+								{
+									level: 1
+									name: "tconstruct:stringy"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:durability": 1.5f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:durability": 360.0f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "당신의 첫 활!"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6CB4F390FF5726D9"]
+			description: [
+				"제작법을 살펴보셨다면 아시겠지만 점토를 그대로 구워 벽돌을 만들 수 없습니다. 점토와 벽돌의 모양이 다른데도 바로 만들어지는 건 이상하니까요."
+				""
+				"그렇다면 어떻게 벽돌을 만들 수 있을까요? 정답은 거푸집입니다."
+				""
+				"먼저 &b톱&r으로 &6나무 틀&r을 잘라 &7빈 나무 거푸집&r을 만드세요. 그런 다음 &3부싯돌&r로 &b칼&r을 만들어 &e벽돌 형태&r로 다듬으면 됩니다."
+			]
 			icon: "gtceu:brick_wooden_form"
 			id: "469AD07E826A946B"
-			subtitle: "성형 수술을 집도하겠습니다"
+			rewards: [{
+				count: 10
+				id: "5CED9EC80A71C5D1"
+				item: "kubejs:technician_coin"
+				type: "item"
+			}]
+			subtitle: "뇌를 바게트로 교체하겠습니다!!"
 			tasks: [
 				{
 					id: "4DBC339B1FBB03E7"
